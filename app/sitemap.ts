@@ -1,0 +1,3 @@
+import type {MetadataRoute} from "next"; import {districts} from "./data";
+const base="https://immobilienmakler-leverkusen.de";
+export default function sitemap():MetadataRoute.Sitemap{const fixed=["","immobilienbewertung","immobilienmarkt-leverkusen","gutachterausschuss-leverkusen","bodenrichtwert-leverkusen","immobilienrichtwert-leverkusen","grundstuecksmarktbericht-leverkusen","haus-verkaufen-leverkusen","wohnung-verkaufen-leverkusen","grundstueck-verkaufen-leverkusen","team","impressum","datenschutz"];return [...fixed.map(p=>({url:`${base}/${p}`,lastModified:new Date(),changeFrequency:"monthly" as const,priority:p===""?1:.7})),...districts.map(d=>({url:`${base}/stadtteile/${d.slug}`,lastModified:new Date(),changeFrequency:"monthly" as const,priority:.8}))]}
