@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description: "Lokale Immobilienmakler in Leverkusen: Bewertung, Verkauf und persönliche Beratung durch Stark & Hoffmann Immobilien.",
   openGraph: {
     title: "Immobilienmakler Leverkusen | Stark & Hoffmann",
-    description: "Immobilienbewertung und Verkauf in Leverkusen und allen 25 Stadtteilen.",
+    description: "Immobilienbewertung und Verkauf in Leverkusen und allen 13 Stadtteilen.",
     images: [{ url: defaultImage, width: 1568, height: 1003, alt: "Immobilienmakler Leverkusen – Stark & Hoffmann Immobilien" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Immobilienmakler Leverkusen | Stark & Hoffmann",
-    description: "Immobilienbewertung und Verkauf in Leverkusen und allen 25 Stadtteilen.",
+    description: "Immobilienbewertung und Verkauf in Leverkusen und allen 13 Stadtteilen.",
     images: [defaultImage],
   },
   verification: {

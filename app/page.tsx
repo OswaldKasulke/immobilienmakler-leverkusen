@@ -93,7 +93,7 @@ export default function Home() {
         <span className="brand-mark">S<span>&</span>H</span>
         <span><strong>Stark & Hoffmann</strong><small>Immobilien · Leverkusen</small></span>
       </a>
-      <nav aria-label="Hauptnavigation"><a href="#profil">Profil</a><a href="/team/">Team</a><a href="#markt">Markt</a><a href="#fahrplan">Verkaufsfahrplan</a><a href="#immobilien">Immobilien</a><a href="#staedte">Region</a><a href="/downloads/">Downloads</a><a href="#faq">FAQ</a></nav>
+      <nav aria-label="Hauptnavigation"><a href="#profil">Profil</a><a href="/team/">Team</a><a href="#markt">Markt</a><a href="#fahrplan">Verkaufsfahrplan</a><a href="#immobilien">Immobilien</a><a href="#staedte">Region</a><a href="#faq">FAQ</a></nav>
       <a className="header-cta" href="/immobilienbewertung/">Kostenlose Bewertung</a>
     </header>
 
@@ -113,7 +113,7 @@ export default function Home() {
     </section>
 
     <section className="profile section" id="profil">
-      <div className="profile-image"><div className="profile-gallery"><img src="/location/3.jpg" alt="Evernest Immobilienbüro in der Schloßstraße in Leverkusen"/><img src="/location/1.jpg" alt="Evernest Schriftzug im Immobilienbüro Leverkusen" loading="lazy"/><img src="/location/4.jpg" alt="Beratungsbereich im Evernest Immobilienbüro Leverkusen" loading="lazy"/></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
+      <div className="profile-image"><div className="profile-gallery single"><img src="/team/team-leverkusen.jpg" alt="Das Team von Stark &amp; Hoffmann Immobilien, Evernest Lizenzpartner für Leverkusen"/></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
       <div className="profile-copy">
         <p className="eyebrow">Unser Profil</p><h2>Erfahrene Branchenkenner und Vertriebsprofis.</h2>
         <p className="lead">Patrick Stark und Julian Hoffmann verantworten das operative und strategische Geschäft am Leverkusener Standort.</p>

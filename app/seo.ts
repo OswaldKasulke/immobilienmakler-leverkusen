@@ -1,6 +1,6 @@
 export const siteUrl = "https://leverkusen-makler.de";
 export const businessId = `${siteUrl}/#immobilienmakler`;
-export const defaultImage = "https://images.ctfassets.net/if6f7uzjzqut/1JeuSYJErKOHJUm9Ojx7LE/0ce8fa4b065d01703dd781a78c71b173/bergisch_gladbach_key_visual.jpg?f=top&fit=fill&fm=jpg&q=82&w=1568&h=1003";
+export const defaultImage = `${siteUrl}/team/team-leverkusen.jpg`;
 
 export const businessSchema = {
   "@type": ["RealEstateAgent", "LocalBusiness"],
@@ -10,11 +10,11 @@ export const businessSchema = {
   url: `${siteUrl}/`,
   image: defaultImage,
   telephone: "+49 2204 914 7881",
-  email: "bergischgladbach@evernest.com",
+  email: "leverkusen@evernest.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Schloßstraße 41",
-    postalCode: "51429",
+    streetAddress: "Wiesdorfer Platz 19",
+    postalCode: "51373",
     addressLocality: "Leverkusen",
     addressCountry: "DE",
   },
