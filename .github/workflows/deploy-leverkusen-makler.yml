@@ -1,0 +1,110 @@
+name: Deploy leverkusen-makler.de
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - app/**
+      - public/**
+      - package.json
+      - package-lock.json
+      - next.config.ts
+      - tsconfig.json
+      - .github/workflows/deploy-leverkusen-makler.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-leverkusen-makler
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static website
+        run: npm run build
+
+      # Der Export muss vollstaendig sein, bevor er hochgeladen wird.
+      # Ein halber Upload faellt sonst erst in der Suche auf.
+      - name: Check export
+        run: |
+          test -f out/index.html
+          test -f out/sitemap.xml
+          test -f out/robots.txt
+          pages=$(find out -name 'index.html' | wc -l | tr -d ' ')
+          echo "Exportierte Seiten: $pages"
+          if [ "$pages" -lt 27 ]; then
+            echo "Zu wenige Seiten exportiert (erwartet mindestens 27)." >&2
+            exit 1
+          fi
+          missing=$(grep -L 'rel="canonical"' $(find out -name 'index.html' -not -path 'out/404/*' -not -path 'out/_not-found/*') || true)
+          if [ -n "$missing" ]; then
+            echo "Seiten ohne Canonical:" >&2
+            echo "$missing" >&2
+            exit 1
+          fi
+
+      - name: Deploy to leverkusen-makler.de
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: w019d9c9.kasserver.com
+          username: w019d9c9
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./out/
+          server-dir: /leverkusen-makler.de/
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            index.htm.pre-leverkusen-deploy-*
+
+      - name: Verify published pages
+        run: |
+          for url in \
+            "https://leverkusen-makler.de/" \
+            "https://leverkusen-makler.de/immobilienbewertung/" \
+            "https://leverkusen-makler.de/impressum/" \
+            "https://leverkusen-makler.de/datenschutz/" \
+            "https://leverkusen-makler.de/haus-verkaufen-leverkusen/" \
+            "https://leverkusen-makler.de/stadtteile/opladen/" \
+            "https://leverkusen-makler.de/sitemap.xml" \
+            "https://leverkusen-makler.de/robots.txt"
+          do
+            curl --fail --silent --show-error --retry 4 --retry-delay 5 "$url" > /dev/null
+            echo "OK $url"
+          done
+
+      # Der Canonical-Fehler von 08/2026 war live nicht sichtbar, nur im Quelltext.
+      # Deshalb wird er nach jedem Deploy gegengeprueft.
+      - name: Verify canonical tags
+        run: |
+          fail=0
+          for path in "immobilienbewertung" "team" "impressum" "haus-verkaufen-leverkusen" "bodenrichtwert-leverkusen" "stadtteile/opladen"; do
+            expected="https://leverkusen-makler.de/$path/"
+            found=$(curl --fail --silent --retry 3 --retry-delay 5 "$expected" \
+              | grep -o 'rel="canonical" href="[^"]*"' | head -1 | sed 's/.*href="//;s/"$//')
+            if [ "$found" != "$expected" ]; then
+              echo "Canonical falsch auf /$path/: $found (erwartet $expected)" >&2
+              fail=1
+            else
+              echo "OK canonical /$path/"
+            fi
+          done
+          exit $fail
