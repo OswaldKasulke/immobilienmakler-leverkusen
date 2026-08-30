@@ -12,4 +12,16 @@ const pages:Record<string,{title:string;description:string;eyebrow:string;lead:s
 };
 export function generateStaticParams(){return Object.keys(pages).map(slug=>({slug}))}
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const slug=(await params).slug;const p=pages[slug];return p?{title:p.title,description:p.description,alternates:{canonical:`${siteUrl}/${slug}/`}}:{}}
-export default async function ContentPage({params}:{params:Promise<{slug:string}>}){const p=pages[(await params).slug];if(!p)notFound();return <PageShell><main className="inner"><p className="breadcrumbs"><Link href="/">Startseite</Link> / {p.title}</p><p className="eyebrow">{p.eyebrow}</p><h1>{p.title}</h1><p className="lead">{p.lead}</p>{p.body}<p className="source">Marktdaten: <a href={official.report}>Gutachterausschuss Leverkusen, Grundstücksmarktbericht 2026</a>. Stadtinformationen: Stadt Leverkusen.</p><Link className="button" href="/immobilienbewertung">Persönliche Bewertung anfragen</Link></main></PageShell>}
+export default async function ContentPage({params}:{params:Promise<{slug:string}>}){const p=pages[(await params).slug];if(!p)notFound();return <PageShell>
+    <section className="page-hero">
+      <p className="breadcrumbs"><Link href="/">Startseite</Link> / {p.title}</p>
+      <p className="eyebrow light">{p.eyebrow}</p>
+      <h1>{p.title}</h1>
+      <p>{p.lead}</p>
+    </section>
+    <main className="page-content section">
+      {p.body}
+      <p className="source">Marktdaten: <a href={official.report}>Gutachterausschuss Leverkusen, Grundstücksmarktbericht 2026</a>. Stadtinformationen: Stadt Leverkusen.</p>
+      <Link className="button dark" href="/immobilienbewertung/">Persönliche Bewertung anfragen</Link>
+    </main>
+  </PageShell>}

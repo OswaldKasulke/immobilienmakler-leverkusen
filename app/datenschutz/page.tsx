@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { breadcrumbSchema, businessSchema, graphSchema, siteUrl } from "../seo";
+import { PageShell } from "../components";
 
 const url = `${siteUrl}/datenschutz/`;
 
@@ -12,9 +13,8 @@ export const metadata: Metadata = {
 
 export default function DatenschutzPage(){
   const schema = graphSchema(businessSchema, breadcrumbSchema([{ name: "Startseite", url: `${siteUrl}/` }, { name: "Datenschutz", url }]));
-  return <main className="legal-page">
+  return <PageShell><main className="legal-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-    <header className="site-header"><a className="brand" href="/"><span className="brand-mark">S<span>&amp;</span>H</span><span><strong>Stark &amp; Hoffmann</strong><small>Immobilien · Leverkusen</small></span></a><nav aria-label="Seitennavigation"><a href="/">Startseite</a><a href="/team/">Team</a><a href="/impressum/">Impressum</a></nav><a className="header-phone" href="tel:+4922049147881">+49 2204 914 7881</a></header>
 
     <section className="legal-hero"><p className="eyebrow light">Rechtliches</p><h1>Datenschutzerklärung</h1><p>Diese Erklärung beschreibt, welche personenbezogenen Daten beim Besuch von leverkusen-makler.de verarbeitet werden und wozu.</p></section>
 
@@ -69,6 +69,5 @@ export default function DatenschutzPage(){
       <p className="editorial-note">Stand dieser Datenschutzerklärung: 30. August 2026.</p>
     </section>
 
-    <footer><div className="footer-brand"><span className="brand-mark">S<span>&amp;</span>H</span><div><strong>Stark &amp; Hoffmann Immobilien</strong><small>Evernest Lizenzpartner Leverkusen</small></div></div><div><h4>Kontakt</h4><p>Wiesdorfer Platz 19<br/>51373 Leverkusen</p><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></div><div><h4>Unternehmen</h4><a href="/">Startseite</a><a href="/team/">Team</a><a href="/immobilienbewertung/">Immobilienbewertung</a></div><div><h4>Rechtliches</h4><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a></div></footer>
-  </main>;
+  </main></PageShell>;
 }
