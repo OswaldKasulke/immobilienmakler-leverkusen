@@ -20,13 +20,11 @@ export const businessSchema = {
   },
   areaServed: [
     { "@type": "City", name: "Leverkusen" },
-    { "@type": "AdministrativeArea", name: "Rheinisch-Bergischer Kreis" },
-    { "@type": "AdministrativeArea", name: "Oberbergischer Kreis" },
   ],
   sameAs: [
     "https://www.evernest.com/de/unsere-makler/leverkusen/",
-    "https://www.google.com/maps/place/Evernest+Bergisch+Gladbach+-+Stark+%26+Hoffmann+Immobilien+GmbH/",
-    "https://www.instagram.com/evernest.bergischgladbach/",
+    "https://www.google.com/maps/search/?api=1&query=Evernest%20Leverkusen%2C%20Wiesdorfer%20Platz%2019%2C%2051373%20Leverkusen",
+    "https://www.instagram.com/evernest.leverkusen/",
   ],
 };
 
