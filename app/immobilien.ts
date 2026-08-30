@@ -7,51 +7,181 @@ export type Property = {
   url: string;
 };
 
-// Quelle: Evernest-Suche, Kartenausschnitt Bergisch Gladbach, abgerufen am 22.08.2026.
-// Reihenfolge: numerischer Angebotspreis absteigend, danach Preis auf Anfrage, danach verkauft.
+// Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
+// (lat 51.083462 / lng 7.017159), abgerufen am 30.08.2026.
+// Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
+// Bildbeschreibungen stammen aus den Evernest-Objektseiten.
 export const properties: Property[] = [
   {
-    "place": "Köln-Dellbrück, 51069",
-    "price": "10.950.000 €",
+    "place": "Leverkusen-Bergisch Neukirchen",
+    "price": "539.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/20ozmquua1prXFEQz7U0mx/d644bd2ed938149a94ccf8a619b83058/03de2f20-59e6-47b8-a82c-43dcbb654d9a?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes, dreistöckiges Wohngebäude mit weißen und braunen Fassaden, davor Rasen und Zaun.",
-    "url": "https://www.evernest.com/de/listing/5ENiQl64Q9aofYcukySXKD/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/46L1Jf9LbHbYMeAY57w5yn/a866e603738342ef38cd3bdf54489f27/1f1fb29a-71f4-48ed-a6dd-786b30784bb0?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Luftaufnahme eines Hauses mit Wintergarten und Garten, umgeben von Bäumen und Wegen.",
+    "url": "https://www.evernest.com/de/listing/45DYL5NfNYRI0Ly4tatuao/"
   },
   {
-    "place": "Bergisch Gladbach-Bensberg, 51429",
-    "price": "1.650.000 €",
+    "place": "Leverkusen-Opladen",
+    "price": "1.340.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/jQGhWd9bYDdfRGvuMFOGr/6bea488b9c9e8c55ba286a12b304bf60/9dd76013-369e-410f-8042-187baa958144?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Luftaufnahme eines modernen weißen Wohnhauses mit großem Garten und Terrasse.",
-    "url": "https://www.evernest.com/de/listing/6aiaH4HbcMCoBomAkr8Uqy/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/10nYXQF75ADx3zL2AjdzEb/29ef0e6360012a98af16b1e2329861d3/8635494c-77d2-49ca-a7cd-6ed08732dc25?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Weiße Wohnhausfassade mit geschlossenen Rollläden an einer Straßenecke, daneben eine Tankstelle.",
+    "url": "https://www.evernest.com/de/listing/1l4qOPITwtxDUvVo2TngnR/"
   },
   {
-    "place": "Bergisch Gladbach-Nußbaum, 51467",
-    "price": "1.399.000 €",
+    "place": "Leverkusen-Bürrig",
+    "price": "489.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3htTTDunHlqMvj1OpSt3b7/47ed6d560cb78911a6c0d36b65591a69/a4ef604a-7cee-425d-a13a-6de57f4dc527?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes weißes Wohnhaus mit großen Fenstern und Garten im Vordergrund.",
-    "url": "https://www.evernest.com/de/listing/6Z7zXP636pyMpcqvah3tRt/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/2iGS2HEc02arzmXr7Okdt9/ac46b86b8eb3ca7b4ba2c0835db513c5/d5bd6a65-cdb5-4ded-aa94-5e0c2028cddf?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes Einfamilienhaus mit grauem Dach, Garage und gepflasterter Einfahrt an einer ruhigen Straße.",
+    "url": "https://www.evernest.com/de/listing/48xEKKaW66sK4e7i4JWNSk/"
   },
   {
-    "place": "Bergisch Gladbach-Stadtmitte, 51465",
-    "price": "949.000 €",
-    "status": "Neu",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6IlBzgGyd54Glg0XcTV66q/20d7e2c8ec1c079ff17e21cfc18b220e/4f38bfb9-4bfc-4714-ab54-691cf1d6cb58?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Wohnhaus mit großer Glasüberdachung, Terrasse und Garten mit Rasen und Pflanzen.",
+    "place": "Leverkusen-Rheindorf",
+    "price": "195.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/3Y21SAxPmLFY79ZpF17b5e/94de154756acf373fd7179626c92fdd8/6e70341a-f0b8-413a-a353-0216de2e7f51?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Heller Flur mit braunen Fliesen und holzvertäfelter Wand, Türen führen in weitere Zimmer.",
+    "url": "https://www.evernest.com/de/listing/517unqTftzSFbar7hqh5c3/"
+  },
+  {
+    "place": "Odenthal",
+    "price": "695.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5kO8RPl3P0l6T4JG8wpxCV/3296ca9e8d382f8b811ec589b6fd7a07/7a7c0d21-d168-4771-9ca3-7023dc24b9ef?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Luftaufnahme von Wohnhäusern mit Gärten und parkenden Autos in einer grünen Nachbarschaft.",
+    "url": "https://www.evernest.com/de/listing/2a0HNTmKuXRf1lohi07T7p/"
+  },
+  {
+    "place": "Solingen",
+    "price": "299.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/17P8EJlJiICXCUv2P2DzuY/396123883c71e9210e6300df051b363d/5d4990a2-6928-479d-b9fb-9eabb24a7e6a?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Zweistöckiges Wohnhaus mit Garten und Bäumen an einem sonnigen Tag.",
+    "url": "https://www.evernest.com/de/listing/6MPV53BG7jCB7jNX5gKKH6/"
+  },
+  {
+    "place": "Haan",
+    "price": "2.490.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/6n26I0IypjcLF5KX8uEN1j/729c68609fee633c4222b665ab289d53/95370e9d-060a-4205-b3ba-9b4fdc15503f?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Großes Wohnhaus mit Garten, Nebengebäude und geschwungener Einfahrt, umgeben von Bäumen.",
+    "url": "https://www.evernest.com/de/listing/25ImNIe7lzam5QOs5EQ9xP/"
+  },
+  {
+    "place": "Hilden",
+    "price": "155.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/aVRUdsF34RhvwHVeS3fHD/0f28969486551d0c47ebbc3703a19e22/b9c4f961-30d0-4efe-b8fa-84c71a0863ca?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes, weißes Mehrfamilienhaus mit Balkonen, direkt an einer ruhigen Straße gelegen.",
+    "url": "https://www.evernest.com/de/listing/7IegiFHiVs1Il1hMFczub4/"
+  },
+  {
+    "place": "Köln",
+    "price": "750.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1kXch5YNhPT1bR3jDCuk1t/74118937d6598b931016dcb3283b834a/02e08a61-f960-43d0-a3cb-92dae9b6a1b1?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Schmaler Durchgang zwischen zwei Backsteinwänden mit Blick auf den Himmel.",
+    "url": "https://www.evernest.com/de/listing/4qyd8HE1XmhzwLWGO0tZLu/"
+  },
+  {
+    "place": "Köln",
+    "price": "1.495.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5mjKk1qEivUHHXvRLe7dL5/2d50916c3abf22f3faddf8936ccd36f8/872b28c7-3651-43f8-929f-b5f6fca8e33d?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes Wohnhaus mit großem Garten, viel Rasenfläche und einem kleinen Pool.",
+    "url": "https://www.evernest.com/de/listing/3kwcKwVIMYG9BIlfX0mOrQ/"
+  },
+  {
+    "place": "Bergisch Gladbach",
+    "price": "3.900.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/xshBvzhUPe2oJUYoARyeg/9d992a4697aef920a3172182d8f6924c/8c174356-5f12-4844-8b0a-9c1e6e5f5df0?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Großes Einfamilienhaus mit dunklem Dach, Vorgarten und gepflasterter Auffahrt an einem sonnigen Tag.",
+    "url": "https://www.evernest.com/de/listing/1b2iW8md9sRyBgpa3zrWnU/"
+  },
+  {
+    "place": "Bergisch Gladbach",
+    "price": "891.900 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/7iZanRwmj92aiQOzkFAFJC/eff292264b3bb58db7374fa417488759/4f38bfb9-4bfc-4714-ab54-691cf1d6cb58?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes Haus mit großer Glasüberdachung, Terrasse, Gartenmöbeln und Rasenfläche im Vorgarten.",
     "url": "https://www.evernest.com/de/listing/6hq9UOIn1AAgKSkUGRDhcN/"
   },
   {
-    "place": "Bergisch Gladbach-Stadtmitte, 51465",
-    "price": "945.000 €",
+    "place": "Bergisch Gladbach",
+    "price": "449.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/NLH2yOKyGxCMfsFdjiXX5/179a7c040b8d2820e4d488da88e96b88/f14e3c36-4588-48e5-aa51-3336ed000420?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Vorderansicht eines Wohnhauses mit Garten und Bäumen, daneben ein geparktes Auto.",
-    "url": "https://www.evernest.com/de/listing/4ViySYJ4zTnWCWwVXSAWgc/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/4oB6dXTC3ncfXw92nxrEVf/3b0034111885e7757c07165fbe8aa9ca/5e34cac0-b5f7-4e45-b11c-7c03fd5ab2bc?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Helles Wohnzimmer mit Kamin, Sesseln, Sofa, Teppichen und großen Fenstern mit Gartenblick.",
+    "url": "https://www.evernest.com/de/listing/49onmenXN9iMpvIeb5mXxO/"
   },
   {
-    "place": "Bergisch Gladbach-Lustheide, 51427",
+    "place": "Erkrath",
+    "price": "1.150.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/712N7IxFJjLfvAmBZDtSop/4895af2061bc748a23edc0809877e84f/55807f5e-2243-44e2-b1b4-b72c0d700086?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrfamilienhaus mit Balkonen, geparkten Autos und blauem Himmel im Wohngebiet.",
+    "url": "https://www.evernest.com/de/listing/2631iCTGxA7vNPZrBvYzcM/"
+  },
+  {
+    "place": "Köln",
+    "price": "455.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/2b4rNnRL3bSjnBexhBnNfU/5727e443aa8e28417c658673dbd2c767/1abc520f-3f41-444d-af9b-c0070e13857d?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Wohnstraße mit mehrstöckigen Häusern, parkenden Autos, Fahrrädern und Bäumen am Gehweg.",
+    "url": "https://www.evernest.com/de/listing/7nisTdnXmkYC1c9tzdbjyy/"
+  },
+  {
+    "place": "Remscheid",
+    "price": "2.229.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1bfYTWO7e933FzX1grBvNH/e9efbfadbb9a931669d3fe6105c484aa/9f186280-fb44-4848-ab2b-3070032cfdbe?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Luftaufnahme von Wohnhäusern mit Balkonen und gepflegten Grünflächen davor.",
+    "url": "https://www.evernest.com/de/listing/63II5Kro8owPsa9SU5dKQA/"
+  },
+  {
+    "place": "Bergisch Gladbach",
+    "price": "346.500 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/3iOUgnbQmi5YaS0sAqzTtb/0f4c71f58e2cedebef3803c107624273/b04cc1c9-56ce-4f63-8ca0-3d57103891a7?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Helles Wohnzimmer mit moderner Küche, Esstisch, Sofa und großen Fenstern mit Blick nach draußen.",
+    "url": "https://www.evernest.com/de/listing/0dLo3OABJS1e4BTJ7bdtM/"
+  },
+  {
+    "place": "Bergisch Gladbach",
+    "price": "275.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5vfOWIfDYdnqu4AykWKyNr/3b34863083a60e99480a7b3aca0d9a1d/381d1290-536a-4ab3-a5a0-79b63cea9888?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrstöckiges Wohngebäude aus rotem Backstein mit parkenden Autos und begrüntem Eingangsbereich.",
+    "url": "https://www.evernest.com/de/listing/1y6MChBFWS8o3NNyuULz90/"
+  },
+  {
+    "place": "Köln",
+    "price": "219.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/6aTnAMG0tuug7rh6DjIjw8/b581e0f93abda5842baac7f7788f3529/7639b759-d84d-49cb-950e-7119b85f824b?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Heller Wohnraum mit Parkettboden, gelben Wänden, Esstisch und großen Fenstern mit Turmblick.",
+    "url": "https://www.evernest.com/de/listing/1BDPQsJORLnDwN6Ro5MPUi/"
+  },
+  {
+    "place": "Remscheid",
+    "price": "129.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/3UaeL84IvyiHjx4WiAsMN4/94f118252528caf735c72d317390b596/b25752cf-8223-489d-8319-356e6c34a31d?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Helles Wohnzimmer mit grauem Sofa, Holztisch und Essbereich mit sechs Stühlen.",
+    "url": "https://www.evernest.com/de/listing/I2r6QjMrH9PbRW2HBmArc/"
+  },
+  {
+    "place": "Bergisch Gladbach",
+    "price": "499.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/RmzRzDgUERVTkqy8qDMKA/4a7e4d3c4d4272c85271e907906deb1d/f2347abf-83da-4577-8a1d-0e3310c173c6?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Zweistöckiges Wohnhaus mit roter Backsteinfassade, Vorgarten und Grünbüschen an einer Straße.",
+    "url": "https://www.evernest.com/de/listing/5FYxtqa6aknNkXCDhz7F8l/"
+  },
+  {
+    "place": "Bergisch Gladbach",
     "price": "895.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/60oR1MQiK4A6kfjmUVxNkH/9337dd8a982993b4df863eef141b2eef/337733cc-e6ca-453f-9791-ac620b47be1e?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -59,364 +189,67 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/4sOpQWb7lTSp2u8YVKd1b1/"
   },
   {
-    "place": "Bergisch Gladbach-Schildgen, 51467",
-    "price": "892.000 €",
+    "place": "Düsseldorf",
+    "price": "265.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1VdUEglILwR1pj27rLPb0/d99fce6d19050aac68244799ba3fa21d/7d3afb4b-4a74-48f9-912e-f43fe08905cc?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Eingang eines Hauses mit Treppe und gepflegtem Garten mit runden Sträuchern.",
-    "url": "https://www.evernest.com/de/listing/4QkJceuNhZnDcrDUTfgDCy/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5NCX7h5CLpqzNbcX2OByD6/1c331e41bb5c90ec2272b6a1b3b3b09a/88d04c90-bfb6-4b4b-a4b3-b06233dbec62?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Balkon mit vielen Pflanzen, Tisch, Stuhl und Blick auf eine Straße mit Wohnhäusern.",
+    "url": "https://www.evernest.com/de/listing/3rylX9mqLbCrNBxmb2IUil/"
   },
   {
-    "place": "Odenthal-Glöbusch, 51519",
-    "price": "875.000 €",
+    "place": "Köln",
+    "price": "1.495.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/56yJ2L4XSKMPwm7abkSHhO/f2fb5546df56ba09719424f20c7880b8/64e66707-0915-41a1-9810-f6ceba72cefa?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Luftaufnahme eines Einfamilienhauses mit Garten, Wohnmobil und geparkten Autos an einer Ecke.",
-    "url": "https://www.evernest.com/de/listing/ZUXtatV9l9NnxJLqKo0DZ/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/ppuNSzByAvEKu5HHRixVP/9a1d63ce40a1f31964b8e5b91cb24eff/31b6d003-7036-41d8-acf0-503307f9703b?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Moderne Wohnküche mit Esstisch, Hängelampen, großem Fenster und offener Treppe.",
+    "url": "https://www.evernest.com/de/listing/5jTCkpcQXNkQrtNujMaTZq/"
   },
   {
-    "place": "Leverkusen-Bergisch-Neukirchen, 51381",
-    "price": "749.000 €",
+    "place": "Düsseldorf",
+    "price": "840.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6xlUUSesEAG5sSMJKZXcym/b51066c2924848a0fdbcf83c1885ad17/85cdfee2-51fa-47e4-a196-c6a45d4d58e7?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Gemütlicher Balkon mit Sitzmöbeln, vielen Pflanzen und Blick ins Grüne.",
-    "url": "https://www.evernest.com/de/listing/62Py2QbZt9RsPi8twJDNL6/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/2M7SXIfRR4GUOARxOb2TcS/a44f056498b9a2036476bc446f77ff17/6f299ef1-b896-4554-9954-9889cc7fe498?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Zweistöckiges Backsteinhaus mit sechs Fenstern und einer mittigen Eingangstür.",
+    "url": "https://www.evernest.com/de/listing/77sdC9pNZOCItpJh7DVNnx/"
   },
   {
-    "place": "Leverkusen-Schlebusch, 51375",
-    "price": "699.000 €",
+    "place": "Dormagen",
+    "price": "3.650.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3iwZN37uitOJFH0qBLs84/fd87a975a464fade47e57d40090caca0/09770f2b-ceac-4424-a0a9-093365795b9a?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Luftaufnahme eines Wohnviertels mit Einfamilienhäusern, Gärten und parkenden Autos an der Straße.",
-    "url": "https://www.evernest.com/de/listing/7h3Nl78Za1pLM95egS9w7l/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/52DohjOSuppel62gK1xDPf/a844023e12f0225c76b2a4403895382f/75426eea-8ed1-46c2-8231-9f22a6708f3b?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Beleuchteter Weg führt zu modernem Wohnhaus mit Bäumen auf beiden Seiten.",
+    "url": "https://www.evernest.com/de/listing/6nM6N6xveUEvLVFzPwqGk3/"
   },
   {
-    "place": "Odenthal-Erberich, 51519",
-    "price": "695.000 €",
-    "status": "Neu",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5kO8RPl3P0l6T4JG8wpxCV/3296ca9e8d382f8b811ec589b6fd7a07/7a7c0d21-d168-4771-9ca3-7023dc24b9ef?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Luftaufnahme von Wohnhäusern mit Gärten und parkenden Autos in einer grünen Nachbarschaft.",
-    "url": "https://www.evernest.com/de/listing/2a0HNTmKuXRf1lohi07T7p/"
-  },
-  {
-    "place": "Bergisch Gladbach-Herrenstrunden, 51465",
-    "price": "599.000 €",
+    "place": "Köln",
+    "price": "649.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1A0OnyBgW6w0C1bGue4PtV/76b4d7e50dfc75ecabd13a95f3bbaca0/1a489af9-3c85-47d6-8ed7-319e45d18d8c?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Wohnhaus mit roter Backsteinfassade und grauer Anbaufassade, großer Eingangsbereich.",
-    "url": "https://www.evernest.com/de/listing/1SaB4oQyKDWROzJSvwpbLv/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/3gyXdLLFgBsWHU0IKtt0hM/087f9b63b10185df4d114c47c0edc7d7/f57e2804-6b6a-42f7-9a08-c80e53304ef0?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Wohnzimmer mit braunem Ledersofa, Holzboden, Gitarrenständer und Essbereich vor großen Fenstern.",
+    "url": "https://www.evernest.com/de/listing/3LaNUwDsriCHVdljeHp2Q3/"
   },
   {
-    "place": "Rösrath-Hoffnungsthal, 51503",
-    "price": "599.000 €",
+    "place": "Köln",
+    "price": "385.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1HEMGHjmM9nZfBMvLfOxrd/b2c36a1e1c3277d19e814531199da07e/30ecb965-1b84-4b9d-85fc-0953f5d341fc?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Gemütliches Einfamilienhaus mit Garten, Terrasse und Gartenmöbeln, bewachsen mit Efeu.",
-    "url": "https://www.evernest.com/de/listing/Gx1oYVId7Dgne68l4lvcK/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5c7W0AKxxNTHgNpFcbenLv/2e1cbbd79397b57882d7b1b733634f05/0a8b6dd4-205c-4148-b2d6-4e0f02d9eb7d?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Innenhof eines Wohngebäudes mit Glasdach, Pflanzenbeet und umliegenden Fenstern.",
+    "url": "https://www.evernest.com/de/listing/57YyS4hILklfzGMFsTBaAW/"
   },
   {
-    "place": "Bergisch Gladbach-Stadtmitte, 51465",
-    "price": "575.000 €",
+    "place": "Pulheim",
+    "price": "899.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3gazJkaCftzTHMzT5AeLJ3/c6883a8d95a3f4df0742e79d6ea22615/d8e0b9a0-e31d-4520-8f68-a8bf7cafb2f3?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Heller Flur mit Holztreppe, roten Fliesen und Heizkörper an der Wand.",
-    "url": "https://www.evernest.com/de/listing/5pyXSGRbud5jAF6RVT5LJF/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1zjBVlxGBaPvp1VfqCY6TN/ca263bc13fc0d895ef3b40f364043d36/f3fc9204-334c-417a-86f8-9844e04da2db?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Zweistöckiges Wohnhaus mit Laden im Erdgeschoss und großen Fenstern, daneben modernes Nachbargebäude.",
+    "url": "https://www.evernest.com/de/listing/5eL3eZ4qcLi47GyCrLFAec/"
   },
   {
-    "place": "Bergisch Gladbach-Frankenforst, 51427",
-    "price": "499.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/4FtibQJ9UXGhtvURXUMbIL/a30453d0e9608ecab0a17cd88fcdb752/8635f712-9fbd-47dc-9607-099bfa27e706?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Blick von einem Balkon mit Geländer auf einen grünen Garten mit Sträuchern.",
-    "url": "https://www.evernest.com/de/listing/5FYxtqa6aknNkXCDhz7F8l/"
-  },
-  {
-    "place": "Bergisch Gladbach-Stadtmitte, 51465",
-    "price": "499.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/4gM6cLKRVlYTE9EX3ezE55/6b4f7a1e3ced7cd39b6daef8fd4842c3/3be0723c-809c-4f06-80c9-eff4c7335cb6?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Flur mit gemustertem Fliesenboden und Holztreppe zu einer oberen Etage.",
-    "url": "https://www.evernest.com/de/listing/6J9NwE5IVYBi2pGjUGDUEx/"
-  },
-  {
-    "place": "Köln-Merheim, 51109",
-    "price": "498.000 €",
-    "status": "Reserviert",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5rhybvvj7xuN3bYjOtg7uy/485db2ac4fcfb96c3f0c25c50da89a3d/ecccd8a9-7e67-41a2-a232-15b94320d0d1?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Wohnhaus mit Vorgarten und mehreren Fenstern an einem bewölkten Tag.",
-    "url": "https://www.evernest.com/de/listing/4jaRhPx3kzC7VNyVpC4gHh/"
-  },
-  {
-    "place": "Bergisch Gladbach-Stadtmitte, 51465",
-    "price": "486.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/4yoN32qeWKVoJfdFDx1BkW/edc5f3e1f8318b9a86843b95bc346901/5e34cac0-b5f7-4e45-b11c-7c03fd5ab2bc?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles Wohnzimmer mit Kamin, Sesseln, Sofa, Holzboden und großen Fenstern.",
-    "url": "https://www.evernest.com/de/listing/49onmenXN9iMpvIeb5mXxO/"
-  },
-  {
-    "place": "Bergisch Gladbach-Hebborn, 51467",
-    "price": "475.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1oRXEFMrCcavwOA61b6yVV/a1fbb87765ddf6d6eee1a459e839b138/8a2b2824-8125-46e4-b66d-a3e842c51d31?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helle Wohnhausfassade mit Fenstern, Eingangstür und Vorgarten an einer Straße.",
-    "url": "https://www.evernest.com/de/listing/2yfFtL9eTPZRGGrBwJVNDm/"
-  },
-  {
-    "place": "Odenthal-Erberich, 51519",
-    "price": "475.000 €",
-    "status": "Reserviert",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/76CeSFsWDiiAKSJb9tvCSe/8e58988f93315789dff5f7877458d5f5/2d598894-db1b-4133-ac08-58679835c64b?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Wohnhaus mit gepflastertem Weg, Treppe und gepflegtem grünen Rasen im Vordergrund.",
-    "url": "https://www.evernest.com/de/listing/1ZKQZJSBzBfGNYG63GJxSq/"
-  },
-  {
-    "place": "Bergisch Gladbach-Stadtmitte, 51465",
-    "price": "370.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6VrSkiZxS3PVfDf30e21FS/3ca0b64da69a93a8c66fee80803e7475/bbf49d9a-6dc9-4932-8bf7-02e117c3821b?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Wohnhaus mit rotem Dach und Steintreppe, umgeben von Bäumen und Einfahrt mit geparktem Auto.",
-    "url": "https://www.evernest.com/de/listing/739anoEJHURONwToX1fsi9/"
-  },
-  {
-    "place": "Bergisch Gladbach-Refrath, 51427",
-    "price": "Ab 346.500 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/7e6r8vJCYnvMy3gw5Xvn3H/19af800523918cf9f65ecd86f9827012/7d92867d-15c2-48f6-9bdf-68b8b99dbb95?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Offener Wohnbereich mit moderner Küche, Esstisch, Sofa und großen Fenstern mit Blick nach draußen.",
-    "url": "https://www.evernest.com/de/listing/0dLo3OABJS1e4BTJ7bdtM/"
-  },
-  {
-    "place": "Bergisch Gladbach-Refrath, 51427",
-    "price": "Ab 346.500 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/7e6r8vJCYnvMy3gw5Xvn3H/19af800523918cf9f65ecd86f9827012/7d92867d-15c2-48f6-9bdf-68b8b99dbb95?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Offener Wohnbereich mit moderner Küche, Esstisch, Sofa und großen Fenstern mit Blick nach draußen.",
-    "url": "https://www.evernest.com/de/listing/1z5EfeDdbYXGhLMCBFRagt/"
-  },
-  {
-    "place": "Bergisch Gladbach-Refrath, 51427",
-    "price": "285.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/7IzpYnoXYPJ80gomnQ5uEx/f5cfab9e9eb8993cda33bf61d062c668/2a727237-476f-410e-9a5f-63ecc560a069?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Wohnzimmer mit Ledersofa, Esstisch, großem Fenster und Holzmöbeln.",
-    "url": "https://www.evernest.com/de/listing/4aRLJSLgnZ9xkaK8sOtqay/"
-  },
-  {
-    "place": "Bergisch Gladbach-Bockenberg, 51429",
+    "place": "Bergisch Gladbach",
     "price": "230.000 €",
-    "status": "Reserviert",
+    "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/1K0TmO2yUbMQLmIFaaB4gC/82013519c3dae213d8eca307450e0e10/84eb93f0-b9fa-4a8e-95d0-1ae343a520e3?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes Wohngebäude mit mehreren Balkonen und großen Fenstern auf einer grünen Wiese.",
     "url": "https://www.evernest.com/de/listing/1FLLNdfJjxxjl1Hc31nmlY/"
-  },
-  {
-    "place": "Leverkusen-Schlebusch, 51375",
-    "price": "199.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6yicxUFpYt1C4v4K7FDNr4/5cbdfb45b25b8eaa01c3a6af3fd9f537/e617d2ce-f7ea-4279-bf3e-f1f3c9541ad2?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Balkon mit Glasgeländer und Blick auf eine Wohnsiedlung und geparkte Autos.",
-    "url": "https://www.evernest.com/de/listing/4cIYSxT2lbC7LghNQTMn33/"
-  },
-  {
-    "place": "Bergisch Gladbach-Bockenberg, 51429",
-    "price": "185.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6NT2jVQX1EGnOsw1mEwVxd/b8f953561bd91b9cb49390220b6046ed/a57e7f5e-11f9-45d4-ac59-b9c9af59aa4b?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Heller Flur mit weiß gestrichenen Wänden und Holzfußboden in einer Wohnung.",
-    "url": "https://www.evernest.com/de/listing/2DQ2xJDoANUQ0pYut8vt40/"
-  },
-  {
-    "place": "Bergisch Gladbach-Moitzfeld, 51429",
-    "price": "180.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/12HUCToDPAFBBxLcSO00aZ/02b71a671a5326e70edcf0deb85ee279/3a07ff20-2afa-4d36-8aa4-aa645d1dadc2?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Arbeitszimmer mit zwei Monitoren, großem Fenster und Schreibtischstuhl, Bild an der Wand.",
-    "url": "https://www.evernest.com/de/listing/5h5ROLxkUKvoYxLbc3brj8/"
-  },
-  {
-    "place": "Bergisch Gladbach-Bockenberg, 51429",
-    "price": "175.000 €",
-    "status": "Reserviert",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6DQ9JiJ08KcBhMvU7b7okW/3763a76f11c4a09dc2566027402ddd9f/02be3a19-5caf-4b45-a48d-e99c533eba28?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles leeres Wohnzimmer mit Parkettboden und großen Fenstern, die auf einen Balkon führen.",
-    "url": "https://www.evernest.com/de/listing/3KCi3v5FcFGRZIppDPwuuQ/"
-  },
-  {
-    "place": "Leverkusen-Lützenkirchen, 51381",
-    "price": "130.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/BXyiC8YSiqPotaE9zynfQ/bccb0940b12755bbe4233b15192cf7f9/522a6b50-03ff-4cfe-a563-67ce1bfab2fb?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Flur mit Jacken an der Garderobe, Spiegel und Blick ins Wohnzimmer mit Sofa.",
-    "url": "https://www.evernest.com/de/listing/7M0GZZAlWjYZCSlbHjRnol/"
-  },
-  {
-    "place": "Bergisch Gladbach-Stadtmitte, 51465",
-    "price": "Preis auf Anfrage",
-    "status": "Neu",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/xshBvzhUPe2oJUYoARyeg/9d992a4697aef920a3172182d8f6924c/8c174356-5f12-4844-8b0a-9c1e6e5f5df0?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Großes Einfamilienhaus mit dunklem Dach, Vorgarten und gepflasterter Auffahrt an einem sonnigen Tag.",
-    "url": "https://www.evernest.com/de/listing/1b2iW8md9sRyBgpa3zrWnU/"
-  },
-  {
-    "place": "Bergisch Gladbach-Bockenberg, 51429",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2kCJoDajwprziD6U1pOpYZ/b9af73af025cbc7e10e175a58e0b1001/e96df47b-6f9f-4e04-9795-15d7121bd14f?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Langer Balkon mit Tisch, Pflanze und Blick auf grüne Wiese sowie Bäume.",
-    "url": "https://www.evernest.com/de/listing/5whHAg7n9rDaYbsNPJWn69/"
-  },
-  {
-    "place": "Bergisch Gladbach-Bockenberg, 51429",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2NvJ4WJOXbeOsjniIfK6T3/14f87fb694bd219fce684d1516f0690e/393a8ffe-12e9-467e-a4d1-3ce90091f27f?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Mehrstöckiges Wohnhaus mit Balkonen, Gartenflächen und parkenden Autos vor dem Gebäude.",
-    "url": "https://www.evernest.com/de/listing/1BzNtJOKe6KS0YPZr135zr/"
-  },
-  {
-    "place": "Bergisch Gladbach-Frankenforst, 51427",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/7f4HW5KtmWYFeQM3ZT7zke/42e0f1d37a9ec77df0e5e14a27db4ba5/26f08791-3218-47cb-ae35-31ee23fe9977?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Dreistöckiges Wohnhaus mit Balkonen, zentraler Treppe und umliegenden Pflanzen.",
-    "url": "https://www.evernest.com/de/listing/I8bcf55brm3gjaOgyHDaR/"
-  },
-  {
-    "place": "Bergisch Gladbach-Frankenforst, 51427",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/70QgGIyxEVGW5XrOtlSBW5/c357cec7f7c07eabc6e72838df4a0aa9/03a43b6d-bdc1-4aba-85db-94fa77e05b10?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Mehrstöckiges Wohnhaus mit Balkonen, davor eine Rasenfläche mit Tisch und Bäumen.",
-    "url": "https://www.evernest.com/de/listing/3Y1GWDiE8ebrghZnTr7wI1/"
-  },
-  {
-    "place": "Bergisch Gladbach-Gronau, 51469",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/7JHXMfIPJdfjY6TvXJ9uDo/9169aa69bfef157dd050810cfc4e61a7/ffc7ef49-f5d4-4d1d-8f3b-643bc1b3ceaf?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles Wohnzimmer mit weißem Sofa, grün gestrichener Wand und Zugang zum Balkon.",
-    "url": "https://www.evernest.com/de/listing/2GvQ0Oghy4rzQuFVy8UVru/"
-  },
-  {
-    "place": "Bergisch Gladbach-Hebborn, 51467",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3R9JwA1OfF0uB6nOxUfAvi/1c03dcd6c3c3c4aafe185d64695f7cbd/8836f687-e641-4f0c-9606-0794e5fcd8bc?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles Wohnzimmer mit gelbem Sofa, Regal, Fernseher und großem Fenster.",
-    "url": "https://www.evernest.com/de/listing/h3fepEh1yQlMSU6oBWcV3/"
-  },
-  {
-    "place": "Bergisch Gladbach-Lückerath, 51429",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6oE8f2I6ZTUTOCM8y1oCwK/a7cc33378aec072f71cbdddc0da919e8/a7d1fabe-e525-4621-b98c-8821466d0c89?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes weißes Wohngebäude mit Balkonen, Pflanzen und Flachdach bei blauem Himmel.",
-    "url": "https://www.evernest.com/de/listing/cnkSwKFbcfUdkfTDdleQp/"
-  },
-  {
-    "place": "Bergisch Gladbach-Lückerath, 51429",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1GohMKdyEwpKHfupI1600v/43c280f723ec8b8f192eda26b980f7e9/67e7d896-c4b0-4822-94aa-39b1f6037671?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Garten mit Pool, Terrasse, Pflanzen und kleinem Holzhaus neben einem Wohnhaus.",
-    "url": "https://www.evernest.com/de/listing/79T5H2ABzWbB6JhrCie8qP/"
-  },
-  {
-    "place": "Bergisch Gladbach-Lückerath, 51429",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2bQWP4lahv7bskQoSQh0HE/9516d7c6a6837c4c5bde78ff76730f45/fb41e32e-0f4c-492e-840a-688cf929291f?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Einfamilienhaus mit Balkon, Garten und Vorgartensträuchern, von der Straße aus gesehen.",
-    "url": "https://www.evernest.com/de/listing/1AHPYoh2csxtV4uS8as99f/"
-  },
-  {
-    "place": "Bergisch Gladbach-Moitzfeld, 51429",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2FMRXJL51IjyUvbhocLBXx/30ed7e5ed806fe8720d6c556111d47d8/7e93ac5b-335c-43d8-9d4e-8f90598db51e?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Einfamilienhaus mit Garten auf einer Ecke, umgeben von anderen Häusern und viel Grün.",
-    "url": "https://www.evernest.com/de/listing/5mjcqHTFVA5gKzosNMFCRU/"
-  },
-  {
-    "place": "Bergisch Gladbach-Refrath, 51427",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2KuSe0P6BwwKizZXkmsdbL/1207434ac19565b387aef62eb930f412/ef97f9c1-5a32-4673-82d7-f9844222ad64?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Moderne zweistöckige Wohnhausfassade mit großen Fenstern und Gartenhecke bei Abenddämmerung.",
-    "url": "https://www.evernest.com/de/listing/1FxqBTMoW0nKSzOG8M1zdP/"
-  },
-  {
-    "place": "Bergisch Gladbach-Schildgen, 51467",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/FXzZ3dMxzjiFOTQaTsqf0/5b87e577927e2a99da9331d10ed89ef8/38f8e3d9-961e-4783-b75a-50e1ed73aa8f?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Einfamilienhaus mit Vorgarten und Carport, in dem zwei rote Autos parken.",
-    "url": "https://www.evernest.com/de/listing/1oScstDm8cT86rVr6mINm1/"
-  },
-  {
-    "place": "Köln-Dellbrück, 51069",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5Z8nLC1VwyRwVhIdxk9rWC/a14989cc1afbab6d56095e2c8e9342e2/0d68bcfe-a680-4dd6-8d71-27020d7fb165?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Wohnhaus mit Garage, Vorgarten und Bäumen im Hintergrund an einer Straße.",
-    "url": "https://www.evernest.com/de/listing/52oENkRBN9VAn4WOsUKyhm/"
-  },
-  {
-    "place": "Köln-Merheim, 51109",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/4dSlOOIEa5IwerHUBGXG6M/98de22caa6ea118ffedfdf0c290742f1/925b9a72-3455-43b5-a27a-44f52fd8cb6d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Wohnhaus mit Vorgarten, großen Bäumen und Garage an einer ruhigen Straße.",
-    "url": "https://www.evernest.com/de/listing/5BzIvgn0DQHKyD4yxtQl1U/"
-  },
-  {
-    "place": "Leverkusen-Schlebusch, 51375",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/vxmpdfsncFFKkuH9MSNm5/3fdc55a1355376fb161e314648c9e1e1/68e8fa13-c76f-4283-87a0-b8e0480136fe?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Eingang eines Reihenhauses mit Vorgarten und Pflanzen.",
-    "url": "https://www.evernest.com/de/listing/2kRCK0sWJCksY40KyO4MmJ/"
-  },
-  {
-    "place": "Leverkusen-Schlebusch, 51375",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/4W2cKACmXLtY3Nh7pk7zuF/90c3499436a981c540b10964f53adbec/7f591260-1b99-4f6b-9ad2-56b75d0adc60?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Wohnhaus mit Zaun, Einfahrt und angrenzender Garage, umgeben von Bäumen und Büschen.",
-    "url": "https://www.evernest.com/de/listing/2cxrsGEVx7hYuilvbHVeL7/"
-  },
-  {
-    "place": "Odenthal-Klasmühle, 51519",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2qNnfq4qwHhOaNTqCHHeXm/787afb2d5086c23aa0eee3811cc6a336/52f5b64c-ce1b-421b-8d2d-7f797e1a9500?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Weißes Einfamilienhaus mit großer Terrasse und gepflegtem Garten.",
-    "url": "https://www.evernest.com/de/listing/2xTP7fOu3avF27PR8p7Xu7/"
-  },
-  {
-    "place": "Rösrath-Hoffnungsthal, 51503",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1aypEIz5XNzKXsEujSCC2o/91309243d64e070e18728ab0835da26e/52db7c8c-0916-4bcc-99dd-cfe0167e076f?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes weißes Wohnhaus mit großen Fenstern und Garten, umgeben von Bäumen und Rasenfläche.",
-    "url": "https://www.evernest.com/de/listing/5xGcDE2wBWt0Zp0VaJKzcO/"
-  },
-  {
-    "place": "Rösrath-Lüghausen, 51503",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6lGyriUAziurgaoX7yPJI9/2ed669107702d052bdce74cfddef91fd/bd01ed1c-19b0-47b1-ba77-36fae2af9950?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Garten mit Holzhaus, Terrasse, Tisch, Stühlen und blauer Rutsche.",
-    "url": "https://www.evernest.com/de/listing/vwUaXYCINfCIML3V3h86n/"
-  },
-  {
-    "place": "Rösrath, 51503",
-    "price": "Verkauft",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/csudGOlXjL53Z40pAwWrB/1078399405164508ca356a3b780b117b/1a3c5aff-489b-458a-9223-62f6d408f45d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Wohnhaus mit Flachdach und großem Garten, umgeben von weiteren Einfamilienhäusern.",
-    "url": "https://www.evernest.com/de/listing/14dW1t6WoybvMthy2MPe2O/"
   }
 ];
-
