@@ -29,7 +29,6 @@ export default function ImmobilienGalerie() {
       </div>
       <button className="listing-arrow listing-arrow-next" type="button" aria-label="Nächste Immobilien" onClick={() => move(1)}>→</button>
       <p className="listing-more"><a className="button dark" href="https://evernest.com/de/search/?lat=51.083462&lng=7.017159&zoom=11" target="_blank" rel="noreferrer">Alle Immobilien im Umkreis ansehen</a></p>
-      <p className="listing-source">Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen · Stand 30.08.2026</p>
     </div>
   );
 }
