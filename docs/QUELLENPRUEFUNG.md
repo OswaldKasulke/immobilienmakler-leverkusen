@@ -41,7 +41,7 @@ Wo die Stadt keine individuelle, belastbare Besonderheit nennt, beschränkt sich
 - Namen, Rollen und Einsatzorte der neun am 30.08.2026 gelisteten Teammitglieder: https://www.evernest.com/de/seiten/immobilienmakler-in-leverkusen/
 - Zweite öffentliche Plausibilitätsprüfung der Unternehmensträger: Referenz-Repository und Impressum der autorisierten Bergisch-Gladbach-Seite.
 
-Es wurden keine Porträts oder Texte von Evernest kopiert. Auch in der angemeldeten Sitzung war weder auf der Teamseite noch in der sichtbaren Navigation eine ausdrückliche Nutzungsfreigabe, ein Lizenztext oder ein Medienbereich für leverkusen-makler.de erkennbar. Ein Login und die öffentliche Anzeige der Bilder gelten nicht als Lizenz. Die Teamseite nennt deshalb nur eindeutig zuordenbare Namen, Rollen und Einsatzorte und verwendet lizenzneutrale Platzhalter. Vor einer späteren Bildveröffentlichung ist eine schriftlich nachvollziehbare Freigabe mit Nutzungsumfang erforderlich.
+Der Nutzer hat am 30.08.2026 ausdrücklich bestätigt, dass das Website-Team selbst Evernest ist und die vorhandenen Teammedien für leverkusen-makler.de verwenden darf. Eingebunden sind ausschließlich die bereits im autorisierten Projektbestand vorhandenen Teamdateien; es werden keine fremden Texte übernommen.
 
 ## Bild- und Lizenzstatus
 

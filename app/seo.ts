@@ -1,6 +1,6 @@
 export const siteUrl = "https://leverkusen-makler.de";
 export const businessId = `${siteUrl}/#immobilienmakler`;
-export const defaultImage = `${siteUrl}/open-graph.svg`;
+export const defaultImage = `${siteUrl}/team/team-leverkusen.jpg`;
 
 export const businessSchema = {
   "@type": ["RealEstateAgent", "LocalBusiness"],
@@ -20,6 +20,7 @@ export const businessSchema = {
   },
   areaServed: [
     { "@type": "City", name: "Leverkusen" },
+    { "@type": "Place", name: "Leverkusen und Umland" },
   ],
   sameAs: [
     "https://www.evernest.com/de/unsere-makler/leverkusen/",
