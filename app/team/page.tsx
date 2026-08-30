@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { breadcrumbSchema, businessSchema, defaultImage, graphSchema, siteUrl } from "../seo";
+import { breadcrumbSchema, businessSchema, graphSchema, siteUrl } from "../seo";
 
 const url = `${siteUrl}/team/`;
 const sourceUrl = "https://www.evernest.com/de/seiten/immobilienmakler-in-leverkusen/";
-export const metadata: Metadata = { title: "Team | Immobilienmakler Leverkusen", description: "Das Team von Stark & Hoffmann Immobilien in Leverkusen: persönliche Ansprechpartner für Immobilienbewertung, Verkauf und Vermietung.", alternates: { canonical: url }, openGraph: { title: "Unser Team | Stark & Hoffmann Immobilien Leverkusen", description: "Ihre persönlichen Ansprechpartner in Leverkusen.", url, images: [defaultImage] }, twitter: { card: "summary_large_image", images: [defaultImage] } };
+export const metadata: Metadata = { title: "Team | Immobilienmakler Leverkusen", description: "Das Team von Stark & Hoffmann Immobilien in Leverkusen: persönliche Ansprechpartner für Immobilienbewertung, Verkauf und Vermietung.", alternates: { canonical: url }, openGraph: { title: "Unser Team | Stark & Hoffmann Immobilien Leverkusen", description: "Ihre persönlichen Ansprechpartner in Leverkusen.", url }, twitter: { card: "summary" } };
 
 // Öffentliche Evernest-Standortseite, geprüft am 30.08.2026. Keine Bilder ohne ausdrückliche Nutzungsfreigabe.
 const team = [
