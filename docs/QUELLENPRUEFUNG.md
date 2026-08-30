@@ -1,6 +1,6 @@
 # Quellen- und Faktenprüfung
 
-Stand: 29. August 2026. Jede veröffentlichte Tatsachenangabe wurde auf die unten dokumentierte, eng begrenzte Aussage zurückgeführt. Stadtteilbeschreibungen verwenden ausschließlich Veröffentlichungen der Stadt Leverkusen. Marktzahlen stammen ausschließlich vom Gutachterausschuss Leverkusen.
+Stand: 30. August 2026. Jede veröffentlichte Tatsachenangabe wurde auf die unten dokumentierte, eng begrenzte Aussage zurückgeführt. Stadtteilbeschreibungen verwenden ausschließlich Veröffentlichungen der Stadt Leverkusen. Marktzahlen stammen ausschließlich vom Gutachterausschuss Leverkusen.
 
 ## Markt und Wertermittlung
 
@@ -38,10 +38,10 @@ Wo die Stadt keine individuelle, belastbare Besonderheit nennt, beschränkt sich
 ## Team und Standort
 
 - Leverkusener Standort, Lizenznehmer, Adresse, Telefon und E-Mail: https://www.evernest.com/de/unsere-makler/leverkusen/
-- Patrick Stark und Julian Hoffmann als Lizenzpartner für Leverkusen: https://www.evernest.com/de/seiten/immobilienmakler-in-leverkusen/
+- Namen, Rollen und Einsatzorte der neun am 30.08.2026 gelisteten Teammitglieder: https://www.evernest.com/de/seiten/immobilienmakler-in-leverkusen/
 - Zweite öffentliche Plausibilitätsprüfung der Unternehmensträger: Referenz-Repository und Impressum der autorisierten Bergisch-Gladbach-Seite.
 
-Es wurden keine Porträts oder Texte von Evernest kopiert. Die Teamseite nennt nur eindeutig zuordenbare Rollen. Vor Veröffentlichung sind freigegebene Porträts erforderlich, falls Bilder gewünscht sind.
+Es wurden keine Porträts oder Texte von Evernest kopiert. Auch in der angemeldeten Sitzung war weder auf der Teamseite noch in der sichtbaren Navigation eine ausdrückliche Nutzungsfreigabe, ein Lizenztext oder ein Medienbereich für leverkusen-makler.de erkennbar. Ein Login und die öffentliche Anzeige der Bilder gelten nicht als Lizenz. Die Teamseite nennt deshalb nur eindeutig zuordenbare Namen, Rollen und Einsatzorte und verwendet lizenzneutrale Platzhalter. Vor einer späteren Bildveröffentlichung ist eine schriftlich nachvollziehbare Freigabe mit Nutzungsumfang erforderlich.
 
 ## Bild- und Lizenzstatus
 
