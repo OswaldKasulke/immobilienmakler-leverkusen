@@ -19,10 +19,7 @@ export const metadata: Metadata = {
     images: [defaultImage],
   },
   verification: {
-    google: [
-      "UMEgdX9HRciaQpNQvzxL_seevwM8gpWzNM39AV8sLQI",
-      "1tqaSDZPq4vGC5-uCueEvsYSxtQQcRUsDQjN6GZkI3U",
-    ],
+    google: "1tqaSDZPq4vGC5-uCueEvsYSxtQQcRUsDQjN6GZkI3U",
   },
   robots: {
     index: true,
