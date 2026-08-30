@@ -71,11 +71,10 @@ export default function TeamPage() {
               <p className="team-role">{role}</p>
               <p className="team-areas">{areas}</p>
               <p className="team-bio">{bio}</p>
-              <a className="team-profile-link" href={profile} target="_blank" rel="noreferrer">Profil und Quelle bei Evernest ↗</a>
+              <a className="team-profile-link" href={profile} target="_blank" rel="noreferrer">Profil bei Evernest ↗</a>
             </div>
           </article>)}
       </div>
-      <p className="editorial-note">Namen, Funktionen, Einsatzorte und Portraits stammen von der öffentlichen Evernest-Standortseite für Leverkusen. Jede Person ist über ihr dort hinterlegtes Profil nachprüfbar.</p>
     </section>
 
     <section className="district-contact section">
