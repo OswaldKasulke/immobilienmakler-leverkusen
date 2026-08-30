@@ -74,12 +74,23 @@ const houseBase=(style:string,year:number):[number,string]|null=>{
   return null;
 };
 // Kapitel 11.1 – Rohertragsfaktoren zum Stichtag 01.01.2026.
-const rentMultiplier=(type:string,units:number,yearlyRent:number):[number,string]=>{
+// Die Ausgabe wird zusaetzlich auf 4,5 % Bruttorendite gedeckelt: Faktoren
+// oberhalb von 22,2 entsprechen einer Rendite unter 4,5 %. Der Deckel ist eine
+// bewusst vorsichtige Annahme, keine Vorgabe des Gutachterausschusses, und wird
+// im Rechenprotokoll ausgewiesen.
+const YIELD_FLOOR=0.045;
+const MAX_MULTIPLIER=1/YIELD_FLOOR;
+const officialMultiplier=(type:string,units:number,yearlyRent:number):[number,string]=>{
   if(type==="Wohnung")return[25.5,"Rohertragsfaktor 25,5 für vermietetes Wohnungseigentum"];
   if(type==="Haus")return[26.1,"Rohertragsfaktor 26,1 für vermietete Ein- und Zweifamilienhäuser"];
   if(units===3)return[18.7,"Rohertragsfaktor 18,7 für Dreifamilienhäuser"];
   return yearlyRent>40000?[18.2,"Rohertragsfaktor 18,2 für Mehrfamilienhäuser mit Rohertrag 40–125 Tsd. €"]
                          :[20.4,"Rohertragsfaktor 20,4 für Mehrfamilienhäuser mit Rohertrag 20–40 Tsd. €"];
+};
+const rentMultiplier=(type:string,units:number,yearlyRent:number):[number,string]=>{
+  const [official,note]=officialMultiplier(type,units,yearlyRent);
+  if(official<=MAX_MULTIPLIER)return[official,note];
+  return[MAX_MULTIPLIER,`${note}; auf ${de(MAX_MULTIPLIER,2)} gedeckelt, damit die Bruttorendite nicht unter 4,5 % fällt`];
 };
 
 const roundFive=(value:number)=>Math.round(value/5000)*5000;
