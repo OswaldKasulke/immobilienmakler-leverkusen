@@ -5,6 +5,7 @@ import { properties } from "./immobilien";
 
 export default function ImmobilienGalerie() {
   const rail = useRef<HTMLDivElement>(null);
+  const leverkusenProperties = properties.filter((property) => property.place.startsWith("Leverkusen-"));
 
   const move = (direction: -1 | 1) => {
     const element = rail.current;
@@ -16,9 +17,9 @@ export default function ImmobilienGalerie() {
     <div className="listing-carousel">
       <button className="listing-arrow listing-arrow-prev" type="button" aria-label="Vorherige Immobilien" onClick={() => move(-1)}>←</button>
       <div className="listing-rail" ref={rail}>
-        {properties.map((property, index) => (
+        {leverkusenProperties.map((property) => (
           <a className="listing-card" href={property.url} target="_blank" rel="noreferrer" key={property.url}>
-            <img data-src={property.image} alt={property.alt} loading={index < 3 ? "eager" : "lazy"} className="external-media" />
+            <div className="listing-placeholder" aria-hidden="true" />
             <div className="listing-card-overlay">
               {property.status && <span className={`listing-badge${property.status === "Verkauft" ? " sold" : ""}`}>{property.status}</span>}
               <p>{property.place}</p>
