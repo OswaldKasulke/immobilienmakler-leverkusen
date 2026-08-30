@@ -71,7 +71,6 @@ export default function TeamPage() {
               <p className="team-role">{role}</p>
               <p className="team-areas">{areas}</p>
               <p className="team-bio">{bio}</p>
-              <a className="team-profile-link" href={profile} target="_blank" rel="noreferrer">Profil bei Evernest ↗</a>
             </div>
           </article>)}
       </div>
