@@ -5,7 +5,7 @@ const url = `${siteUrl}/team/`;
 export const metadata: Metadata = { title: "Team | Immobilienmakler Leverkusen", description: "Das Team von Stark & Hoffmann Immobilien in Leverkusen: persönliche Ansprechpartner für Immobilienbewertung, Verkauf und Vermietung.", alternates: { canonical: url }, openGraph: { title: "Unser Team | Stark & Hoffmann Immobilien Leverkusen", description: "Ihre persönlichen Ansprechpartner in Leverkusen.", url }, twitter: { card: "summary" } };
 
 // Öffentliche Evernest-Standortseite, geprüft am 30.08.2026.
-const team = [
+const team: { name: string; role: string; areas: string; image?: string; profile?: string }[] = [
   { name: "Patrick Stark", role: "Lizenzpartner", areas: "Bergisch Gladbach, Leverkusen, Köln-Dellbrück", image: "patrick.jpg", profile: "https://www.evernest.com/de/unsere-makler/bergisch-gladbach/patrick-stark/" },
   { name: "Julian Hoffmann", role: "Lizenzpartner", areas: "Bergisch Gladbach, Leverkusen, Köln-Dellbrück", image: "julian.jpg", profile: "https://www.evernest.com/de/unsere-makler/bergisch-gladbach/julian-hoffmann/" },
   { name: "Johannes Brauns", role: "Teamlead Acquisition", areas: "Bergisch Gladbach, Leverkusen", image: "johannes.jpg", profile: "https://www.evernest.com/de/unsere-makler/bergisch-gladbach/johannes-brauns/" },
@@ -15,7 +15,7 @@ const team = [
   { name: "Christian Engelke", role: "Selbstständiger Immobilienmakler", areas: "Bergisch Gladbach, Leverkusen", image: "christian.jpg", profile: "https://www.evernest.com/de/unsere-makler/bergisch-gladbach/christian-engelke/" },
   { name: "Robin Köppe", role: "Selbstständiger Immobilienmakler", areas: "Bergisch Gladbach, Leverkusen", image: "robin.jpg", profile: "https://www.evernest.com/de/unsere-makler/leverkusen/robin-koeppe/" },
   { name: "Sebastian Schulz-Dobrick", role: "Selbstständiger Immobilienmakler", areas: "Leverkusen", image: "sebastian.jpg", profile: "https://www.evernest.com/de/unsere-makler/leverkusen/sebastian-schulz/" },
-] as const;
+];
 
 export default function TeamPage() {
   const schema = graphSchema(businessSchema, breadcrumbSchema([{ name: "Startseite", url: `${siteUrl}/` }, { name: "Team", url }]), ...team.map(({ name, role, ...person }) => ({ "@type": "Person", name, jobTitle: role, worksFor: { "@id": `${siteUrl}/#immobilienmakler` }, ...("profile" in person ? { sameAs: person.profile } : {}) })));
