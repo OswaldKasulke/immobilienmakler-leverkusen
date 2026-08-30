@@ -1,6 +1,6 @@
 export const siteUrl = "https://leverkusen-makler.de";
 export const businessId = `${siteUrl}/#immobilienmakler`;
-export const defaultImage = `${siteUrl}/team/team-leverkusen.jpg`;
+export const defaultImage = `${siteUrl}/open-graph.svg`;
 
 export const businessSchema = {
   "@type": ["RealEstateAgent", "LocalBusiness"],

@@ -111,7 +111,7 @@ export default function Home() {
     </section>
 
     <section className="profile section" id="profil">
-      <div className="profile-image"><div className="profile-gallery single"><img src="/team/team-leverkusen.jpg" alt="Das Team von Stark &amp; Hoffmann Immobilien, Evernest Lizenzpartner für Leverkusen"/></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
+      <div className="profile-image"><div className="profile-gallery single" role="img" aria-label="Stark und Hoffmann Immobilien Leverkusen"><span className="profile-neutral-mark">S&amp;H</span></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
       <div className="profile-copy">
         <p className="eyebrow">Unser Profil</p><h2>Erfahrene Branchenkenner und Vertriebsprofis.</h2>
         <p className="lead">Patrick Stark und Julian Hoffmann verantworten das operative und strategische Geschäft am Leverkusener Standort.</p>
