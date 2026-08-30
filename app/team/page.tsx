@@ -11,7 +11,7 @@ const team = [
   { name: "Johannes Brauns", role: "Teamlead Acquisition", areas: "Bergisch Gladbach, Leverkusen", image: "johannes.jpg", profile: "https://www.evernest.com/de/unsere-makler/bergisch-gladbach/johannes-brauns/" },
   { name: "Vanessa Rogge", role: "Assistenz der Geschäftsführung", areas: "Bergisch Gladbach, Leverkusen, Köln-Dellbrück", image: "vanessa.jpg" },
   { name: "Doreen Kaschner", role: "Operations & Marketing Managerin", areas: "Bergisch Gladbach, Leverkusen, Köln-Dellbrück", image: "doreen.jpg" },
-  { name: "Noah Ginczek", role: "Selbständiger Immobilienmakler", areas: "Leverkusen" },
+  { name: "Noah Ginczek", role: "Selbständiger Immobilienmakler", areas: "Leverkusen", image: "noah.jpg" },
   { name: "Christian Engelke", role: "Selbstständiger Immobilienmakler", areas: "Bergisch Gladbach, Leverkusen", image: "christian.jpg", profile: "https://www.evernest.com/de/unsere-makler/bergisch-gladbach/christian-engelke/" },
   { name: "Robin Köppe", role: "Selbstständiger Immobilienmakler", areas: "Bergisch Gladbach, Leverkusen", image: "robin.jpg", profile: "https://www.evernest.com/de/unsere-makler/leverkusen/robin-koeppe/" },
   { name: "Sebastian Schulz-Dobrick", role: "Selbstständiger Immobilienmakler", areas: "Leverkusen", image: "sebastian.jpg", profile: "https://www.evernest.com/de/unsere-makler/leverkusen/sebastian-schulz/" },
