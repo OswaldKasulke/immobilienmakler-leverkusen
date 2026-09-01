@@ -6,7 +6,7 @@ const url = `${siteUrl}/immobilienbewertung/`;
 const faqs: Array<[string,string]> = [
   ["Was ist meine Immobilie in Leverkusen wert?", "Der Immobilienwert hängt von Adresse, Stadtteil, Objektart, Flächen, Grundstück, Baujahr, Zustand, Nutzung und weiteren Merkmalen ab. Die Online-Bewertung liefert eine unverbindliche Ersteinschätzung und ersetzt keine Besichtigung."],
   ["Woher stammen die Zahlen?", "Aus dem Grundstücksmarktbericht der Stadt Leverkusen 2026 für das Berichtsjahr 2025: Durchschnittspreise für Eigentumswohnungen und Einfamilienhäuser, gebietstypische Bodenrichtwerte, Umrechnungskoeffizienten für die Grundstücksgröße und Rohertragsfaktoren zum Stichtag 1. Januar 2026."],
-  ["Was beeinflusst den Wohnungswert?", "Neben Lage, Fläche, Baujahr und Zustand sind Etage, Balkon, Aufzug, Stellplatz, Hausgeld, Instandhaltungsrücklage, Gemeinschaftseigentum und gegebenenfalls die Mietsituation relevant. Wohnungen in Großwohnanlagen mit mehr als fünf Vollgeschossen bilden in Leverkusen einen eigenen Teilmarkt."],
+  ["Was beeinflusst den Wohnungswert?", "Neben Lage, Fläche, Baujahr und Zustand sind Etage, Balkon, Aufzug, Stellplatz, Hausgeld, Erhaltungsrücklage, Gemeinschaftseigentum und gegebenenfalls die Mietsituation relevant. Wohnungen in Großwohnanlagen mit mehr als fünf Vollgeschossen bilden in Leverkusen einen eigenen Teilmarkt."],
   ["Ist der Bodenrichtwert der Grundstückswert?", "Nein. Der Bodenrichtwert ist ein amtlicher Orientierungswert für ein typisches Grundstück innerhalb einer Zone. Baurecht, Zuschnitt, Erschließung, Topografie und weitere Eigenschaften können den konkreten Grundstückswert verändern."],
 ];
 
