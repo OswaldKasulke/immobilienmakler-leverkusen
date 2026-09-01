@@ -69,6 +69,13 @@ jobs:
           local-dir: ./out/
           server-dir: /leverkusen-makler.de/
           dangerous-clean-slate: false
+          # Der Lauf vom 01.09.2026 brach mit "Timeout (control socket)" ab und
+          # hinterliess einen State, der Dateien als hochgeladen fuehrte, die nie
+          # ankamen -> Folgelauf scheiterte mit 550 auf _next/<build-id>.
+          # Ein neuer State-Name erzwingt einen vollstaendigen Abgleich,
+          # ohne auf dem Server etwas zu loeschen.
+          state-name: .ftp-deploy-sync-state-v2.json
+          timeout: 120000
           exclude: |
             **/.git*
             **/.git*/**
