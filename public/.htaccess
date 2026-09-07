@@ -15,13 +15,17 @@ ErrorDocument 404 /404.html
 #   images.ctfassets.net: Objektbilder aus dem Evernest-CMS.
 #   romanbecker.de: bewertung-adressen.php (Adresssuche im Rechner) und
 #     submit.php (Lead-Versand) liegen dort, nicht auf dieser Domain.
-# Kommt ein neuer Dienst dazu (Analytics, Karten, Schriften von aussen),
-# muss er hier eingetragen werden - sonst blockiert der Browser ihn still.
+# googletagmanager.com und google-analytics.com stehen seit dem 07.09.2026 drin:
+#   Google Analytics (G-7Q576T4MFQ) wird nachgeladen, sobald der Besucher im
+#   Banner zustimmt. Ohne diese Eintraege verwirft der Browser das Skript still,
+#   und die Einwilligung liefe ins Leere.
+# Kommt ein neuer Dienst dazu (Karten, Schriften von aussen), muss er hier
+# eingetragen werden - sonst blockiert der Browser ihn still.
 <IfModule mod_headers.c>
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
   Header always set X-Content-Type-Options "nosniff"
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
-  Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self' https://romanbecker.de; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://images.ctfassets.net; connect-src 'self' https://romanbecker.de; upgrade-insecure-requests"
+  Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self' https://romanbecker.de; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://images.ctfassets.net https://www.google-analytics.com https://www.googletagmanager.com; connect-src 'self' https://romanbecker.de https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; upgrade-insecure-requests"
 </IfModule>
