@@ -1,0 +1,52 @@
+name: Update Leverkusen Listings
+
+# app/immobilien.ts war bis zum 07.09.2026 ein von Hand gezogener Stand.
+# Neue Objekte tauchten dadurch weder in der Startseiten-Galerie noch auf den
+# Stadtteilseiten auf. Muster uebernommen von romanbecker.de
+# (.github/workflows/update-listings.yml).
+on:
+  schedule:
+    - cron: '30 5 * * *'   # taeglich 05:30 UTC, eine halbe Stunde vor dem Koelner Lauf
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-listings-leverkusen
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Evernest-Objekte holen
+        run: node scripts/update-listings.mjs
+
+      - name: Aenderungen pruefen
+        id: changes
+        run: |
+          if git diff --quiet app/immobilien.ts; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Keine Aenderung an app/immobilien.ts."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git --no-pager diff --stat app/immobilien.ts
+          fi
+
+      - name: Commit und Push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add app/immobilien.ts
+          git commit -m "chore(lev): Evernest-Angebote aktualisiert [automated]"
+          git push

@@ -1,5 +1,8 @@
 export type Property = {
+  /** Anzeigetext auf der Karte, z. B. "Leverkusen-Opladen" oder "Köln-Niehl". */
   place: string;
+  /** Slug der Stadtteilseite, wenn das Objekt in einem liegt — sonst null. */
+  district: string | null;
   price: string;
   status: string;
   image: string;
@@ -7,13 +10,17 @@ export type Property = {
   url: string;
 };
 
+// AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 30.08.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 07.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
-// Bildbeschreibungen stammen aus den Evernest-Objektseiten.
+// Bildbeschreibungen stammen aus den Evernest-Objektdaten.
+// Aktualisierung: scripts/update-listings.mjs, taeglich ueber
+// .github/workflows/update-listings.yml.
 export const properties: Property[] = [
   {
     "place": "Leverkusen-Bergisch Neukirchen",
+    "district": "bergisch-neukirchen",
     "price": "539.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/46L1Jf9LbHbYMeAY57w5yn/a866e603738342ef38cd3bdf54489f27/1f1fb29a-71f4-48ed-a6dd-786b30784bb0?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -21,15 +28,62 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/45DYL5NfNYRI0Ly4tatuao/"
   },
   {
-    "place": "Leverkusen-Opladen",
-    "price": "1.340.000 €",
+    "place": "Leverkusen-Bergisch Neukirchen",
+    "district": "bergisch-neukirchen",
+    "price": "749.000 €",
     "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/6xlUUSesEAG5sSMJKZXcym/b51066c2924848a0fdbcf83c1885ad17/85cdfee2-51fa-47e4-a196-c6a45d4d58e7?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Gemütlicher Balkon mit Sitzmöbeln, vielen Pflanzen und Blick ins Grüne.",
+    "url": "https://www.evernest.com/de/listing/62Py2QbZt9RsPi8twJDNL6/"
+  },
+  {
+    "place": "Leverkusen-Opladen",
+    "district": "opladen",
+    "price": "Preis auf Anfrage",
+    "status": "Verkauft",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/10nYXQF75ADx3zL2AjdzEb/29ef0e6360012a98af16b1e2329861d3/8635494c-77d2-49ca-a7cd-6ed08732dc25?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Weiße Wohnhausfassade mit geschlossenen Rollläden an einer Straßenecke, daneben eine Tankstelle.",
     "url": "https://www.evernest.com/de/listing/1l4qOPITwtxDUvVo2TngnR/"
   },
   {
+    "place": "Leverkusen-Lützenkirchen",
+    "district": "luetzenkirchen",
+    "price": "130.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/BXyiC8YSiqPotaE9zynfQ/bccb0940b12755bbe4233b15192cf7f9/522a6b50-03ff-4cfe-a563-67ce1bfab2fb?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Flur mit Jacken an der Garderobe, Spiegel und Blick ins Wohnzimmer mit Sofa.",
+    "url": "https://www.evernest.com/de/listing/7M0GZZAlWjYZCSlbHjRnol/"
+  },
+  {
+    "place": "Leverkusen-Lützenkirchen",
+    "district": "luetzenkirchen",
+    "price": "Preis auf Anfrage",
+    "status": "Verkauft",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/2C5XRXW8S08eU58qnKaWGG/c7f3ee868fb4d54cdaafa1c01b8b65d1/3c757d3a-0fa8-49c6-a033-9fc186b86079?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Vorderansicht eines Einfamilienhauses mit zwei Garagen und gepflegtem Garten.",
+    "url": "https://www.evernest.com/de/listing/6j1w6fnn81OisTop7JzHLd/"
+  },
+  {
+    "place": "Leverkusen-Quettingen",
+    "district": "quettingen",
+    "price": "499.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1EvybAPrnrBtN9dOwLImgW/324c41dd2a5863d6e96b168bb6988f80/9099cd28-363a-456b-b57b-6ea8d05d8bf7?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Dreistöckiges Wohnhaus mit gelbem Eingang an einer ruhigen Straße, mehrere geparkte Autos.",
+    "url": "https://www.evernest.com/de/listing/UX932RJrfkfI0QXmyIMvf/"
+  },
+  {
+    "place": "Langenfeld (Rheinland)-Reusrath",
+    "district": null,
+    "price": "694.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/6QiKJRtTvtuq6QU6fnReKD/4d9b99671d0d46684fad102417767954/2654e90e-9cca-49ae-9e4e-e45875babb36?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Backstein-Reihenhaus mit drei Fahrrädern und zwei geparkten Autos in einer Einfahrt.",
+    "url": "https://www.evernest.com/de/listing/6jMkBNnDz5G8uJKinDSG2K/"
+  },
+  {
     "place": "Leverkusen-Bürrig",
+    "district": "buerrig",
     "price": "489.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/2iGS2HEc02arzmXr7Okdt9/ac46b86b8eb3ca7b4ba2c0835db513c5/d5bd6a65-cdb5-4ded-aa94-5e0c2028cddf?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -38,6 +92,7 @@ export const properties: Property[] = [
   },
   {
     "place": "Leverkusen-Rheindorf",
+    "district": "rheindorf",
     "price": "195.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/3Y21SAxPmLFY79ZpF17b5e/94de154756acf373fd7179626c92fdd8/6e70341a-f0b8-413a-a353-0216de2e7f51?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -45,7 +100,53 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/517unqTftzSFbar7hqh5c3/"
   },
   {
-    "place": "Odenthal",
+    "place": "Leverkusen-Schlebusch",
+    "district": "schlebusch",
+    "price": "699.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/3qy9aoHpma15fjReok1zsa/1c5b1ee4f5a6d5b3ff3bb943f6f45eb6/09770f2b-ceac-4424-a0a9-093365795b9a?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Luftaufnahme eines Wohnviertels mit mehreren Häusern und grünen Bäumen an einer Straße.",
+    "url": "https://www.evernest.com/de/listing/7h3Nl78Za1pLM95egS9w7l/"
+  },
+  {
+    "place": "Langenfeld (Rheinland)-Immigrath",
+    "district": null,
+    "price": "3.249.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/YKJEnsGp2aBQox95ucFlj/9d2ffc29a4e9cae9f334d1dec6f352f8/12561b22-9dce-4021-8d56-115293774fa8?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrstöckiges Wohngebäude mit vielen Fenstern und großem Innenhof an einem klaren Tag.",
+    "url": "https://www.evernest.com/de/listing/4tHfH79xGbmufV2U0s0uJr/"
+  },
+  {
+    "place": "Leverkusen-Manfort",
+    "district": "manfort",
+    "price": "Preis auf Anfrage",
+    "status": "Verkauft",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/28onQJwok0nsUxMHu4tpcF/17e0b3a515abd36ad62a58961ad03551/40a6fc68-386e-42b7-b294-daa19571bf0c?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes Wohngebäude mit grauem Dach, gelben Fassadenakzenten und bepflanztem Vorgarten.",
+    "url": "https://www.evernest.com/de/listing/5ZmxUCrrNhAYRY7tHXEnTE/"
+  },
+  {
+    "place": "Langenfeld (Rheinland)-Immigrath",
+    "district": null,
+    "price": "249.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5F57cXhMyf78Mh6XOGKP7n/ee51b716ce0fd895de52e18c5b286ae9/c0a832c1-e314-4101-8c01-874dac5c8369?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrfamilienhaus mit Balkonen und gepflegtem Garten im Hinterhof.",
+    "url": "https://www.evernest.com/de/listing/6OweC9ulkqH21HpUETlYHO/"
+  },
+  {
+    "place": "Leverkusen-Wiesdorf",
+    "district": "wiesdorf",
+    "price": "1.495.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/51OKJg6BEZ1iLdPE6rfNRy/aea1ae45ee2845daa07345f6e7db541d/94277ddf-4974-4f62-ac10-5ec3971bd81e?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrstöckiges Wohngebäude mit Geschäften im Erdgeschoss an einer belebten Straße mit Passanten.",
+    "url": "https://www.evernest.com/de/listing/1007Z6hrpTQM73XvDZS71n/"
+  },
+  {
+    "place": "Odenthal-Erberich",
+    "district": null,
     "price": "695.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/5kO8RPl3P0l6T4JG8wpxCV/3296ca9e8d382f8b811ec589b6fd7a07/7a7c0d21-d168-4771-9ca3-7023dc24b9ef?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -53,7 +154,44 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/2a0HNTmKuXRf1lohi07T7p/"
   },
   {
-    "place": "Solingen",
+    "place": "Odenthal-Glöbusch",
+    "district": null,
+    "price": "875.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/56yJ2L4XSKMPwm7abkSHhO/f2fb5546df56ba09719424f20c7880b8/64e66707-0915-41a1-9810-f6ceba72cefa?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Luftaufnahme eines Einfamilienhauses mit Garten, Wohnmobil und geparkten Autos an einer Ecke.",
+    "url": "https://www.evernest.com/de/listing/ZUXtatV9l9NnxJLqKo0DZ/"
+  },
+  {
+    "place": "Odenthal-Erberich",
+    "district": null,
+    "price": "475.000 €",
+    "status": "Reserviert",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/76CeSFsWDiiAKSJb9tvCSe/8e58988f93315789dff5f7877458d5f5/2d598894-db1b-4133-ac08-58679835c64b?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes Wohnhaus mit gepflastertem Weg, Treppe und gepflegtem grünen Rasen im Vordergrund.",
+    "url": "https://www.evernest.com/de/listing/1ZKQZJSBzBfGNYG63GJxSq/"
+  },
+  {
+    "place": "Monheim am Rhein-Monheim",
+    "district": null,
+    "price": "395.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/3kL8kp34ri6WnKDT9vjWMX/dd62721231a1277256040ead4a187f80/f7c8f6e4-a4d1-4dc0-b156-8c305de73b54?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Heller, leerer Raum mit großen Fenstern, Holzdecke und Fliesenboden, Blick auf Garten.",
+    "url": "https://www.evernest.com/de/listing/7CcID6z8fnnu32XsZci5ym/"
+  },
+  {
+    "place": "Bergisch Gladbach-Schildgen",
+    "district": null,
+    "price": "892.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1VdUEglILwR1pj27rLPb0/d99fce6d19050aac68244799ba3fa21d/7d3afb4b-4a74-48f9-912e-f43fe08905cc?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Eingang eines Hauses mit Treppe und gepflegtem Garten mit runden Sträuchern.",
+    "url": "https://www.evernest.com/de/listing/4QkJceuNhZnDcrDUTfgDCy/"
+  },
+  {
+    "place": "Solingen-Dorp",
+    "district": null,
     "price": "299.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/17P8EJlJiICXCUv2P2DzuY/396123883c71e9210e6300df051b363d/5d4990a2-6928-479d-b9fb-9eabb24a7e6a?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -61,7 +199,35 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/6MPV53BG7jCB7jNX5gKKH6/"
   },
   {
+    "place": "Bergisch Gladbach-Nußbaum",
+    "district": null,
+    "price": "1.399.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/3htTTDunHlqMvj1OpSt3b7/47ed6d560cb78911a6c0d36b65591a69/a4ef604a-7cee-425d-a13a-6de57f4dc527?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes weißes Wohnhaus mit großen Fenstern und Garten im Vordergrund.",
+    "url": "https://www.evernest.com/de/listing/6Z7zXP636pyMpcqvah3tRt/"
+  },
+  {
+    "place": "Köln-Niehl",
+    "district": null,
+    "price": "325.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/6hW2H7eNkOcbBAbeDmV9rk/23751bdd63c019e8eba09a09521c831e/823a31bf-9a0b-4895-9ccc-86ed22308a6a?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Leerer, heller Raum mit weißen Fliesen, großem Fenster und Tür, Blick nach draußen.",
+    "url": "https://www.evernest.com/de/listing/6dfBgQE4AleYMtMGn0YqO7/"
+  },
+  {
+    "place": "Köln-Dellbrück",
+    "district": null,
+    "price": "10.950.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5FHRNFtVEbxCC0p3AfvbZQ/4c09031ce4be3475f3324b1a2c0b5a39/03de2f20-59e6-47b8-a82c-43dcbb654d9a?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes, dreistöckiges Wohngebäude mit braunen und weißen Fassaden, großer Grünfläche und Zaun im Vordergrund.",
+    "url": "https://www.evernest.com/de/listing/5ENiQl64Q9aofYcukySXKD/"
+  },
+  {
     "place": "Haan",
+    "district": null,
     "price": "2.490.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/6n26I0IypjcLF5KX8uEN1j/729c68609fee633c4222b665ab289d53/95370e9d-060a-4205-b3ba-9b4fdc15503f?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -69,7 +235,26 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/25ImNIe7lzam5QOs5EQ9xP/"
   },
   {
+    "place": "Bergisch Gladbach-Hebborn",
+    "district": null,
+    "price": "475.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1oRXEFMrCcavwOA61b6yVV/a1fbb87765ddf6d6eee1a459e839b138/8a2b2824-8125-46e4-b66d-a3e842c51d31?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Helle Wohnhausfassade mit Fenstern, Eingangstür und Vorgarten an einer Straße.",
+    "url": "https://www.evernest.com/de/listing/2yfFtL9eTPZRGGrBwJVNDm/"
+  },
+  {
+    "place": "Bergisch Gladbach-Stadtmitte",
+    "district": null,
+    "price": "499.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/4gM6cLKRVlYTE9EX3ezE55/6b4f7a1e3ced7cd39b6daef8fd4842c3/3be0723c-809c-4f06-80c9-eff4c7335cb6?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Flur mit gemustertem Fliesenboden und Holztreppe zu einer oberen Etage.",
+    "url": "https://www.evernest.com/de/listing/6J9NwE5IVYBi2pGjUGDUEx/"
+  },
+  {
     "place": "Hilden",
+    "district": null,
     "price": "155.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/aVRUdsF34RhvwHVeS3fHD/0f28969486551d0c47ebbc3703a19e22/b9c4f961-30d0-4efe-b8fa-84c71a0863ca?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -77,15 +262,8 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/7IegiFHiVs1Il1hMFczub4/"
   },
   {
-    "place": "Köln",
-    "price": "750.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1kXch5YNhPT1bR3jDCuk1t/74118937d6598b931016dcb3283b834a/02e08a61-f960-43d0-a3cb-92dae9b6a1b1?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Schmaler Durchgang zwischen zwei Backsteinwänden mit Blick auf den Himmel.",
-    "url": "https://www.evernest.com/de/listing/4qyd8HE1XmhzwLWGO0tZLu/"
-  },
-  {
-    "place": "Köln",
+    "place": "Köln-Pesch",
+    "district": null,
     "price": "1.495.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/5mjKk1qEivUHHXvRLe7dL5/2d50916c3abf22f3faddf8936ccd36f8/872b28c7-3651-43f8-929f-b5f6fca8e33d?w=960&h=600&fit=fill&fm=webp&q=82",
@@ -93,163 +271,21 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/3kwcKwVIMYG9BIlfX0mOrQ/"
   },
   {
-    "place": "Bergisch Gladbach",
-    "price": "3.900.000 €",
+    "place": "Dormagen-Stadt Zons",
+    "district": null,
+    "price": "950.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/xshBvzhUPe2oJUYoARyeg/9d992a4697aef920a3172182d8f6924c/8c174356-5f12-4844-8b0a-9c1e6e5f5df0?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Großes Einfamilienhaus mit dunklem Dach, Vorgarten und gepflasterter Auffahrt an einem sonnigen Tag.",
-    "url": "https://www.evernest.com/de/listing/1b2iW8md9sRyBgpa3zrWnU/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5Szb2fyYka6DFAn1XMggkh/bce12109f65438d24666d6915acf2cef/addfa6db-845f-42f8-bdd6-0f9ecbf5559d?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrfamilienhaus mit Balkonen und Gartenbereich bei sonnigem Wetter.",
+    "url": "https://www.evernest.com/de/listing/2F1487s5acumEN9gp8Hadl/"
   },
   {
-    "place": "Bergisch Gladbach",
-    "price": "891.900 €",
+    "place": "Köln-Mülheim",
+    "district": null,
+    "price": "750.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/7iZanRwmj92aiQOzkFAFJC/eff292264b3bb58db7374fa417488759/4f38bfb9-4bfc-4714-ab54-691cf1d6cb58?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Haus mit großer Glasüberdachung, Terrasse, Gartenmöbeln und Rasenfläche im Vorgarten.",
-    "url": "https://www.evernest.com/de/listing/6hq9UOIn1AAgKSkUGRDhcN/"
-  },
-  {
-    "place": "Bergisch Gladbach",
-    "price": "449.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/4oB6dXTC3ncfXw92nxrEVf/3b0034111885e7757c07165fbe8aa9ca/5e34cac0-b5f7-4e45-b11c-7c03fd5ab2bc?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles Wohnzimmer mit Kamin, Sesseln, Sofa, Teppichen und großen Fenstern mit Gartenblick.",
-    "url": "https://www.evernest.com/de/listing/49onmenXN9iMpvIeb5mXxO/"
-  },
-  {
-    "place": "Erkrath",
-    "price": "1.150.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/712N7IxFJjLfvAmBZDtSop/4895af2061bc748a23edc0809877e84f/55807f5e-2243-44e2-b1b4-b72c0d700086?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Mehrfamilienhaus mit Balkonen, geparkten Autos und blauem Himmel im Wohngebiet.",
-    "url": "https://www.evernest.com/de/listing/2631iCTGxA7vNPZrBvYzcM/"
-  },
-  {
-    "place": "Köln",
-    "price": "455.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2b4rNnRL3bSjnBexhBnNfU/5727e443aa8e28417c658673dbd2c767/1abc520f-3f41-444d-af9b-c0070e13857d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Wohnstraße mit mehrstöckigen Häusern, parkenden Autos, Fahrrädern und Bäumen am Gehweg.",
-    "url": "https://www.evernest.com/de/listing/7nisTdnXmkYC1c9tzdbjyy/"
-  },
-  {
-    "place": "Remscheid",
-    "price": "2.229.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1bfYTWO7e933FzX1grBvNH/e9efbfadbb9a931669d3fe6105c484aa/9f186280-fb44-4848-ab2b-3070032cfdbe?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Luftaufnahme von Wohnhäusern mit Balkonen und gepflegten Grünflächen davor.",
-    "url": "https://www.evernest.com/de/listing/63II5Kro8owPsa9SU5dKQA/"
-  },
-  {
-    "place": "Bergisch Gladbach",
-    "price": "346.500 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3iOUgnbQmi5YaS0sAqzTtb/0f4c71f58e2cedebef3803c107624273/b04cc1c9-56ce-4f63-8ca0-3d57103891a7?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles Wohnzimmer mit moderner Küche, Esstisch, Sofa und großen Fenstern mit Blick nach draußen.",
-    "url": "https://www.evernest.com/de/listing/0dLo3OABJS1e4BTJ7bdtM/"
-  },
-  {
-    "place": "Bergisch Gladbach",
-    "price": "275.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5vfOWIfDYdnqu4AykWKyNr/3b34863083a60e99480a7b3aca0d9a1d/381d1290-536a-4ab3-a5a0-79b63cea9888?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Mehrstöckiges Wohngebäude aus rotem Backstein mit parkenden Autos und begrüntem Eingangsbereich.",
-    "url": "https://www.evernest.com/de/listing/1y6MChBFWS8o3NNyuULz90/"
-  },
-  {
-    "place": "Köln",
-    "price": "219.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6aTnAMG0tuug7rh6DjIjw8/b581e0f93abda5842baac7f7788f3529/7639b759-d84d-49cb-950e-7119b85f824b?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Heller Wohnraum mit Parkettboden, gelben Wänden, Esstisch und großen Fenstern mit Turmblick.",
-    "url": "https://www.evernest.com/de/listing/1BDPQsJORLnDwN6Ro5MPUi/"
-  },
-  {
-    "place": "Remscheid",
-    "price": "129.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3UaeL84IvyiHjx4WiAsMN4/94f118252528caf735c72d317390b596/b25752cf-8223-489d-8319-356e6c34a31d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles Wohnzimmer mit grauem Sofa, Holztisch und Essbereich mit sechs Stühlen.",
-    "url": "https://www.evernest.com/de/listing/I2r6QjMrH9PbRW2HBmArc/"
-  },
-  {
-    "place": "Bergisch Gladbach",
-    "price": "499.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/RmzRzDgUERVTkqy8qDMKA/4a7e4d3c4d4272c85271e907906deb1d/f2347abf-83da-4577-8a1d-0e3310c173c6?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Wohnhaus mit roter Backsteinfassade, Vorgarten und Grünbüschen an einer Straße.",
-    "url": "https://www.evernest.com/de/listing/5FYxtqa6aknNkXCDhz7F8l/"
-  },
-  {
-    "place": "Bergisch Gladbach",
-    "price": "895.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/60oR1MQiK4A6kfjmUVxNkH/9337dd8a982993b4df863eef141b2eef/337733cc-e6ca-453f-9791-ac620b47be1e?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles Wohnzimmer mit großen Fenstern, Parkettboden und Blick in den Garten.",
-    "url": "https://www.evernest.com/de/listing/4sOpQWb7lTSp2u8YVKd1b1/"
-  },
-  {
-    "place": "Düsseldorf",
-    "price": "265.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5NCX7h5CLpqzNbcX2OByD6/1c331e41bb5c90ec2272b6a1b3b3b09a/88d04c90-bfb6-4b4b-a4b3-b06233dbec62?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Balkon mit vielen Pflanzen, Tisch, Stuhl und Blick auf eine Straße mit Wohnhäusern.",
-    "url": "https://www.evernest.com/de/listing/3rylX9mqLbCrNBxmb2IUil/"
-  },
-  {
-    "place": "Köln",
-    "price": "1.495.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/ppuNSzByAvEKu5HHRixVP/9a1d63ce40a1f31964b8e5b91cb24eff/31b6d003-7036-41d8-acf0-503307f9703b?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Moderne Wohnküche mit Esstisch, Hängelampen, großem Fenster und offener Treppe.",
-    "url": "https://www.evernest.com/de/listing/5jTCkpcQXNkQrtNujMaTZq/"
-  },
-  {
-    "place": "Düsseldorf",
-    "price": "840.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2M7SXIfRR4GUOARxOb2TcS/a44f056498b9a2036476bc446f77ff17/6f299ef1-b896-4554-9954-9889cc7fe498?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Backsteinhaus mit sechs Fenstern und einer mittigen Eingangstür.",
-    "url": "https://www.evernest.com/de/listing/77sdC9pNZOCItpJh7DVNnx/"
-  },
-  {
-    "place": "Dormagen",
-    "price": "3.650.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/52DohjOSuppel62gK1xDPf/a844023e12f0225c76b2a4403895382f/75426eea-8ed1-46c2-8231-9f22a6708f3b?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Beleuchteter Weg führt zu modernem Wohnhaus mit Bäumen auf beiden Seiten.",
-    "url": "https://www.evernest.com/de/listing/6nM6N6xveUEvLVFzPwqGk3/"
-  },
-  {
-    "place": "Köln",
-    "price": "649.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3gyXdLLFgBsWHU0IKtt0hM/087f9b63b10185df4d114c47c0edc7d7/f57e2804-6b6a-42f7-9a08-c80e53304ef0?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Wohnzimmer mit braunem Ledersofa, Holzboden, Gitarrenständer und Essbereich vor großen Fenstern.",
-    "url": "https://www.evernest.com/de/listing/3LaNUwDsriCHVdljeHp2Q3/"
-  },
-  {
-    "place": "Köln",
-    "price": "385.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5c7W0AKxxNTHgNpFcbenLv/2e1cbbd79397b57882d7b1b733634f05/0a8b6dd4-205c-4148-b2d6-4e0f02d9eb7d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Innenhof eines Wohngebäudes mit Glasdach, Pflanzenbeet und umliegenden Fenstern.",
-    "url": "https://www.evernest.com/de/listing/57YyS4hILklfzGMFsTBaAW/"
-  },
-  {
-    "place": "Pulheim",
-    "price": "899.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1zjBVlxGBaPvp1VfqCY6TN/ca263bc13fc0d895ef3b40f364043d36/f3fc9204-334c-417a-86f8-9844e04da2db?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Zweistöckiges Wohnhaus mit Laden im Erdgeschoss und großen Fenstern, daneben modernes Nachbargebäude.",
-    "url": "https://www.evernest.com/de/listing/5eL3eZ4qcLi47GyCrLFAec/"
-  },
-  {
-    "place": "Bergisch Gladbach",
-    "price": "230.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1K0TmO2yUbMQLmIFaaB4gC/82013519c3dae213d8eca307450e0e10/84eb93f0-b9fa-4a8e-95d0-1ae343a520e3?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Wohngebäude mit mehreren Balkonen und großen Fenstern auf einer grünen Wiese.",
-    "url": "https://www.evernest.com/de/listing/1FLLNdfJjxxjl1Hc31nmlY/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1kXch5YNhPT1bR3jDCuk1t/74118937d6598b931016dcb3283b834a/02e08a61-f960-43d0-a3cb-92dae9b6a1b1?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Schmaler Durchgang zwischen zwei Backsteinwänden mit Blick auf den Himmel.",
+    "url": "https://www.evernest.com/de/listing/4qyd8HE1XmhzwLWGO0tZLu/"
   }
 ];

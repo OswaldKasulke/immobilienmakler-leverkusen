@@ -13,17 +13,30 @@ on:
       - tsconfig.json
       - .github/workflows/deploy-leverkusen-makler.yml
   workflow_dispatch:
+  workflow_run:
+    # Der Listings-Commit kommt vom GITHUB_TOKEN und loest deshalb keinen
+    # push-Workflow aus — ohne diesen Trigger bliebe die Aktualisierung im Repo
+    # liegen, ohne je live zu gehen.
+    workflows: ["Update Leverkusen Listings"]
+    types:
+      - completed
 
 permissions:
   contents: read
 
+# Deploys serialisieren: Push und taegliches Listings-Update duerfen sich nicht
+# ueberholen — beide schreiben in dieselbe FTP-Sync-State-Datei, und ein
+# abgebrochener Lauf hinterlaesst darin einen Stand, den spaetere Deploys fuer
+# aktuell halten.
 concurrency:
   group: deploy-leverkusen-makler
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Bei workflow_run nur deployen, wenn das Listings-Update erfolgreich war.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
