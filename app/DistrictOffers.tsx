@@ -16,11 +16,14 @@ export function leverkusenOfferCount() {
 
 export default function DistrictOffers({ slug, district }: { slug: string; district: string }) {
   const all = uniqueProperties();
-  const local = all.filter((property) => property.district === slug);
+  // Aktive Angebote zuerst, verkaufte und reservierte dahinter — innerhalb
+  // beider Gruppen bleibt die Reihenfolge der Datei erhalten (Entfernung zum
+  // Leverkusener Kartenmittelpunkt aufsteigend).
+  const active = (list: typeof properties) => [...list.filter((p) => !p.status), ...list.filter((p) => p.status)];
+  const local = active(all.filter((property) => property.district === slug));
   // Jede Stadtteilseite zeigt drei Karten. Hat der Stadtteil selbst weniger,
-  // wird aus dem Umkreis aufgefuellt — die Liste ist nach Entfernung zum
-  // Leverkusener Kartenmittelpunkt sortiert, die naechsten stehen also vorn.
-  const filler = all.filter((property) => property.district !== slug);
+  // wird aus dem Umkreis aufgefuellt.
+  const filler = active(all.filter((property) => property.district !== slug));
   const offers = [...local, ...filler].slice(0, TARGET_CARDS);
 
   const heading = local.length ? `Immobilien in ${district}` : "Angebote aus Leverkusen und Umkreis";
