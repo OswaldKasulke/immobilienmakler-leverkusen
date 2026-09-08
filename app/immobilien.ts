@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 07.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 08.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -208,6 +208,15 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/6Z7zXP636pyMpcqvah3tRt/"
   },
   {
+    "place": "Haan",
+    "district": null,
+    "price": "Preis auf Anfrage",
+    "status": "Verkauft",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/7qaOR3Dj6INJGi4SRi97cM/e9ef5a348e8e2e5e64724379a6f7f7b6/54047c10-788e-4e4d-abfe-9c226549980e?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Großes Wohnhaus mit Garten, Auffahrt und Nebengebäude, umgeben von Bäumen und Rasen.",
+    "url": "https://www.evernest.com/de/listing/zbRFcHaIP9MtTEz5CiXGV/"
+  },
+  {
     "place": "Köln-Niehl",
     "district": null,
     "price": "325.000 €",
@@ -278,14 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/5Szb2fyYka6DFAn1XMggkh/bce12109f65438d24666d6915acf2cef/addfa6db-845f-42f8-bdd6-0f9ecbf5559d?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Mehrfamilienhaus mit Balkonen und Gartenbereich bei sonnigem Wetter.",
     "url": "https://www.evernest.com/de/listing/2F1487s5acumEN9gp8Hadl/"
-  },
-  {
-    "place": "Köln-Mülheim",
-    "district": null,
-    "price": "750.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1kXch5YNhPT1bR3jDCuk1t/74118937d6598b931016dcb3283b834a/02e08a61-f960-43d0-a3cb-92dae9b6a1b1?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Schmaler Durchgang zwischen zwei Backsteinwänden mit Blick auf den Himmel.",
-    "url": "https://www.evernest.com/de/listing/4qyd8HE1XmhzwLWGO0tZLu/"
   }
 ];
