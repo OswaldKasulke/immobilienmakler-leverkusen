@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 08.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 09.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -208,6 +208,15 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/6Z7zXP636pyMpcqvah3tRt/"
   },
   {
+    "place": "Köln-Seeberg",
+    "district": null,
+    "price": "350.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/2SKdAdxJt9vGWPWJ0iT8xP/f6719798a1d21e0fd6c8f214a319c303/c223868a-157c-41b1-b372-abaab46afbeb?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Flur mit Holztreppe, weißen Wänden, Fliesenboden und Blick auf einen Balkon mit rotem Geländer.",
+    "url": "https://www.evernest.com/de/listing/49ZXMsYNgic6GJEfiR5ZPp/"
+  },
+  {
     "place": "Haan",
     "district": null,
     "price": "Preis auf Anfrage",
@@ -278,14 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/5mjKk1qEivUHHXvRLe7dL5/2d50916c3abf22f3faddf8936ccd36f8/872b28c7-3651-43f8-929f-b5f6fca8e33d?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes Wohnhaus mit großem Garten, viel Rasenfläche und einem kleinen Pool.",
     "url": "https://www.evernest.com/de/listing/3kwcKwVIMYG9BIlfX0mOrQ/"
-  },
-  {
-    "place": "Dormagen-Stadt Zons",
-    "district": null,
-    "price": "950.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5Szb2fyYka6DFAn1XMggkh/bce12109f65438d24666d6915acf2cef/addfa6db-845f-42f8-bdd6-0f9ecbf5559d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Mehrfamilienhaus mit Balkonen und Gartenbereich bei sonnigem Wetter.",
-    "url": "https://www.evernest.com/de/listing/2F1487s5acumEN9gp8Hadl/"
   }
 ];
