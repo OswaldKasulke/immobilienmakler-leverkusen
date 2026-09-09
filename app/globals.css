@@ -113,16 +113,16 @@ h2{font-size:clamp(39px,4.6vw,65px);line-height:1.03}
 .review-grid cite{font-style:normal;font-size:12px;font-weight:bold}
 .review-grid cite span{display:block;color:var(--muted);font-weight:normal;font-size:10px;margin-top:5px}
 @media(max-width:620px){.rating-sources{grid-template-columns:1fr}.rating-sources a{padding:15px 17px}}
-.reviews--google{background:#fff;color:#000}
+.reviews--google{background:#000;color:#fff}
 .reviews--google .reviews-title{margin-bottom:42px}
 .google-rating-link{display:inline-block;color:inherit;text-decoration:none}
 .google-rating-link:hover{opacity:.72}
-.google-rating-link:focus-visible{outline:2px solid #000;outline-offset:8px}
-.google-rating-stars{color:#c2a990;font-size:40px;line-height:1;letter-spacing:.1em;margin-bottom:22px}
-.google-rating-text{color:#000;font-size:20px;font-weight:700;line-height:1.25}
+.google-rating-link:focus-visible{outline:2px solid #fff;outline-offset:8px}
+.google-rating-stars{color:#fff;font-size:40px;line-height:1;letter-spacing:.1em;margin-bottom:22px}
+.google-rating-text{color:#fff;font-size:20px;font-weight:700;line-height:1.25}
 .reviews--google .review-grid{gap:20px}
 .reviews--google .review-grid blockquote{min-height:280px;padding:34px;border-radius:16px;box-shadow:0 8px 25px rgba(0,0,0,.1)}
-.reviews--google .review-grid blockquote>div{color:#c2a990;font-size:18px;line-height:1;letter-spacing:.06em;margin-bottom:24px}
+.reviews--google .review-grid blockquote>div{color:#000;font-size:18px;line-height:1;letter-spacing:.06em;margin-bottom:24px}
 .reviews--google .review-grid blockquote>p{margin:0 0 24px;color:#666;font:italic 15px/1.7 object_sans,Arial,sans-serif}
 .reviews--google .review-grid cite{color:#000;font-size:14px}
 @media(max-width:620px){.google-rating-stars{font-size:32px}.reviews--google .review-grid blockquote{min-height:220px}}
@@ -355,5 +355,5 @@ footer,.copyright{background:#000;color:#fff}footer h4,footer p,footer a,.footer
 .valuation-notice p{font-size:14px;margin-bottom:10px}
 .valuation-notice p:last-child{margin-bottom:0}
 
-/* Der Google-Bewertungsbereich bleibt hell, auch nach den globalen Theme-Regeln. */
-.reviews.reviews--google{background:#fff;color:#000}
+/* Google-Bewertungsbereich: Schwarz-Weiß wie der restliche Stark-&-Hoffmann-Auftritt. */
+.reviews.reviews--google{background:#000;color:#fff}

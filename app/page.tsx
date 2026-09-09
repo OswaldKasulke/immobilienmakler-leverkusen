@@ -143,7 +143,7 @@ export default function Home() {
       <div className="reviews-title">
         <a className="google-rating-link" href={googleReviewsUrl} target="_blank" rel="noreferrer" aria-label="Verifizierte Kundenstimmen auf Google ansehen">
           <div className="google-rating-stars">★★★★★</div>
-          <div className="google-rating-text">5,0 von 5,0 auf Google</div>
+          <div className="google-rating-text">5,0 von 5,0 auf GOOGLE</div>
         </a>
       </div>
       <div className="review-grid">{reviews.map(([name,quote])=><blockquote key={name}><div>★★★★★</div><p>„{quote}“</p><cite>{name}</cite></blockquote>)}</div>
