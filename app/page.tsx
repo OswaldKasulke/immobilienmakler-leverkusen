@@ -40,11 +40,13 @@ const legacyProperties = [
   { place:"Leverkusen-Refrath · 51427", title:"Hochwertige Eigentumswohnungen in KfW-40-Bauweise in Leverkusen-Refrath", price:"Ab 346.500 €", image:"https://images.ctfassets.net/if6f7uzjzqut/7e6r8vJCYnvMy3gw5Xvn3H/19af800523918cf9f65ecd86f9827012/7d92867d-15c2-48f6-9bdf-68b8b99dbb95?fm=webp&w=900&h=700&fit=fill&q=75", url:"https://www.evernest.com/de/listing/0dLo3OABJS1e4BTJ7bdtM/" },
 ];
 
+// Quelle: Google-Unternehmensprofil Leverkusen, abgerufen am 09.09.2026.
 const reviews = [
-  ["Bewertung", "Objektdaten, Unterlagen und amtliche Markthinweise werden nachvollziehbar zusammengeführt."],
-  ["Kommunikation", "Ansprechpersonen, nächste Schritte und Rückmeldungen bleiben während des Verkaufs transparent."],
-  ["Abwicklung", "Besichtigungen, Interessentenprüfung und Vorbereitung des Notartermins folgen einem klaren Ablauf."],
+  ["Emily", "Jede Frage wurde sofort beantwortet.", "2025"],
+  ["Felix Müller", "Vom ersten Kontakt bis zur Besichtigung hat alles perfekt gepasst.", "2025"],
+  ["Khanom Hazara", "Durch seine ruhige und ehrliche Art konnte er sofort Vertrauen aufbauen.", "2025"],
 ];
+const googleReviewsUrl = "https://maps.app.goo.gl/P5s533i9g5FVRWmK7";
 
 const locations = [
   ["Immobilienmarkt", "immobilienmarkt-leverkusen"],
@@ -137,9 +139,20 @@ export default function Home() {
       <ImmobilienGalerie />
     </section>
 
-    <section className="reviews section">
-      <div className="reviews-title"><p className="eyebrow light">Unsere Arbeitsweise</p><h2>Vertrauen entsteht durch nachvollziehbare Arbeit.</h2></div>
-      <div className="review-grid">{reviews.map(([name,quote])=><blockquote key={name}><p>{quote}</p><cite>{name}<span>Unser Arbeitsprinzip</span></cite></blockquote>)}</div>
+    <section className="reviews section" id="bewertungen">
+      <div className="reviews-title">
+        <p className="eyebrow light">Was Kunden über uns sagen</p>
+        <h2>Vertrauen entsteht durch gute Arbeit.</h2>
+        <div className="rating-sources rating-sources--single">
+          <a href={googleReviewsUrl} target="_blank" rel="noreferrer" aria-label="Google-Bewertungen ansehen">
+            <span className="rating-stars">★★★★★</span>
+            <strong>5,0 / 5</strong>
+            <small>Google · 20 Rezensionen</small>
+          </a>
+        </div>
+        <p className="reviews-source-note">Stand: 09.09.2026 · Quelle und vollständige Bewertungen: <a href={googleReviewsUrl} target="_blank" rel="noreferrer">Google ↗</a></p>
+      </div>
+      <div className="review-grid">{reviews.map(([name,quote,date])=><blockquote key={name}><div>★★★★★</div><p>„{quote}“</p><cite>{name}<span>Google-Bewertung, {date}</span></cite></blockquote>)}</div>
     </section>
 
     <section className="cities section" id="staedte">
