@@ -42,9 +42,9 @@ const legacyProperties = [
 
 // Quelle: Google-Unternehmensprofil Leverkusen, abgerufen am 09.09.2026.
 const reviews = [
-  ["Emily", "Jede Frage wurde sofort beantwortet.", "2025"],
-  ["Felix Müller", "Vom ersten Kontakt bis zur Besichtigung hat alles perfekt gepasst.", "2025"],
-  ["Khanom Hazara", "Durch seine ruhige und ehrliche Art konnte er sofort Vertrauen aufbauen.", "2025"],
+  ["Emily", "Jede Frage wurde sofort beantwortet."],
+  ["Felix Müller", "Vom ersten Kontakt bis zur Besichtigung hat alles perfekt gepasst."],
+  ["Khanom Hazara", "Durch seine ruhige und ehrliche Art konnte er sofort Vertrauen aufbauen."],
 ];
 const googleReviewsUrl = "https://maps.app.goo.gl/P5s533i9g5FVRWmK7";
 
@@ -139,20 +139,14 @@ export default function Home() {
       <ImmobilienGalerie />
     </section>
 
-    <section className="reviews section" id="bewertungen">
+    <section className="reviews reviews--google section" id="bewertungen">
       <div className="reviews-title">
-        <p className="eyebrow light">Was Kunden über uns sagen</p>
-        <h2>Vertrauen entsteht durch gute Arbeit.</h2>
-        <div className="rating-sources rating-sources--single">
-          <a href={googleReviewsUrl} target="_blank" rel="noreferrer" aria-label="Google-Bewertungen ansehen">
-            <span className="rating-stars">★★★★★</span>
-            <strong>5,0 / 5</strong>
-            <small>Google · 20 Rezensionen</small>
-          </a>
-        </div>
-        <p className="reviews-source-note">Stand: 09.09.2026 · Quelle und vollständige Bewertungen: <a href={googleReviewsUrl} target="_blank" rel="noreferrer">Google ↗</a></p>
+        <a className="google-rating-link" href={googleReviewsUrl} target="_blank" rel="noreferrer" aria-label="Verifizierte Kundenstimmen auf Google ansehen">
+          <div className="google-rating-stars">★★★★★</div>
+          <div className="google-rating-text">5,0 von 5,0 auf Google</div>
+        </a>
       </div>
-      <div className="review-grid">{reviews.map(([name,quote,date])=><blockquote key={name}><div>★★★★★</div><p>„{quote}“</p><cite>{name}<span>Google-Bewertung, {date}</span></cite></blockquote>)}</div>
+      <div className="review-grid">{reviews.map(([name,quote])=><blockquote key={name}><div>★★★★★</div><p>„{quote}“</p><cite>{name}</cite></blockquote>)}</div>
     </section>
 
     <section className="cities section" id="staedte">

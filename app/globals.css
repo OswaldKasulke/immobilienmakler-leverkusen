@@ -99,7 +99,6 @@ h2{font-size:clamp(39px,4.6vw,65px);line-height:1.03}
 .reviews{background:#143b3d;color:#fff}
 .reviews-title{text-align:center;max-width:740px;margin:0 auto 56px}
 .rating-sources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:28px auto 14px;max-width:620px;text-align:left}
-.rating-sources--single{grid-template-columns:minmax(0,1fr);max-width:360px}
 .rating-sources a{display:grid;grid-template-columns:auto 1fr;column-gap:14px;align-items:center;padding:17px 20px;border:1px solid rgba(255,255,255,.3);color:#fff;transition:border-color .2s ease,background .2s ease}
 .rating-sources a:hover{border-color:var(--gold);background:rgba(255,255,255,.06)}
 .rating-stars{grid-row:1/3;color:var(--gold);font-size:17px;letter-spacing:.04em;white-space:nowrap}
@@ -114,6 +113,19 @@ h2{font-size:clamp(39px,4.6vw,65px);line-height:1.03}
 .review-grid cite{font-style:normal;font-size:12px;font-weight:bold}
 .review-grid cite span{display:block;color:var(--muted);font-weight:normal;font-size:10px;margin-top:5px}
 @media(max-width:620px){.rating-sources{grid-template-columns:1fr}.rating-sources a{padding:15px 17px}}
+.reviews--google{background:#fff;color:#000}
+.reviews--google .reviews-title{margin-bottom:42px}
+.google-rating-link{display:inline-block;color:inherit;text-decoration:none}
+.google-rating-link:hover{opacity:.72}
+.google-rating-link:focus-visible{outline:2px solid #000;outline-offset:8px}
+.google-rating-stars{color:#c2a990;font-size:40px;line-height:1;letter-spacing:.1em;margin-bottom:22px}
+.google-rating-text{color:#000;font-size:20px;font-weight:700;line-height:1.25}
+.reviews--google .review-grid{gap:20px}
+.reviews--google .review-grid blockquote{min-height:280px;padding:34px;border-radius:16px;box-shadow:0 8px 25px rgba(0,0,0,.1)}
+.reviews--google .review-grid blockquote>div{color:#c2a990;font-size:18px;line-height:1;letter-spacing:.06em;margin-bottom:24px}
+.reviews--google .review-grid blockquote>p{margin:0 0 24px;color:#666;font:italic 15px/1.7 object_sans,Arial,sans-serif}
+.reviews--google .review-grid cite{color:#000;font-size:14px}
+@media(max-width:620px){.google-rating-stars{font-size:32px}.reviews--google .review-grid blockquote{min-height:220px}}
 .cities{background:var(--cream)}
 .location-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:8px 0 42px}
 .location-grid a{position:relative;display:grid;min-height:82px;grid-template-columns:1fr auto;grid-template-rows:auto auto;align-content:center;column-gap:14px;padding:14px 18px;border:1px solid #c8ccc5;border-left:4px solid #000;background:#fff;color:#000;transition:background .2s ease,color .2s ease,border-color .2s ease}
