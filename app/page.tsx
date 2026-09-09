@@ -126,7 +126,7 @@ export default function Home() {
     <section className="market-facts section" id="markt">
       <div className="market-facts-head"><div><p className="eyebrow">Immobilienmarkt Leverkusen</p><h2>Der Markt in Zahlen.</h2></div><p>Amtlich registrierte Transaktionen und Umsätze in Leverkusen im Marktjahr 2025.</p></div>
       <div className="market-facts-grid">{marketFacts.map(([value,label,note])=><article key={label}><strong>{value}</strong><h3>{label}</h3><p>{note}</p></article>)}</div>
-      <a className="source-link" href="https://gars.nrw/leverkusen/produkte-lev/grundstuecksmarktbericht-lev" target="_blank" rel="noreferrer">Quelle: Gutachterausschuss Leverkusen, Grundstücksmarktbericht 2026, S. 9–10 ↗</a>
+      <a className="source-link" href="https://www.gars.nrw/images/user/GA_Leverkusen/pdf/GMB_11600_2026.pdf" target="_blank" rel="noreferrer">Quelle: Gutachterausschuss Leverkusen, Grundstücksmarktbericht 2026, S. 9–10 ↗</a>
     </section>
 
     <section className="process section dark-section" id="fahrplan">
