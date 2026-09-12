@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 11.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 12.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -107,15 +107,6 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/3qy9aoHpma15fjReok1zsa/1c5b1ee4f5a6d5b3ff3bb943f6f45eb6/09770f2b-ceac-4424-a0a9-093365795b9a?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Luftaufnahme eines Wohnviertels mit mehreren Häusern und grünen Bäumen an einer Straße.",
     "url": "https://www.evernest.com/de/listing/7h3Nl78Za1pLM95egS9w7l/"
-  },
-  {
-    "place": "Langenfeld (Rheinland)-Immigrath",
-    "district": null,
-    "price": "3.249.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/YKJEnsGp2aBQox95ucFlj/9d2ffc29a4e9cae9f334d1dec6f352f8/12561b22-9dce-4021-8d56-115293774fa8?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Mehrstöckiges Wohngebäude mit vielen Fenstern und großem Innenhof an einem klaren Tag.",
-    "url": "https://www.evernest.com/de/listing/4tHfH79xGbmufV2U0s0uJr/"
   },
   {
     "place": "Leverkusen-Manfort",
@@ -287,5 +278,14 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/5mjKk1qEivUHHXvRLe7dL5/2d50916c3abf22f3faddf8936ccd36f8/872b28c7-3651-43f8-929f-b5f6fca8e33d?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes Wohnhaus mit großem Garten, viel Rasenfläche und einem kleinen Pool.",
     "url": "https://www.evernest.com/de/listing/3kwcKwVIMYG9BIlfX0mOrQ/"
+  },
+  {
+    "place": "Dormagen-Stadt Zons",
+    "district": null,
+    "price": "950.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5Szb2fyYka6DFAn1XMggkh/bce12109f65438d24666d6915acf2cef/addfa6db-845f-42f8-bdd6-0f9ecbf5559d?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrfamilienhaus mit Balkonen und Gartenbereich bei sonnigem Wetter.",
+    "url": "https://www.evernest.com/de/listing/2F1487s5acumEN9gp8Hadl/"
   }
 ];
