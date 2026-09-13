@@ -1,0 +1,94 @@
+{
+ "slug": "maklerkosten-beim-immobilienkauf",
+ "rang": 4,
+ "stand": "2026-09-13",
+ "titel": "Maklerprovision in Leverkusen: Teilung, Höhe und Ausnahmen",
+ "metaTitel": "Maklerprovision beim Kauf in Leverkusen – wer zahlt? | Stark & Hoffmann",
+ "beschreibung": "Welche Maklerprovision beim Immobilienkauf in Leverkusen üblich ist, wie das Gesetz sie zwischen Käufer und Verkäufer aufteilt und wann die Teilung nicht gilt.",
+ "lead": "Wer die Provision zahlt, hängt davon ab, was gekauft wird und wer den Makler beauftragt hat. Eine Übersicht mit Rechenbeispielen.",
+ "kurz": "Wer die Provision zahlt, wie hoch sie üblich ist und wann die gesetzliche Teilung nicht greift.",
+ "bloecke": [
+  {
+   "h2": "Haus oder Wohnung: gleiche Anteile"
+  },
+  {
+   "p": "Für Kaufverträge über Wohnungen und Einfamilienhäuser gelten seit Dezember 2020 eigene Vorschriften im BGB, sofern der Käufer Verbraucher ist (§ 656b BGB). Ihr Kern: Käufer und Verkäufer sollen nicht ungleich belastet werden."
+  },
+  {
+   "ul": [
+    "Arbeitet der Makler für beide Seiten, zahlen beide dieselbe Provision (§ 656c BGB).",
+    "Hat nur eine Seite den Makler beauftragt, darf die andere höchstens den gleichen Betrag übernehmen. Ihr Anteil wird erst fällig, wenn die beauftragende Seite gezahlt und das nachgewiesen hat (§ 656d BGB).",
+    "Der Maklervertrag braucht die Textform (§ 656a BGB)."
+   ]
+  },
+  {
+   "p": "Vor der Reform zahlten Käufer vielerorts die volle Provision. Diese Praxis ist bei Häusern und Wohnungen nicht mehr zulässig."
+  },
+  {
+   "h2": "Übliche Höhe und ein Rechenbeispiel"
+  },
+  {
+   "p": "Marktüblich sind je Seite 3,57 Prozent des Kaufpreises einschließlich Umsatzsteuer, insgesamt 7,14 Prozent."
+  },
+  {
+   "table": [
+    [
+     "Kaufpreis",
+     "Anteil Käufer (3,57 %)",
+     "Anteil Verkäufer (3,57 %)",
+     "zusammen (7,14 %)"
+    ],
+    [
+     "250.000 €",
+     "8.925 €",
+     "8.925 €",
+     "17.850 €"
+    ],
+    [
+     "350.000 €",
+     "12.495 €",
+     "12.495 €",
+     "24.990 €"
+    ],
+    [
+     "500.000 €",
+     "17.850 €",
+     "17.850 €",
+     "35.700 €"
+    ]
+   ]
+  },
+  {
+   "p": "Weniger zu vereinbaren ist erlaubt. Ein Nachlass für den Verkäufer gilt dann aber auch für den Käufer – die Seiten dürfen nicht auseinanderlaufen."
+  },
+  {
+   "h2": "Ausnahmen: Grundstück, Mehrfamilienhaus, Paket"
+  },
+  {
+   "p": "Für Baugrundstücke, Mehrfamilienhäuser und den Kauf mehrerer Eigentumswohnungen als Paket gilt die Teilungspflicht nicht. Dort trägt oft der Käufer die Provision allein, häufig 5,95 Prozent inklusive Umsatzsteuer. Der Verkäufer beteiligt sich selten, verpflichtet ist er nicht. Die Maklerkosten gehören in diesen Fällen von Beginn an in die Gesamtkalkulation."
+  },
+  {
+   "h2": "Eigener Suchauftrag des Käufers"
+  },
+  {
+   "p": "Wer als Käufer selbst einen Makler auf die Suche schickt, bezahlt ihn in der Regel auch selbst. Andere Absprachen sind denkbar, aber an die gesetzlichen Grenzen gebunden."
+  },
+  {
+   "h2": "Und bei Mietwohnungen?"
+  },
+  {
+   "p": "Hier gilt das Bestellerprinzip. Die Provision zahlt, wer den Makler beauftragt – in aller Regel der Vermieter. Üblich sind zwei Monatskaltmieten plus Umsatzsteuer. Vom Wohnungssuchenden darf ein Vermittler nie mehr als zwei Monatsmieten zuzüglich Umsatzsteuer verlangen (§ 3 Abs. 2 WoVermRG)."
+  },
+  {
+   "h2": "Was die Provision abdeckt"
+  },
+  {
+   "p": "Von der Bewertung über Fotos, Exposé und Besichtigungen bis zur Vorbereitung des Notartermins: Welche Arbeit hinter der Provision steckt, zeigt unser Beitrag zu den Leistungen eines Maklers."
+  }
+ ],
+ "verwandt": [
+  "kaufnebenkosten",
+  "leistungen-makler",
+  "immobilienverkauf"
+ ]
+}

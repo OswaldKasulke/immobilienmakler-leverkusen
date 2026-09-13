@@ -1,0 +1,94 @@
+{
+ "slug": "eigenbedarfsklage",
+ "rang": 5,
+ "stand": "2026-09-13",
+ "titel": "Kündigung wegen Eigenbedarf in Leverkusen: Ablauf in fünf Schritten",
+ "metaTitel": "Eigenbedarf kündigen – Ablauf, Fristen, Räumung | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Eigenbedarfskündigung Schritt für Schritt: berechtigter Bedarf, Schriftform und Begründung, gestaffelte Fristen, Härtewiderspruch, Räumungsklage und Räumungsfrist.",
+ "lead": "Vom Entschluss, die eigene Wohnung zu nutzen, bis zur Übergabe der Schlüssel können Monate vergehen. Wer die Schritte kennt, vermeidet die häufigsten Fehler.",
+ "kurz": "Vom berechtigten Bedarf über Fristen und Widerspruch bis zur Räumungsklage.",
+ "bloecke": [
+  {
+   "h2": "Schritt 1: Den Bedarf prüfen"
+  },
+  {
+   "p": "Eigenbedarf ist ein berechtigtes Interesse im Sinne von § 573 Abs. 2 Nr. 2 BGB. Er liegt vor, wenn der Vermieter die Wohnung für sich, seine Familienangehörigen – etwa Kinder, Eltern oder Geschwister – oder Angehörige seines Haushalts braucht. Der Wunsch muss ernsthaft sein und sich vernünftig begründen lassen. Ein vorgeschobener Eigenbedarf macht die Kündigung unwirksam und kann teuer werden, weil der Mieter Schadensersatz verlangen kann."
+  },
+  {
+   "h2": "Schritt 2: Die Kündigung schreiben"
+  },
+  {
+   "p": "Die Kündigung muss schriftlich erfolgen und eigenhändig unterschrieben sein, vom Vermieter oder einem bevollmächtigten Vertreter (§ 568 BGB). Sie nennt, wer einziehen soll und warum (§ 573 Abs. 3 BGB). Außerdem soll der Vermieter rechtzeitig darauf hinweisen, dass der Mieter widersprechen kann und in welcher Form und Frist."
+  },
+  {
+   "h2": "Schritt 3: Die Frist berechnen"
+  },
+  {
+   "p": "Maßgeblich ist, wie lange der Mietvertrag schon läuft. Zugehen muss die Kündigung spätestens am dritten Werktag eines Monats; die Frist endet dann mit Ablauf des übernächsten Monats und verlängert sich nach fünf und acht Jahren um jeweils drei Monate (§ 573c BGB)."
+  },
+  {
+   "table": [
+    [
+     "Mietdauer seit Überlassung",
+     "Kündigungsfrist"
+    ],
+    [
+     "bis 5 Jahre",
+     "3 Monate"
+    ],
+    [
+     "mehr als 5 bis 8 Jahre",
+     "6 Monate"
+    ],
+    [
+     "mehr als 8 Jahre",
+     "9 Monate"
+    ]
+   ]
+  },
+  {
+   "h2": "Schritt 4: Mit einem Widerspruch rechnen"
+  },
+  {
+   "p": "Der Mieter kann der Kündigung nach § 574 BGB widersprechen, wenn der Umzug für ihn, seine Familie oder einen Haushaltsangehörigen eine Härte bedeutet, die auch unter Berücksichtigung der Vermieterinteressen nicht zu rechtfertigen ist. Typische Härten sind hohes Alter, Krankheit oder das Fehlen angemessenen Ersatzwohnraums zu zumutbaren Bedingungen. Ist der Eigenbedarf gar nicht berechtigt, ist die Kündigung unabhängig davon unwirksam."
+  },
+  {
+   "p": "Formal gilt: Textform, und der Widerspruch muss dem Vermieter spätestens zwei Monate vor dem Ende des Mietverhältnisses zugehen. Fehlte der Hinweis des Vermieters, darf der Mieter auch noch im ersten Gerichtstermin widersprechen (§ 574b BGB)."
+  },
+  {
+   "h2": "Schritt 5: Klage und Räumung"
+  },
+  {
+   "p": "Bleibt der Mieter nach Fristende in der Wohnung, kann der Vermieter auf Räumung klagen – ausschließlich vor dem Amtsgericht, in dessen Bezirk die Wohnung liegt (§ 29a ZPO). Dort muss er den Eigenbedarf darlegen und bei Bestreiten beweisen; der Mieter trägt seine Härtegründe vor."
+  },
+  {
+   "p": "Verurteilt das Gericht zur Räumung, kann es eine angemessene Räumungsfrist bewilligen – auf Antrag oder von Amts wegen. Mehr als ein Jahr insgesamt darf sie nicht betragen (§ 721 ZPO)."
+  },
+  {
+   "h2": "Ausnahmen, die eine Kündigung verhindern"
+  },
+  {
+   "ul": [
+    "ein vertraglicher Verzicht auf die Eigenbedarfskündigung",
+    "die Sperrfrist nach der Umwandlung einer vermieteten Wohnung in Wohnungseigentum und deren Verkauf: mindestens drei Jahre, per Landesverordnung in bestimmten Gemeinden länger (§ 577a BGB)"
+   ]
+  },
+  {
+   "h2": "Pflicht bei nachträglichem Wegfall"
+  },
+  {
+   "p": "Fällt der Grund für den Eigenbedarf weg, bevor die Kündigungsfrist abgelaufen ist, muss der Vermieter das dem Mieter mitteilen. Unterlässt er das, drohen Schadensersatzansprüche."
+  },
+  {
+   "h2": "Warum sich anwaltliche Hilfe lohnt"
+  },
+  {
+   "p": "Formfehler sind bei Eigenbedarfskündigungen die Regel, nicht die Ausnahme: fehlende Angaben zur Bedarfsperson, eine zu allgemeine Begründung, eine falsch berechnete Frist. Jeder davon kann die Kündigung zu Fall bringen. Wer eine Fachanwältin oder einen Fachanwalt für Mietrecht einschaltet, spart sich im Zweifel ein zweites Verfahren."
+  }
+ ],
+ "verwandt": [
+  "immobilienverkauf",
+  "niessbrauch-wohnrecht",
+  "kaufnebenkosten"
+ ]
+}

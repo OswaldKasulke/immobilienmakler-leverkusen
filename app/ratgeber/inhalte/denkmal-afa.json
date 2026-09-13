@@ -1,0 +1,91 @@
+{
+ "slug": "denkmal-afa",
+ "rang": 7,
+ "stand": "2026-09-13",
+ "titel": "Denkmal-AfA in Leverkusen: Steuervorteil bei der Sanierung eines Baudenkmals",
+ "metaTitel": "Denkmal-AfA erklärt – Abschreibung für Baudenkmale | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Wie Vermieter nach § 7i und Selbstnutzer nach § 10f EStG Sanierungskosten an Baudenkmalen absetzen, welche Bescheinigung nötig ist und was nicht gefördert wird.",
+ "lead": "Denkmalschutz bedeutet Auflagen – aber auch einen der großzügigsten Steuervorteile im Immobilienbereich. Worauf es ankommt, damit das Finanzamt die Kosten anerkennt.",
+ "kurz": "Wie Vermieter und Eigennutzer Sanierungskosten an Baudenkmalen absetzen.",
+ "bloecke": [
+  {
+   "h2": "Worum es geht"
+  },
+  {
+   "p": "Normalerweise schreiben Eigentümer vermieteter Gebäude nur wenige Prozent der Kosten pro Jahr ab. Bei Baudenkmalen – und bei Gebäuden in förmlich festgelegten Sanierungsgebieten – erlaubt das Einkommensteuergesetz deutlich höhere Sätze. Gefördert werden die Aufwendungen für die Sanierung und Modernisierung, nicht der Erwerb des Gebäudes."
+  },
+  {
+   "h2": "Vermietete Denkmale: bis zu 100 Prozent in zwölf Jahren"
+  },
+  {
+   "p": "Nach § 7i EStG können Vermieter im Jahr der Herstellung und in den sieben Folgejahren jeweils bis zu 9 Prozent der begünstigten Kosten absetzen, in den anschließenden vier Jahren jeweils bis zu 7 Prozent. Nach zwölf Jahren sind die Kosten damit vollständig abgeschrieben."
+  },
+  {
+   "h2": "Selbst genutzte Denkmale: 9 Prozent über zehn Jahre"
+  },
+  {
+   "p": "Wer im Denkmal selbst wohnt, kann nach § 10f EStG im Jahr, in dem die Baumaßnahme abgeschlossen wird, und in den neun folgenden Jahren jeweils bis zu 9 Prozent wie Sonderausgaben abziehen – zusammen bis zu 90 Prozent."
+  },
+  {
+   "h2": "Beispiel mit 120.000 Euro Sanierungskosten"
+  },
+  {
+   "table": [
+    [
+     "",
+     "Vermietung",
+     "Eigennutzung"
+    ],
+    [
+     "Jahre 1–8",
+     "je 10.800 €",
+     "je 10.800 €"
+    ],
+    [
+     "Jahre 9–10",
+     "je 8.400 €",
+     "je 10.800 €"
+    ],
+    [
+     "Jahre 11–12",
+     "je 8.400 €",
+     "–"
+    ],
+    [
+     "Summe",
+     "120.000 €",
+     "108.000 €"
+    ]
+   ]
+  },
+  {
+   "p": "Die tatsächliche Ersparnis ergibt sich aus dem persönlichen Steuersatz. Wer viel verdient, profitiert am meisten."
+  },
+  {
+   "h2": "Ohne Abstimmung und Bescheinigung kein Steuervorteil"
+  },
+  {
+   "p": "Das Finanzamt erkennt die erhöhten Absetzungen nur an, wenn die Denkmalbehörde bescheinigt, dass das Gebäude ein Baudenkmal ist und die Arbeiten zu seiner Erhaltung oder sinnvollen Nutzung erforderlich waren (§ 7i Abs. 2 EStG). Die Maßnahmen müssen außerdem in Abstimmung mit dieser Stelle durchgeführt werden. Planen Sie die Sanierung also mit der Behörde, bevor die Handwerker anfangen."
+  },
+  {
+   "p": "Soweit öffentliche Zuschüsse die Kosten abdecken, gibt es für diesen Anteil keine erhöhte Abschreibung."
+  },
+  {
+   "h2": "Sonderfall Bauträgerobjekt"
+  },
+  {
+   "p": "Kaufen Sie ein Denkmal, das der Verkäufer erst nach Vertragsschluss saniert, sind die Teile des Kaufpreises begünstigt, die auf diese Sanierung entfallen. Der Anteil für Altbausubstanz und Grundstück fällt nicht darunter."
+  },
+  {
+   "h2": "Vor dem Kauf"
+  },
+  {
+   "p": "Klären Sie mit Ihrer Steuerberatung, wie hoch der begünstigte Kostenanteil ist und was die Abschreibung bei Ihrem Einkommen tatsächlich bringt."
+  }
+ ],
+ "verwandt": [
+  "abschreibung-bei-immobilien",
+  "kaufnebenkosten",
+  "immobilienverkauf"
+ ]
+}

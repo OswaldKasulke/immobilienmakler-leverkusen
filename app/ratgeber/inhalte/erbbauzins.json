@@ -1,0 +1,115 @@
+{
+ "slug": "erbbauzins",
+ "rang": 6,
+ "stand": "2026-09-13",
+ "titel": "Erbbauzins in Leverkusen: Kosten, Indexierung und Steuer",
+ "metaTitel": "Erbbauzins in Leverkusen – was er kostet und wie er steigt | Stark & Hoffmann",
+ "beschreibung": "Erbbauzins verständlich erklärt: übliche Sätze, Beispielrechnungen, Wertsicherungsklausel, gesetzliche Grenzen und steuerliche Behandlung.",
+ "lead": "Beim Erbbaurecht ist der Kaufpreis nur die halbe Rechnung. Die andere Hälfte ist der Erbbauzins – eine Zahlung, die über Jahrzehnte läuft und meist mit der Inflation wächst.",
+ "kurz": "Übliche Sätze, Beispielrechnungen und die Klauseln, mit denen der Erbbauzins steigt.",
+ "bloecke": [
+  {
+   "h2": "Wofür der Erbbauzins gezahlt wird"
+  },
+  {
+   "p": "Beim Erbbaurecht gehören Haus und Boden verschiedenen Eigentümern. Der Erbbauberechtigte besitzt das Gebäude, das Grundstück bleibt beim Grundstückseigentümer. Für die Nutzung des Bodens zahlt der Erbbauberechtigte ein regelmäßiges Entgelt: den Erbbauzins. Er wird im Erbbaurechtsvertrag vereinbart und läuft, solange das Erbbaurecht besteht."
+  },
+  {
+   "h2": "So ergibt sich die Höhe"
+  },
+  {
+   "p": "Maßstab ist der Wert des Grundstücks. Üblich sind jährlich 3 bis 5 Prozent davon."
+  },
+  {
+   "table": [
+    [
+     "Wert des Grundstücks",
+     "jährlich bei 3 %",
+     "jährlich bei 5 %",
+     "monatlich bei 3 %"
+    ],
+    [
+     "150.000 €",
+     "4.500 €",
+     "7.500 €",
+     "375 €"
+    ],
+    [
+     "300.000 €",
+     "9.000 €",
+     "15.000 €",
+     "750 €"
+    ],
+    [
+     "500.000 €",
+     "15.000 €",
+     "25.000 €",
+     "1.250 €"
+    ],
+    [
+     "800.000 €",
+     "24.000 €",
+     "40.000 €",
+     "2.000 €"
+    ]
+   ]
+  },
+  {
+   "p": "Ein Beispiel: Bei 500.000 Euro Grundstückswert sind es 15.000 bis 25.000 Euro pro Jahr, also 1.250 bis rund 2.083 Euro im Monat. Weil der Bodenwert die Basis bildet, fällt der Erbbauzins in teuren Lagen besonders hoch aus."
+  },
+  {
+   "h2": "Warum Erbpacht-Angebote so günstig wirken"
+  },
+  {
+   "p": "Wer Inserate vergleicht, sieht Erbpacht-Häuser oft weit unter dem Preisniveau der Nachbarschaft. Bezahlt wird dort aber nur das Gebäude. Den Boden bezahlen Sie über den Erbbauzins – und nur bis zum Ende der Restlaufzeit, die den Wert zusätzlich mindert. Mehr dazu steht in unserem Beitrag zur Erbpacht."
+  },
+  {
+   "h2": "Wertsicherung: Der Erbbauzins wächst mit"
+  },
+  {
+   "p": "In den meisten Verträgen ist der Erbbauzins an den Verbraucherpreisindex gebunden. Steigen die Preise um 3 Prozent pro Jahr, werden aus 600 Euro monatlich nach 20 Jahren rund 1.080 Euro."
+  },
+  {
+   "p": "Eine Bremse gibt es bei Wohnhäusern: Nach § 9a ErbbauRG ist eine Erhöhung regelmäßig unbillig, soweit sie über die Veränderung der allgemeinen wirtschaftlichen Verhältnisse seit Vertragsschluss hinausgeht. Verlangt werden kann sie frühestens drei Jahre nach Vertragsschluss und danach jeweils frühestens drei Jahre nach der letzten Erhöhung."
+  },
+  {
+   "h2": "Prüfpunkte im Erbbaurechtsvertrag"
+  },
+  {
+   "ul": [
+    "Anpassung: Nach welcher Formel und in welchen Abständen ändert sich der Erbbauzins?",
+    "Deckel: Gibt es eine vertragliche Höchstgrenze?",
+    "Laufzeitende: Ist eine Verlängerung vorgesehen, und wie hoch wäre die Entschädigung beim Erlöschen?",
+    "Rechte des Eigentümers: Vorkaufsrecht, Zustimmung zum Verkauf oder zur Beleihung?"
+   ]
+  },
+  {
+   "p": "Diese Punkte sollten Sie vor dem Kauf mit einem Notar oder einem Fachanwalt für Immobilienrecht durchgehen."
+  },
+  {
+   "h2": "Typische Grundstückseigentümer"
+  },
+  {
+   "p": "Erbbaurechte vergeben vor allem evangelische und katholische Kirchengemeinden, Kommunen – häufig im geförderten Wohnungsbau –, Stiftungen und private Großgrundbesitzer."
+  }
+ ],
+ "faq": [
+  [
+   "Ist der Erbbauzins steuerlich absetzbar?",
+   "Nur bei Vermietung: Dann ist er als Werbungskosten bei den Einkünften aus Vermietung und Verpachtung abziehbar. Bei selbst genutzten Immobilien bleibt er steuerlich unberücksichtigt."
+  ],
+  [
+   "Kann man über den Erbbauzins verhandeln?",
+   "Beim Kauf eines bestehenden Erbbaurechts nicht – Sie übernehmen den Vertrag, wie er ist. Verhandeln lässt sich nur, wenn ein neuer Vertrag direkt mit dem Grundstückseigentümer geschlossen wird."
+  ],
+  [
+   "Welche Folgen hat es, den Erbbauzins nicht zu zahlen?",
+   "Sieht der Vertrag einen Heimfall vor, kann der Eigentümer das Erbbaurecht zurückfordern. Wegen offener Zahlungen setzt das einen Rückstand von mindestens zwei Jahresbeträgen voraus (§ 9 Abs. 4 ErbbauRG). Meist wird zuvor eine Einigung gesucht."
+  ]
+ ],
+ "verwandt": [
+  "erbpacht",
+  "grundschuld",
+  "notarkosten-beim-immobilienkauf"
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "slug": "niessbrauch-wohnrecht",
+ "rang": 3,
+ "stand": "2026-09-13",
+ "titel": "Nießbrauch oder Wohnrecht? Was die Rechte für Immobilien in Leverkusen bedeuten",
+ "metaTitel": "Nießbrauch oder Wohnrecht? Unterschiede und Folgen | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Nießbrauch und Wohnrecht im Vergleich: Rechte des Berechtigten, Wertabschlag per Kapitalwert, Verkauf, Löschung, Schenkung, Instandhaltung und AfA.",
+ "lead": "Viele Eltern übertragen ihre Immobilie früh an die Kinder und sichern sich ein Nutzungsrecht. Für Käufer, Erben und Beschenkte hat das weitreichende Folgen – beim Preis, bei den Kosten und bei der Steuer.",
+ "kurz": "Rechte des Berechtigten, Wertabschlag, Verkauf, Schenkung und Steuern im direkten Vergleich.",
+ "bloecke": [
+  {
+   "h2": "Zwei Rechte, ein Grundgedanke"
+  },
+  {
+   "p": "Nießbrauch und Wohnrecht trennen Eigentum und Nutzung: Die Immobilie gehört dem Eigentümer, genutzt wird sie von einer anderen Person. Beide Rechte werden in Abteilung II des Grundbuchs eingetragen und gelten deshalb auch gegenüber einem späteren Käufer. Der Unterschied liegt im Umfang."
+  },
+  {
+   "h2": "Der Nießbrauch"
+  },
+  {
+   "p": "Nach § 1030 BGB darf der Nießbraucher die Nutzungen der Immobilie ziehen. Praktisch heißt das: Er kann selbst einziehen, vermieten und die Mieteinnahmen behalten."
+  },
+  {
+   "ul": [
+    "selbst bewohnen: ja",
+    "vermieten, Miete behalten: ja",
+    "andere wirtschaftliche Nutzung: ja",
+    "gewöhnliche Instandhaltung: Aufgabe des Nießbrauchers",
+    "Steuer: Mieteinnahmen sind steuerpflichtig"
+   ]
+  },
+  {
+   "h2": "Das Wohnrecht"
+  },
+  {
+   "p": "Das Wohnungsrecht nach § 1093 BGB berechtigt dazu, ein Gebäude oder einen Teil davon als Wohnung zu benutzen. Vermieten oder anderweitig verwerten darf der Berechtigte die Räume nicht."
+  },
+  {
+   "ul": [
+    "selbst bewohnen: ja",
+    "vermieten: nein",
+    "andere wirtschaftliche Nutzung: nein",
+    "Instandhaltung: hängt von der Vereinbarung ab",
+    "Steuer: kein Mietwert zu versteuern"
+   ]
+  },
+  {
+   "h2": "Folgen für den Verkehrswert"
+  },
+  {
+   "p": "Solange das Recht besteht, kann ein Käufer die Immobilie weder beziehen noch vermieten. Das senkt den Wert erheblich. Rechnerisch wird der Kapitalwert des Rechts abgezogen: Jahreswert – in der Regel die ortsübliche Jahreskaltmiete – mal Vervielfältiger. Der Vervielfältiger hängt von Alter und Geschlecht der berechtigten Person ab und beruht auf den Sterbetafeln aus den Veröffentlichungen des Bundesfinanzministeriums. Je jünger die Person, desto länger dauert das Recht statistisch und desto größer der Abschlag."
+  },
+  {
+   "p": "Ein Rechenbeispiel mit angenommenen Werten: unbelasteter Wert 480.000 Euro, ortsübliche Jahreskaltmiete 15.000 Euro, Vervielfältiger 12. Der Kapitalwert beträgt 180.000 Euro, der Verkehrswert rechnerisch 300.000 Euro. Am Markt wird oft weniger erzielt, weil Käufer das Warten und die Unsicherheit einpreisen."
+  },
+  {
+   "h2": "Kann man so eine Immobilie verkaufen?"
+  },
+  {
+   "p": "Ja. Der Eigentümer darf verkaufen, das Recht bleibt aber bestehen und bindet den neuen Eigentümer. Infrage kommen deshalb vor allem Kapitalanleger, die auf lange Sicht kaufen, und Familienangehörige. Eine Finanzierung ist schwierig, weil Banken solche Objekte nur vorsichtig beleihen."
+  },
+  {
+   "h2": "Löschung und Ablöse"
+  },
+  {
+   "p": "Beide Rechte erlöschen mit dem Tod des Berechtigten. Vorher enden sie nur durch freiwilligen Verzicht, der notariell erklärt und im Grundbuch gelöscht werden muss. Nicht selten zahlt der Eigentümer dafür eine Ablöse als Einmalbetrag."
+  },
+  {
+   "h2": "Steuern sparen bei der Übertragung"
+  },
+  {
+   "p": "Übertragen Eltern eine Immobilie zu Lebzeiten und behalten den Nießbrauch, mindert dessen Kapitalwert den steuerpflichtigen Wert der Schenkung. So sinkt die Schenkungsteuer. Die Gestaltung sollte mit Steuerberatung und Notar abgestimmt werden."
+  },
+  {
+   "h2": "Instandhaltung: gesetzliche Verteilung"
+  },
+  {
+   "p": "Das Gesetz trennt die Lasten: Der Nießbraucher hat nach § 1041 BGB für die Erhaltung der Immobilie in ihrem wirtschaftlichen Bestand zu sorgen, Ausbesserungen und Erneuerungen aber nur im Rahmen der gewöhnlichen Unterhaltung – Wartung, kleinere Reparaturen, Schönheitsreparaturen. Größere Posten wie die Erneuerung des Daches oder der Heizungsanlage fallen dem Eigentümer zu."
+  },
+  {
+   "p": "Die Folge kann sein, dass der Eigentümer lange keine Erträge hat, aber die großen Sanierungen bezahlt. Diese Verteilung lässt sich vertraglich ändern – und sollte im Übergabevertrag klar geregelt sein."
+  },
+  {
+   "h2": "Abschreibung bei vermieteten Objekten"
+  },
+  {
+   "p": "Ob der Nießbraucher die AfA nutzen darf, hängt von der Art des Nießbrauchs ab. Beim Vorbehaltsnießbrauch – der bisherige Eigentümer überträgt und behält sich den Nießbrauch vor – bleibt er AfA-berechtigt, denn er hat die Anschaffungs- oder Herstellungskosten getragen. Beim unentgeltlich eingeräumten Zuwendungsnießbrauch darf er keine AfA ansetzen. Und wer als Nießbraucher selbst einzieht, hat keine Mieteinnahmen – und damit auch keine AfA."
+  },
+  {
+   "h2": "Abgrenzung zur Erbpacht"
+  },
+  {
+   "p": "Nießbrauch und Wohnrecht können lebenslang oder befristet bestellt werden. Das Erbbaurecht ist etwas anderes: das befristete Recht, gegen Erbbauzins ein Gebäude auf fremdem Boden zu haben."
+  },
+  {
+   "h2": "Worauf Käufer achten sollten"
+  },
+  {
+   "ol": [
+    "Im Grundbuch nachsehen, ob ein Nießbrauch oder Wohnrecht eingetragen ist.",
+    "Das Alter der berechtigten Person statistisch einordnen.",
+    "Den Kaufpreis gegen den unbelasteten Wert abzüglich Kapitalwert prüfen.",
+    "Vorab klären, ob die Bank finanziert.",
+    "Die vertraglichen Regeln zur Instandhaltung lesen."
+   ]
+  }
+ ],
+ "verwandt": [
+  "erbpacht",
+  "abschreibung-bei-immobilien",
+  "immobilienverkauf"
+ ]
+}
