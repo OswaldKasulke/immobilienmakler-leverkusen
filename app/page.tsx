@@ -8,18 +8,18 @@ export const metadata: Metadata = { alternates: { canonical: `${siteUrl}/` } };
 
 const heroImage = "/location/2.jpg";
 const serviceLinks = [
-  ["Haus verkaufen", "/haus-verkaufen-leverkusen/", "Bewertung, Unterlagen und Vermarktung für Ein- und Zweifamilienhäuser."],
-  ["Wohnung verkaufen", "/wohnung-verkaufen-leverkusen/", "Wohnungswert, Gemeinschaftsunterlagen und passende Käuferansprache."],
-  ["Grundstück verkaufen", "/grundstueck-verkaufen-leverkusen/", "Bodenrichtwert, Baurecht und Entwicklungspotenzial richtig einordnen."],
+  ["Haus verkaufen", "/haus-verkaufen-leverkusen/", "Ein- oder Zweifamilienhaus: vom Marktwert über die Unterlagen bis zum Käufer."],
+  ["Wohnung verkaufen", "/wohnung-verkaufen-leverkusen/", "Eigentumswohnung: Teilungserklärung, Wirtschaftsplan und der Zustand der Gemeinschaft."],
+  ["Grundstück verkaufen", "/grundstueck-verkaufen-leverkusen/", "Bauland und Grundstücke: Bodenrichtwertzone, Planungsrecht und tatsächliche Eigenschaften."],
 ];
 
 const steps = [
-  ["01", "Bewertung & Erstgespräch", "Wir analysieren Lage, Zustand, Baujahr, Energieeffizienz und aktuelle Vergleichswerte – persönlich und transparent."],
-  ["02", "Individuelle Strategie", "Gemeinsam legen wir Preis, Zeitplan und die passende Form der Vermarktung fest: klassisch, diskret oder Off-Market."],
-  ["03", "Vorbereitung", "Wir koordinieren Pflichtunterlagen, professionelle Fotografie, Grundrisse und ein hochwertiges Exposé."],
-  ["04", "Vermarktung", "Digitale Reichweite, große Immobilienportale und unser Netzwerk bringen Ihre Immobilie zu den richtigen Interessenten."],
-  ["05", "Besichtigung & Prüfung", "Wir organisieren Besichtigungen, qualifizieren Kaufinteressenten und prüfen Finanzierungsnachweise."],
-  ["06", "Notar & Übergabe", "Von der Verhandlung über den Notartermin bis zur protokollierten Schlüsselübergabe bleiben wir an Ihrer Seite."],
+  ["01", "Erstgespräch und Marktwert", "Wir sehen uns Ihre Immobilie an und leiten den Wert aus Lage, Baujahr, Zustand, Energiebilanz und vergleichbaren Verkäufen ab."],
+  ["02", "Preis und Vorgehen", "Angebotspreis, Zeitrahmen und Vermarktungsweg legen wir gemeinsam mit Ihnen fest – öffentlich, diskret oder als Off-Market-Angebot."],
+  ["03", "Unterlagen und Exposé", "Pflichtunterlagen, professionelle Fotos, Grundrisse und ein aussagekräftiges Exposé: Darum kümmern wir uns."],
+  ["04", "Käufer finden", "Das Angebot erscheint auf den großen Portalen und in digitaler Werbung; zusätzlich sprechen wir vorgemerkte Interessenten aus unserem Netzwerk an."],
+  ["05", "Besichtigen und prüfen", "Wir organisieren die Termine vor Ort, klären mit Interessenten deren Kaufabsicht und lassen uns die Finanzierung nachweisen."],
+  ["06", "Vertrag und Übergabe", "Wir verhandeln für Sie, bereiten den Notartermin vor und sind bei der Schlüsselübergabe mit Protokoll dabei."],
 ];
 
 const legacyProperties = [
@@ -99,11 +99,11 @@ export default function Home() {
 
     <section className="hero" id="top" style={{backgroundImage:`linear-gradient(90deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.5) 52%,rgba(0,0,0,.08) 82%),url(${heroImage})`}}>
       <div className="hero-content">
-        <p className="eyebrow light">Ihre Immobilienmakler in Leverkusen</p>
-        <h1>Immobilienmakler Leverkusen.<br/>Persönlich begleitet.</h1>
-        <p className="hero-copy">Stark &amp; Hoffmann begleitet Eigentümer beim Verkauf und bei der Bewertung von Häusern, Wohnungen und Grundstücken in Leverkusen – regional auch LEV genannt – sowie im Umland.</p>
+        <p className="eyebrow light">Evernest-Lizenzpartner in Leverkusen</p>
+        <h1>Immobilienmakler Leverkusen.<br/>Verkaufen mit klarem Plan.</h1>
+        <p className="hero-copy">Stark &amp; Hoffmann bewertet und verkauft Häuser, Wohnungen und Grundstücke in allen 13 Stadtteilen von Leverkusen – kurz LEV – und im Umland.</p>
         <div className="hero-actions"><a className="button gold" href="/immobilienbewertung/">Immobilie bewerten lassen</a><a className="text-link light" href="tel:+4922049147881">+49 2204 914 7881 <span>↗</span></a></div>
-        <div className="trust-row"><span>Lokale Expertise</span><span>Persönliche Beratung</span><span>Digital unterstützt</span></div>
+        <div className="trust-row"><span>Showroom in Wiesdorf</span><span>Alle 13 Stadtteile</span><span>Digitale Vermarktung</span></div>
       </div>
     </section>
 
@@ -119,8 +119,8 @@ export default function Home() {
     </section>
 
     <section className="seo-services section" aria-labelledby="verkaufen-heading">
-      <div className="section-head"><div><p className="eyebrow">Immobilie verkaufen in Leverkusen</p><h2 id="verkaufen-heading">Welches Eigentum möchten Sie verkaufen?</h2></div><p>Objektart, Lage und Unterlagen bestimmen den richtigen Verkaufsweg. Unsere Fachseiten beantworten die wichtigsten Fragen mit lokalen Markt- und Bewertungsinformationen.</p></div>
-      <div className="seo-service-grid">{serviceLinks.map(([title,url,text])=><a href={url} key={url}><span>Verkaufsratgeber</span><h3>{title}</h3><p>{text}</p><b>Mehr erfahren →</b></a>)}</div>
+      <div className="section-head"><div><p className="eyebrow">Immobilie verkaufen in Leverkusen</p><h2 id="verkaufen-heading">Was steht bei Ihnen zum Verkauf?</h2></div><p>Für jede Objektart gibt es eine eigene Seite: was wir vorab prüfen, welche Unterlagen gebraucht werden und wie der Verkauf abläuft.</p></div>
+      <div className="seo-service-grid">{serviceLinks.map(([title,url,text])=><a href={url} key={url}><span>Objektart</span><h3>{title}</h3><p>{text}</p><b>Weiterlesen →</b></a>)}</div>
     </section>
 
     <section className="market-facts section" id="markt">
@@ -130,7 +130,7 @@ export default function Home() {
     </section>
 
     <section className="process section dark-section" id="fahrplan">
-      <div className="section-head"><div><p className="eyebrow light">Verkaufsfahrplan</p><h2>In sechs Schritten zum erfolgreichen Verkauf.</h2></div><p>Ein klarer Prozess schafft Sicherheit. Wir halten Sie in jeder Phase auf dem Laufenden und kümmern uns um die vollständige Abwicklung.</p></div>
+      <div className="section-head"><div><p className="eyebrow light">Verkaufsfahrplan</p><h2>So verkaufen wir Ihre Immobilie – in sechs Etappen.</h2></div><p>Sie wissen jederzeit, woran wir gerade arbeiten und was als Nächstes kommt. Die Abwicklung übernehmen wir von Anfang bis Ende.</p></div>
       <div className="steps">{steps.map(([number,title,text])=><article className="step" key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
     </section>
 
@@ -168,7 +168,7 @@ export default function Home() {
     </section>
 
     <section className="contact section" id="kontakt">
-      <div className="contact-info"><p className="eyebrow light">Kontakt</p><h2>Sprechen wir über Ihre Immobilie.</h2><p>Unverbindlich, persönlich und ohne Zeitdruck. Besuchen Sie uns im Leverkusener Showroom oder schreiben Sie uns.</p><address><strong>Stark & Hoffmann Immobilien GmbH</strong><span>Wiesdorfer Platz 19<br/>51373 Leverkusen</span><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></address></div>
+      <div className="contact-info"><p className="eyebrow light">Kontakt</p><h2>Erzählen Sie uns von Ihrer Immobilie.</h2><p>Rufen Sie an, schreiben Sie uns über das Formular oder kommen Sie im Showroom am Wiesdorfer Platz vorbei. Das erste Gespräch ist unverbindlich.</p><address><strong>Stark & Hoffmann Immobilien GmbH</strong><span>Wiesdorfer Platz 19<br/>51373 Leverkusen</span><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></address></div>
       <ContactForm/>
     </section>
 
