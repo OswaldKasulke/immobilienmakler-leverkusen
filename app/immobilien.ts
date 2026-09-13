@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 12.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 13.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -35,6 +35,24 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/6xlUUSesEAG5sSMJKZXcym/b51066c2924848a0fdbcf83c1885ad17/85cdfee2-51fa-47e4-a196-c6a45d4d58e7?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Gemütlicher Balkon mit Sitzmöbeln, vielen Pflanzen und Blick ins Grüne.",
     "url": "https://www.evernest.com/de/listing/62Py2QbZt9RsPi8twJDNL6/"
+  },
+  {
+    "place": "Langenfeld (Rheinland)-Reusrath",
+    "district": null,
+    "price": "2.690.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/530MlLmPhRCm1Ioq0O1D2u/d72a83a3f3e760ef0cd0c8183408f9c5/bbe5ef76-d01f-4ec5-9790-c9b0b9ab4130?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Vier moderne Wohngebäude mit begrünten Dächern und Solarpanels, umgeben von Gärten und Parkplätzen.",
+    "url": "https://www.evernest.com/de/listing/8sd9jXCKT7XRrXnSd6KgK/"
+  },
+  {
+    "place": "Langenfeld (Rheinland)-Reusrath",
+    "district": null,
+    "price": "2.690.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/45EvPFINs9lpk1SwYejrsm/3c884e5390f05010b4f29553150bc4f3/ff7051cc-318f-44a1-bad7-bd24aedf028e?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Luftaufnahme von drei modernen Wohngebäuden mit Solaranlagen auf den Dächern und Grünflächen.",
+    "url": "https://www.evernest.com/de/listing/66jKNfG2RqlPqEtIa52tBU/"
   },
   {
     "place": "Leverkusen-Opladen",
@@ -269,23 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/aVRUdsF34RhvwHVeS3fHD/0f28969486551d0c47ebbc3703a19e22/b9c4f961-30d0-4efe-b8fa-84c71a0863ca?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes, weißes Mehrfamilienhaus mit Balkonen, direkt an einer ruhigen Straße gelegen.",
     "url": "https://www.evernest.com/de/listing/7IegiFHiVs1Il1hMFczub4/"
-  },
-  {
-    "place": "Köln-Pesch",
-    "district": null,
-    "price": "1.495.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5mjKk1qEivUHHXvRLe7dL5/2d50916c3abf22f3faddf8936ccd36f8/872b28c7-3651-43f8-929f-b5f6fca8e33d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Wohnhaus mit großem Garten, viel Rasenfläche und einem kleinen Pool.",
-    "url": "https://www.evernest.com/de/listing/3kwcKwVIMYG9BIlfX0mOrQ/"
-  },
-  {
-    "place": "Dormagen-Stadt Zons",
-    "district": null,
-    "price": "950.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5Szb2fyYka6DFAn1XMggkh/bce12109f65438d24666d6915acf2cef/addfa6db-845f-42f8-bdd6-0f9ecbf5559d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Mehrfamilienhaus mit Balkonen und Gartenbereich bei sonnigem Wetter.",
-    "url": "https://www.evernest.com/de/listing/2F1487s5acumEN9gp8Hadl/"
   }
 ];
