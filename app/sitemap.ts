@@ -1,4 +1,4 @@
-import type {MetadataRoute} from "next"; import {districts} from "./data"; import {lastmod} from "./lastmod";
+import type {MetadataRoute} from "next"; import {districts} from "./data"; import {lastmod} from "./lastmod"; import {artikel} from "./ratgeber/artikel";
 export const dynamic = "force-static";
 const base="https://leverkusen-makler.de";
 
@@ -13,6 +13,7 @@ const quellen:Record<string,string[]>={
   "immobilienbewertung":["app/immobilienbewertung/page.tsx","app/gemeinsame-bewertung.ts","app/strassen.ts"],
   "team":["app/team/page.tsx"],
   "downloads":["app/downloads/page.tsx"],
+  "ratgeber":["app/ratgeber/page.tsx","app/haeufige-fragen.ts"],
   "agb":["app/agb/page.tsx"],
   "datenschutz":["app/datenschutz/page.tsx"],
 };
@@ -21,13 +22,20 @@ const ausInhalt=["immobilienmarkt-leverkusen","gutachterausschuss-leverkusen","b
   "wohnung-verkaufen-leverkusen","grundstueck-verkaufen-leverkusen","impressum"];
 
 export default function sitemap():MetadataRoute.Sitemap{
-  const fixed=["","immobilienbewertung",...ausInhalt.slice(0,8),"team","downloads","impressum","agb","datenschutz"];
+  const fixed=["","immobilienbewertung",...ausInhalt.slice(0,8),"team","downloads","ratgeber","impressum","agb","datenschutz"];
   return [
     ...fixed.map(p=>({
       url:`${base}/${p}${p?"/":""}`,
       lastModified:lastmod(...(quellen[p]??[INHALT,DATEN])),
       changeFrequency:"monthly" as const,
       priority:p===""?1:.7,
+    })),
+    // Je Artikel die eigene JSON-Datei, damit jeder Beitrag sein eigenes Datum traegt.
+    ...artikel.map(a=>({
+      url:`${base}/ratgeber/${a.slug}/`,
+      lastModified:lastmod(`app/ratgeber/inhalte/${a.slug}.json`),
+      changeFrequency:"yearly" as const,
+      priority:.6,
     })),
     ...districts.map(d=>({
       url:`${base}/stadtteile/${d.slug}/`,

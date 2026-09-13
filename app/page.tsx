@@ -1,7 +1,8 @@
 import { districts } from "./stadtteile";
 import ImmobilienGalerie from "./ImmobilienGalerie";
 import ContactForm from "./ContactForm";
-import { businessSchema, faqSchema, graphSchema, siteUrl } from "./seo";
+import { businessSchema, graphSchema, siteUrl } from "./seo";
+import { artikel } from "./ratgeber/artikel";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = { alternates: { canonical: `${siteUrl}/` } };
@@ -63,28 +64,10 @@ const marketFacts = [
   ["590", "Eigentumswohnungen", "Kauffälle im Marktjahr 2025"],
 ];
 
-const faq = [
-  ["Was ist meine Immobilie in Leverkusen aktuell wert?", "Der Marktwert hängt von der konkreten Straße, dem Stadtteil, Grundstück, Baujahr, Zustand, Energieeffizienz und der aktuellen Nachfrage ab. Eine Online-Bewertung liefert eine erste Orientierung; für eine belastbare Einschätzung prüfen wir die Immobilie und ihre Mikrolage persönlich."],
-  ["Ist jetzt ein guter Zeitpunkt, um in Leverkusen zu verkaufen?", "Der passende Zeitpunkt richtet sich nicht nur nach dem Gesamtmarkt, sondern auch nach Ihrer persönlichen Planung, einer möglichen Spekulationsfrist und dem Zustand der Immobilie. Entscheidend ist, wie Angebot und Nachfrage im jeweiligen Stadtteil aktuell zusammenpassen."],
-  ["Brauche ich einen Makler – und was kostet das?", "Ein Makler ist nicht vorgeschrieben. Er übernimmt Bewertung, Unterlagenprüfung, Vermarktung, Interessentenqualifizierung, Verhandlung und Vorbereitung des Notartermins. Die konkrete Provision wird vor Auftragserteilung transparent vereinbart; bei Wohnungen und Einfamilienhäusern gelten die gesetzlichen Regeln zur Verteilung der Maklerkosten."],
-  ["Wie lange dauert ein Immobilienverkauf in Leverkusen?", "Die Dauer hängt von Objektart, Preis, Unterlagen und Nachfrage ab. Nach vollständiger Vorbereitung folgen Vermarktung, Besichtigungen, Finanzierungsprüfung und Notartermin. Ein realistischer Angebotspreis und frühzeitig vollständige Unterlagen verkürzen den Prozess meist deutlich."],
-  ["Welche Unterlagen brauche ich für den Hausverkauf?", "Typischerweise werden Grundbuchauszug, Flurkarte, Bauunterlagen, Wohn- und Nutzflächenberechnung, Grundrisse, Energieausweis und Nachweise zu Modernisierungen benötigt. Bei Eigentumswohnungen kommen unter anderem Teilungserklärung, Wirtschaftsplan, Protokolle und Informationen zur Erhaltungsrücklage hinzu."],
-  ["Brauche ich einen Energieausweis für den Immobilienverkauf?", "In den meisten Verkaufsfällen ja. Die gesetzlich vorgeschriebenen Angaben müssen bereits in der Immobilienanzeige erscheinen, sofern ein Energieausweis vorliegt. Spätestens bei der Besichtigung ist er vorzulegen. Welche Ausweisart erforderlich ist, hängt vom Gebäude ab."],
-  ["Vermietet oder unvermietet verkaufen – was ist der Unterschied?", "Vermietete Immobilien sprechen überwiegend Kapitalanleger an und werden stärker nach nachhaltig erzielbarer Miete und Rendite beurteilt. Bezugsfreie Häuser und Wohnungen kommen zusätzlich für Eigennutzer infrage. Mietvertrag, Miethöhe und rechtliche Rahmenbedingungen beeinflussen deshalb Zielgruppe und Preis."],
-  ["Muss ich beim Immobilienverkauf Steuern zahlen?", "Das hängt vom Einzelfall ab. Relevant können insbesondere Haltedauer, Eigennutzung, Veräußerungsgewinn und die Anzahl früherer Verkäufe sein. Bei geerbten Immobilien kann die Besitzzeit des Erblassers eine Rolle spielen. Steuerliche Fragen sollten vor dem Verkauf mit einer Steuerberatung geklärt werden."],
-  ["Geerbtes Haus verkaufen – was muss ich beachten?", "Zunächst sollten Eigentumsverhältnisse, Grundbuch und mögliche Belastungen geklärt werden. Bei einer Erbengemeinschaft müssen die Beteiligten den Verkauf gemeinsam tragen. Zusätzlich sind steuerliche Fristen, der Zustand der Immobilie und eine neutrale Wertermittlung wichtig."],
-  ["Was ist der Bodenrichtwert in Leverkusen?", "Der Bodenrichtwert ist ein amtlicher Orientierungswert für ein typisches unbebautes Grundstück innerhalb einer Bodenrichtwertzone. Leverkusen umfasst 337 Bodenrichtwerte für Bauland. Der Wert der konkreten Immobilie kann wegen Zuschnitt, Erschließung, Topografie, Bebauung und Mikrolage deutlich abweichen."],
-  ["Welche Rolle spielt der Stadtteil bei der Bewertung?", "Eine sehr große. Zwischen Wiesdorf, Opladen, Schlebusch, Hitdorf und den weiteren Leverkusener Stadtteilen unterscheiden sich Grundstücksniveau, Gebäudestruktur und Nachfrage. Selbst innerhalb eines Stadtteils können Straße, Aussicht, Verkehr, Grundstückszuschnitt und Bodenrichtwertzone den Wert verändern."],
-  ["Wie läuft die kostenlose Immobilienbewertung ab?", "Sie übermitteln zunächst die Eckdaten und Adresse. Wir ordnen die Immobilie dem richtigen Stadtteil und der konkreten Marktlage zu, prüfen Grundstück und Gebäudemerkmale und besprechen anschließend die realistische Preisspanne sowie mögliche nächste Schritte – unverbindlich und transparent."],
-  ["Welche Fehler sollte ich beim Hausverkauf vermeiden?", "Häufige Fehler sind ein nicht belegbarer Angebotspreis, unvollständige Unterlagen, schlechte Foto- und Grundrissqualität, ungeprüfte Interessenten und vorschnelle Preiszugeständnisse. Auch bekannte Mängel sollten transparent dokumentiert werden, damit der Verkauf rechtssicher vorbereitet ist."],
-  ["Kann ich diskret verkaufen, ohne öffentliches Immobilienportal?", "Ja. Bei einem diskreten Verkauf wird die Immobilie zunächst gezielt vorgemerkten und geprüften Interessenten angeboten. Ob diese Vorgehensweise sinnvoll ist, hängt von Objekt, Lage, Zielgruppe und gewünschtem Zeitrahmen ab."],
-];
-
 export default function Home() {
   const structuredData = graphSchema(
     businessSchema,
     { "@type": "WebSite", "@id": `${siteUrl}/#website`, url: `${siteUrl}/`, name: "Stark & Hoffmann Immobilien", publisher: { "@id": `${siteUrl}/#immobilienmakler` }, inLanguage: "de-DE" },
-    faqSchema(faq as Array<[string,string]>),
   );
   return <main>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}} />
@@ -93,7 +76,7 @@ export default function Home() {
         <span className="brand-mark">S<span>&</span>H</span>
         <span><strong>Stark & Hoffmann</strong><small>Immobilien · Leverkusen</small></span>
       </a>
-      <nav aria-label="Hauptnavigation"><a href="#profil">Profil</a><a href="/team/">Team</a><a href="#markt">Markt</a><a href="#fahrplan">Verkaufsfahrplan</a><a href="#immobilien">Immobilien</a><a href="#staedte">Region</a><a href="#faq">FAQ</a></nav>
+      <nav aria-label="Hauptnavigation"><a href="#profil">Profil</a><a href="/team/">Team</a><a href="#markt">Markt</a><a href="#fahrplan">Verkaufsfahrplan</a><a href="#immobilien">Immobilien</a><a href="#staedte">Region</a><a href="/ratgeber/">Ratgeber</a></nav>
       <a className="header-cta" href="/immobilienbewertung/">Kostenlose Bewertung</a>
     </header>
 
@@ -161,10 +144,10 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="faq-section section" id="faq">
-      <div className="section-head"><div><p className="eyebrow">Häufige Fragen</p><h2>Was Eigentümer in Leverkusen wissen wollen.</h2></div><p>Antworten rund um Immobilienbewertung, Hausverkauf, Unterlagen und Bodenrichtwerte.</p></div>
-      <div className="faq-grid">{faq.map(([question,answer])=><details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><div><p>{answer}</p></div></details>)}</div>
-      <div className="faq-cta"><a className="button dark" href="/immobilienbewertung/">Immobilie kostenlos bewerten</a><a href="tel:+4922049147881">Weitere Frage? +49 2204 914 7881</a></div>
+    <section className="faq-section section" id="ratgeber">
+      <div className="section-head"><div><p className="eyebrow">Ratgeber</p><h2>Gut informiert verkaufen.</h2></div><p>Fachbeiträge zu Recht, Kosten und Steuern rund um die Immobilie – und Antworten auf die Fragen, die Eigentümer in Leverkusen am häufigsten stellen.</p></div>
+      <div className="seo-service-grid">{artikel.slice(0, 3).map((a) => <a href={`/ratgeber/${a.slug}/`} key={a.slug}><span>Beitrag</span><h3>{a.titel}</h3><p>{a.kurz}</p><b>Lesen →</b></a>)}</div>
+      <div className="faq-cta"><a className="button dark" href="/ratgeber/">Zum Ratgeber mit häufigen Fragen</a><a href="tel:+4922049147881">Direkt fragen: +49 2204 914 7881</a></div>
     </section>
 
     <section className="contact section" id="kontakt">

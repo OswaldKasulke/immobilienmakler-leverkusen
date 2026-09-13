@@ -5,7 +5,7 @@ export function Header(){return <header className="site-header">
     <span className="brand-mark">S<span>&amp;</span>H</span>
     <span><strong>Stark &amp; Hoffmann</strong><small>Immobilien · Leverkusen</small></span>
   </Link>
-  <nav aria-label="Hauptnavigation"><Link href="/#profil">Profil</Link><Link href="/team/">Team</Link><Link href="/immobilienmarkt-leverkusen/">Markt</Link><Link href="/#fahrplan">Verkaufsfahrplan</Link><Link href="/#staedte">Region</Link><Link href="/downloads/">Downloads</Link></nav>
+  <nav aria-label="Hauptnavigation"><Link href="/#profil">Profil</Link><Link href="/team/">Team</Link><Link href="/immobilienmarkt-leverkusen/">Markt</Link><Link href="/#fahrplan">Verkaufsfahrplan</Link><Link href="/#staedte">Region</Link><Link href="/downloads/">Downloads</Link><Link href="/ratgeber/">Ratgeber</Link></nav>
   <Link className="header-cta" href="/immobilienbewertung/">Kostenlose Bewertung</Link>
 </header>}
 
