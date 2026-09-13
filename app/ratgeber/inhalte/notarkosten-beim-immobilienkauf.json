@@ -1,0 +1,52 @@
+{
+ "slug": "notarkosten-beim-immobilienkauf",
+ "rang": 12,
+ "stand": "2026-09-13",
+ "titel": "Notarkosten in Leverkusen: Was der Notar beim Kauf kostet",
+ "metaTitel": "Notarkosten beim Kauf in Leverkusen – Überblick | Stark & Hoffmann",
+ "beschreibung": "Notarkosten beim Kauf von Haus oder Wohnung: gesetzliche Gebühren nach GNotKG, typische Prozentsätze, Leistungen des Notars, Kostentragung und Grundbuchgebühren.",
+ "lead": "Die Notarrechnung gehört zu den festen Größen beim Immobilienkauf: Verhandeln lässt sie sich nicht, planen aber sehr gut.",
+ "kurz": "Gesetzliche Gebühren, typische Prozentsätze und wer die Rechnung bezahlt.",
+ "bloecke": [
+  {
+   "h2": "Faustformel"
+  },
+  {
+   "p": "Rechnen Sie für den Notar mit etwa 1,0 bis 1,5 Prozent des Kaufpreises. Bei einem Kauf für 400.000 Euro sind das rund 4.000 bis 6.000 Euro. Die Gebühren folgen dem Gerichts- und Notarkostengesetz und sind in ganz Deutschland gleich – egal, welches Notariat Sie wählen."
+  },
+  {
+   "h2": "Welche Arbeit darin steckt"
+  },
+  {
+   "ol": [
+    "Vertragsentwurf: Der Notar formuliert den Kaufvertrag und stellt ihn beiden Parteien vorab zur Verfügung.",
+    "Belehrung: Er erläutert, welche Rechte und Pflichten der Vertrag begründet.",
+    "Beurkundung: Mit der notariellen Urkunde wird der Kaufvertrag rechtlich wirksam.",
+    "Vollzug: Er beantragt die Eintragungen im Grundbuch und sorgt für die Löschung bestehender Belastungen."
+   ]
+  },
+  {
+   "h2": "Käufer zahlt"
+  },
+  {
+   "p": "Das Gesetz legt die Kosten für Beurkundung, Auflassung und Grundbucheintragung dem Käufer auf (§ 448 Abs. 2 BGB). Kaufverträge übernehmen diese Verteilung in der Regel."
+  },
+  {
+   "h2": "Dazu kommt das Grundbuchamt"
+  },
+  {
+   "p": "Neben dem Notar stellt auch das Grundbuchamt Gebühren in Rechnung – für die Umschreibung des Eigentums und weitere Eintragungen. Rechnen Sie grob mit 0,5 Prozent des Kaufpreises, im Beispiel also etwa 2.000 Euro."
+  },
+  {
+   "h2": "Warum der Notar vorgeschrieben ist"
+  },
+  {
+   "p": "Der Notar ist zur Neutralität verpflichtet und steht keiner Partei näher als der anderen. Er sorgt dafür, dass der Vertrag den Gesetzen entspricht und beide Seiten wissen, worauf sie sich einlassen."
+  }
+ ],
+ "verwandt": [
+  "kaufnebenkosten",
+  "grundschuld",
+  "maklerkosten-beim-immobilienkauf"
+ ]
+}

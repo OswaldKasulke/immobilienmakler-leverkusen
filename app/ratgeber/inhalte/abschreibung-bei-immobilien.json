@@ -1,0 +1,91 @@
+{
+ "slug": "abschreibung-bei-immobilien",
+ "rang": 9,
+ "stand": "2026-09-13",
+ "titel": "AfA bei vermieteten Immobilien in Leverkusen: Sätze, Beispiele, Gutachten",
+ "metaTitel": "AfA bei Immobilien – Sätze und Gutachten | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Absetzung für Abnutzung bei Mietimmobilien: Sätze nach Fertigstellungsjahr, Zusatzabschreibungen, Sonderfälle und wie ein Gutachten die jährliche AfA erhöhen kann.",
+ "lead": "Die Abschreibung ist für viele Vermieter der größte Steuervorteil ihrer Immobilie. Ein Überblick über die Sätze, die Ausnahmen und eine Möglichkeit, die AfA legal zu erhöhen.",
+ "kurz": "Die Sätze nach Fertigstellungsjahr, Zusatzabschreibungen und der Weg über die Restnutzungsdauer.",
+ "bloecke": [
+  {
+   "h2": "Was abgeschrieben wird"
+  },
+  {
+   "p": "Die AfA verteilt die Kosten des Gebäudes auf seine typische Nutzungsdauer. Der Anteil für Grund und Boden bleibt außen vor, weil sich ein Grundstück nicht abnutzt. Maßgeblich sind die Anschaffungs- oder Herstellungskosten."
+  },
+  {
+   "h2": "Welcher Satz gilt"
+  },
+  {
+   "p": "Bei Gebäuden im Privatvermögen hängt der Satz vom Fertigstellungsjahr ab:"
+  },
+  {
+   "ul": [
+    "vor dem 1. Januar 1925 fertiggestellt: 2,5 Prozent jährlich",
+    "vom 1. Januar 1925 bis zum 31. Dezember 2022 fertiggestellt: 2 Prozent jährlich",
+    "nach dem 31. Dezember 2022 fertiggestellt: 3 Prozent jährlich"
+   ]
+  },
+  {
+   "p": "Gehört ein Gebäude zum Betriebsvermögen, dient es nicht Wohnzwecken und wurde der Bauantrag nach dem 31. März 1985 gestellt, beträgt die AfA ebenfalls 3 Prozent (§ 7 Abs. 4 EStG)."
+  },
+  {
+   "h2": "Zusätzliche Abschreibungen"
+  },
+  {
+   "ul": [
+    "Neubau von Mietwohnungen: Sonderabschreibung von je 5 Prozent in vier Jahren nach § 7b EStG – nur bei Einhaltung von Baukostengrenzen und mindestens zehnjähriger Vermietung.",
+    "Baudenkmale und Gebäude in Sanierungsgebieten: erhöhte Absetzungen für Sanierungskosten, acht Jahre je bis zu 9 Prozent und vier Jahre je bis zu 7 Prozent; bei Eigennutzung zehn Jahre je bis zu 9 Prozent wie Sonderausgaben.",
+    "Außergewöhnliche technische oder wirtschaftliche Abnutzung: zusätzliche Absetzung, wenn sie nachgewiesen wird."
+   ]
+  },
+  {
+   "h2": "Die Restnutzungsdauer als Hebel"
+  },
+  {
+   "p": "Hinter den Prozentsätzen stehen feste Nutzungsdauern. Ist ein Gebäude tatsächlich schneller am Ende – wegen seines Alters, der Bausubstanz oder veralteter Technik –, darf nach § 7 Abs. 4 Satz 2 EStG die kürzere tatsächliche Nutzungsdauer angesetzt werden. Den Nachweis führt man in der Regel mit einem Gutachten."
+  },
+  {
+   "p": "Der Bundesfinanzhof hat diesen Weg 2021 bestätigt (IX R 25/19) und 2024 klargestellt, dass jede im Einzelfall geeignete Methode genügt, auch eine Ermittlung nach der ImmoWertV (IX R 14/23). Das BMF-Schreiben vom 22.02.2023 mit seinen Anforderungen an die Qualifikation der Gutachter wurde zum 1. Dezember 2025 aufgehoben. Weil der Steuerpflichtige die Darlegungslast trägt, bleibt ein erfahrener Sachverständiger trotzdem ratsam."
+  },
+  {
+   "h2": "Beispiel: 360.000 Euro Gebäudewert"
+  },
+  {
+   "table": [
+    [
+     "",
+     "ohne Gutachten",
+     "Restnutzungsdauer 30 Jahre"
+    ],
+    [
+     "AfA pro Jahr",
+     "7.200 € (2 %)",
+     "12.000 €"
+    ],
+    [
+     "zusätzliche AfA",
+     "–",
+     "4.800 €"
+    ],
+    [
+     "Steuerersparnis bei 42 %",
+     "–",
+     "rund 2.000 € pro Jahr"
+    ]
+   ]
+  },
+  {
+   "h2": "Kosten und Nutzen des Gutachtens"
+  },
+  {
+   "p": "Für eine Eigentumswohnung oder ein Einfamilienhaus werden meist etwa 900 bis 1.800 Euro fällig, bei Mehrfamilienhäusern entsprechend mehr. Bei Vermietung lassen sich die Kosten in der Regel als Werbungskosten absetzen. Besonders lohnend ist das Gutachten bei älteren Bestandsgebäuden, bei Sanierungsstau und bei Objekten, die teuer gekauft wurden."
+  }
+ ],
+ "verwandt": [
+  "denkmal-afa",
+  "kaufnebenkosten",
+  "immobilienverkauf"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "grundschuld",
+ "rang": 13,
+ "stand": "2026-09-13",
+ "titel": "Grundschuld in Leverkusen: Was im Grundbuch steht und was es bedeutet",
+ "metaTitel": "Grundschuld und Hypothek einfach erklärt | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Was eine Grundschuld ist, wie sie sich von der Hypothek unterscheidet, was nach der Tilgung passiert und worauf Käufer und Verkäufer achten sollten.",
+ "lead": "Abteilung III des Grundbuchs zeigt, womit eine Immobilie belastet ist. Meist steht dort eine Grundschuld. Wir erklären, was sie aussagt – und was nicht.",
+ "kurz": "Was die Eintragung in Abteilung III aussagt und was nach der Tilgung mit ihr geschieht.",
+ "bloecke": [
+  {
+   "h2": "Wozu Grundpfandrechte da sind"
+  },
+  {
+   "p": "Banken verleihen hohe Summen für Immobilien nur gegen Sicherheit. Diese Sicherheit ist ein Grundpfandrecht in Abteilung III des Grundbuchs: Zahlt der Darlehensnehmer nicht, darf die Bank die Immobilie verwerten lassen. Es gibt zwei Formen – die Grundschuld und die Hypothek."
+  },
+  {
+   "h2": "Abstrakt gegen akzessorisch"
+  },
+  {
+   "p": "Die Hypothek ist mit einer bestimmten Forderung verbunden und teilt ihr Schicksal. Die Grundschuld dagegen ist losgelöst vom Kredit: Sie steht im Grundbuch, egal ob noch etwas geschuldet wird. Welche Forderungen sie absichert, legt eine separate Sicherungsabrede zwischen Bank und Eigentümer fest."
+  },
+  {
+   "h2": "Was nach dem Tilgen passiert"
+  },
+  {
+   "p": "Bei der Grundschuld ändert die Tilgung am Grundbuch nichts – der eingetragene Betrag bleibt stehen, bis jemand die Löschung veranlasst. Bei der Hypothek geht mit jeder Rate der getilgte Teil auf den Eigentümer über; ist die Forderung ganz erloschen, gehört ihm die Hypothek (§ 1163 Abs. 1 BGB) und sie wird zur Eigentümergrundschuld (§ 1177 Abs. 1 BGB). Gelöscht ist sie damit noch nicht."
+  },
+  {
+   "h2": "Warum die Hypothek kaum noch vorkommt"
+  },
+  {
+   "ul": [
+    "Grundschulden lassen sich bei einer Umschuldung an die neue Bank abtreten; eine neue Eintragung mit Notar- und Grundbuchkosten entfällt.",
+    "Bei einer Hypothek müsste jede Änderung der Forderung auch im Grundbuch berücksichtigt werden – für Banken unpraktisch.",
+    "Deshalb vereinbaren Banken heute praktisch nur noch Grundschulden; Hypotheken stammen meist aus älteren Finanzierungen."
+   ]
+  },
+  {
+   "h2": "Wie hoch die Grundschuld eingetragen wird"
+  },
+  {
+   "p": "Üblich ist der Darlehensbetrag, oft mit einem Aufschlag, damit auch Zinsen und Kosten gesichert sind. Der Betrag im Grundbuch ist deshalb kein Hinweis auf die aktuelle Restschuld."
+  },
+  {
+   "h2": "Verkauf einer belasteten Immobilie"
+  },
+  {
+   "p": "Meist löst der Verkäufer die Bank aus dem Kaufpreis ab, danach wird die Grundschuld gelöscht. Der Notar koordiniert das und benötigt dafür die Löschungsbewilligung der Bank. Kennen Sie Ihre Restschuld früh, läuft die Abwicklung reibungslos. Mehr dazu im Beitrag „Grundschuld löschen“."
+  },
+  {
+   "p": "Alternativ bleibt die Grundschuld eingetragen und dient später als Sicherheit für einen neuen Kredit – das kann günstiger sein als eine neue Bestellung. Dann muss der Kaufvertrag genau festhalten, was mit ihr geschieht."
+  },
+  {
+   "h2": "Hinweis für Käufer"
+  },
+  {
+   "p": "Lassen Sie sich nicht von hohen Beträgen in Abteilung III abschrecken. Maßgeblich ist die Ablösesumme, die die Bank zum Stichtag nennt. Diese Zahl sollte vor dem Notartermin schriftlich vorliegen."
+  }
+ ],
+ "verwandt": [
+  "grundschuld-loeschen",
+  "kaufnebenkosten",
+  "erbbauzins"
+ ]
+}

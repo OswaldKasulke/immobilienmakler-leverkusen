@@ -1,0 +1,102 @@
+{
+ "slug": "leistungen-makler",
+ "rang": 11,
+ "stand": "2026-09-13",
+ "titel": "Leistungen eines Maklers in Leverkusen: Wofür die Provision bezahlt wird",
+ "metaTitel": "Wofür zahlt man den Makler? Leistungen | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Welche Leistungen hinter der Maklerprovision stecken: Bewertung, Fotos, Exposé, Unterlagen, Reichweite, Interessentenprüfung, Besichtigungen, Verhandlung und Notar.",
+ "lead": "Ein Makler ist mehr als ein Inserat mit Telefonnummer. Diese elf Aufgaben übernimmt er beim Verkauf einer Immobilie – und das bringen sie dem Verkäufer.",
+ "kurz": "Elf Aufgaben beim Verkauf und was sie dem Verkäufer bringen.",
+ "bloecke": [
+  {
+   "h2": "Die Aufgaben im Überblick"
+  },
+  {
+   "table": [
+    [
+     "Leistung",
+     "Was dahintersteckt",
+     "Nutzen für Verkäufer"
+    ],
+    [
+     "Marktwert und Preis",
+     "Vergleichs- und Ertragswert, Daten des Gutachterausschusses",
+     "ein Preis, der nicht nachträglich gesenkt werden muss"
+    ],
+    [
+     "Fotos",
+     "professionelle Aufnahmen statt Handyfotos",
+     "mehr Aufmerksamkeit in den Portalen"
+    ],
+    [
+     "Exposé",
+     "Grundrisse, Ausstattung, Lage, Energieausweis, Baujahr, Nebenkosten",
+     "Vertrauen und gezielte Anfragen"
+    ],
+    [
+     "Unterlagenmappe",
+     "Grundbuch, Pläne, Energieausweis, WEG-Unterlagen, Mietverträge",
+     "schnellere Finanzierungszusage beim Käufer"
+    ],
+    [
+     "Sonderthemen",
+     "Asbest, Denkmal, Erbbaurecht, Grundbuchfragen, Sanierungsbedarf",
+     "weniger Überraschungen und Haftungsrisiken"
+    ],
+    [
+     "Portale und Käuferpool",
+     "Anzeigen auf großen Portalen, Angebot an vorgemerkte Interessenten",
+     "große Reichweite, teils vor Veröffentlichung"
+    ],
+    [
+     "Soziale Medien",
+     "Kampagnen etwa auf Instagram",
+     "auch Käufer außerhalb der Portale"
+    ],
+    [
+     "Interessenten prüfen",
+     "Ernsthaftigkeit und Suchprofil klären",
+     "weniger unnötige Besichtigungen"
+    ],
+    [
+     "Bonität prüfen",
+     "Finanzierungsnachweis vor der Verhandlung",
+     "kein Zeitverlust durch geplatzte Käufe"
+    ],
+    [
+     "Besichtigung und Verhandlung",
+     "Termine, Führung, Preisgespräche",
+     "bestmögliches Ergebnis ohne Käufer zu verprellen"
+    ],
+    [
+     "Abschluss",
+     "Notar, Vertragsentwurf, Beurkundung, Übergabeprotokoll",
+     "ein sauberer Abschluss bis zum letzten Schlüssel"
+    ]
+   ]
+  },
+  {
+   "h2": "Warum der erste Preis so wichtig ist"
+  },
+  {
+   "p": "Ein Objekt, das monatelang online steht, verliert an Glaubwürdigkeit. Wer immer wieder dasselbe Inserat sieht, vermutet einen Haken. Folgen Preissenkungen, sinkt die Verhandlungsposition des Verkäufers weiter – oft unter das Niveau, das eine gut vorbereitete Erstvermarktung erreicht hätte."
+  },
+  {
+   "h2": "Warum die Käuferprüfung Zeit spart"
+  },
+  {
+   "p": "Bis zum Notartermin vergehen Wochen. Stellt sich erst dann heraus, dass die Bank des Käufers nicht mitzieht, beginnt die Suche von vorn. Deshalb gehören die Finanzierung und die Ernsthaftigkeit eines Interessenten vor die Verhandlung, nicht danach."
+  },
+  {
+   "h2": "Mehr zur Provision"
+  },
+  {
+   "p": "Wie viel Provision üblich ist und wer welchen Anteil trägt, lesen Sie in unserem Beitrag zu den Maklerkosten."
+  }
+ ],
+ "verwandt": [
+  "maklerkosten-beim-immobilienkauf",
+  "immobilienverkauf",
+  "notarkosten-beim-immobilienkauf"
+ ]
+}
