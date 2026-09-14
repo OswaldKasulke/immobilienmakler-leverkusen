@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 13.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 14.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -30,7 +30,7 @@ export const properties: Property[] = [
   {
     "place": "Leverkusen-Bergisch Neukirchen",
     "district": "bergisch-neukirchen",
-    "price": "749.000 €",
+    "price": "695.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/6xlUUSesEAG5sSMJKZXcym/b51066c2924848a0fdbcf83c1885ad17/85cdfee2-51fa-47e4-a196-c6a45d4d58e7?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Gemütlicher Balkon mit Sitzmöbeln, vielen Pflanzen und Blick ins Grüne.",
@@ -107,6 +107,15 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/2iGS2HEc02arzmXr7Okdt9/ac46b86b8eb3ca7b4ba2c0835db513c5/d5bd6a65-cdb5-4ded-aa94-5e0c2028cddf?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes Einfamilienhaus mit grauem Dach, Garage und gepflasterter Einfahrt an einer ruhigen Straße.",
     "url": "https://www.evernest.com/de/listing/48xEKKaW66sK4e7i4JWNSk/"
+  },
+  {
+    "place": "Leverkusen-Rheindorf",
+    "district": "rheindorf",
+    "price": "129.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/7pyzXKZOoC7rpuAgDVgkqO/f6754cb520ec13454f019d624dbcdcdf/fd784139-f9c7-4cc6-883d-4680c284369a?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Helles Wohnzimmer mit grauem Sofa, Teppich, Couchtisch, Fenster und Pflanzen, Holzboden und Zugang zum Balkon.",
+    "url": "https://www.evernest.com/de/listing/5YbikgCBBvrIRfmgEA9poH/"
   },
   {
     "place": "Leverkusen-Rheindorf",
@@ -278,14 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/4gM6cLKRVlYTE9EX3ezE55/6b4f7a1e3ced7cd39b6daef8fd4842c3/3be0723c-809c-4f06-80c9-eff4c7335cb6?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Flur mit gemustertem Fliesenboden und Holztreppe zu einer oberen Etage.",
     "url": "https://www.evernest.com/de/listing/6J9NwE5IVYBi2pGjUGDUEx/"
-  },
-  {
-    "place": "Hilden",
-    "district": null,
-    "price": "155.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/aVRUdsF34RhvwHVeS3fHD/0f28969486551d0c47ebbc3703a19e22/b9c4f961-30d0-4efe-b8fa-84c71a0863ca?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes, weißes Mehrfamilienhaus mit Balkonen, direkt an einer ruhigen Straße gelegen.",
-    "url": "https://www.evernest.com/de/listing/7IegiFHiVs1Il1hMFczub4/"
   }
 ];
