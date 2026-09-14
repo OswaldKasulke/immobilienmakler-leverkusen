@@ -33,7 +33,7 @@ export default function RatgeberUebersicht() {
     </section>
     <section className="seo-services section" aria-labelledby="rg-beitraege">
       <div className="section-head"><div><p className="eyebrow">Beiträge</p><h2 id="rg-beitraege">Themen rund um Ihre Immobilie.</h2></div><p>Kompakt aufbereitet, damit Sie vor Gesprächen mit Bank, Notar oder Käufern wissen, worum es geht.</p></div>
-      <div className="seo-service-grid">{artikel.map((a) => <Link href={`/ratgeber/${a.slug}/`} key={a.slug}><span>Beitrag</span><h3>{a.titel}</h3><p>{a.kurz}</p><b>Lesen →</b></Link>)}</div>
+      <div className="seo-service-grid rg-overview-grid">{artikel.map((a) => <Link href={`/ratgeber/${a.slug}/`} key={a.slug}><span>Beitrag</span><h3>{a.titel}</h3><p>{a.kurz}</p><b>Lesen →</b></Link>)}</div>
     </section>
     <section className="faq-section section" id="faq">
       <div className="section-head"><div><p className="eyebrow">Häufige Fragen</p><h2>Kurz beantwortet: Verkaufen in Leverkusen.</h2></div><p>Von der Bewertung über Unterlagen und Steuern bis zum diskreten Verkauf.</p></div>
