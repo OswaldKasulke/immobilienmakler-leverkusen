@@ -4,6 +4,7 @@ import ContactForm from "./ContactForm";
 import { businessSchema, graphSchema, siteUrl } from "./seo";
 import { artikel } from "./ratgeber/artikel";
 import type { Metadata } from "next";
+import { preload } from "react-dom";
 
 export const metadata: Metadata = { alternates: { canonical: `${siteUrl}/` } };
 
@@ -65,6 +66,9 @@ const marketFacts = [
 ];
 
 export default function Home() {
+  // Das Titelbild ist ein CSS-Hintergrund und wuerde sonst erst spaet entdeckt -
+  // es bestimmt aber den groessten sichtbaren Inhalt (LCP) der Startseite.
+  preload(heroImage, { as: "image", fetchPriority: "high" });
   const structuredData = graphSchema(
     businessSchema,
     { "@type": "WebSite", "@id": `${siteUrl}/#website`, url: `${siteUrl}/`, name: "Stark & Hoffmann Immobilien", publisher: { "@id": `${siteUrl}/#immobilienmakler` }, inLanguage: "de-DE" },
@@ -91,7 +95,7 @@ export default function Home() {
     </section>
 
     <section className="profile section" id="profil">
-      <div className="profile-image"><div className="profile-gallery"><img src="/location/4.jpg" alt="Beratungsbereich im Evernest Immobilienbüro"/><img src="/location/1.jpg" alt="Evernest Schriftzug im Immobilienbüro" loading="lazy"/><img src="/location/showroom.jpg" alt="Schild am Evernest Showroom in Leverkusen" loading="lazy"/></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
+      <div className="profile-image"><div className="profile-gallery"><img src="/location/4.jpg" alt="Beratungsbereich im Evernest Immobilienbüro" loading="lazy"/><img src="/location/1.jpg" alt="Evernest Schriftzug im Immobilienbüro" loading="lazy"/><img src="/location/showroom.jpg" alt="Schild am Evernest Showroom in Leverkusen" loading="lazy"/></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
       <div className="profile-copy">
         <p className="eyebrow">Unser Profil</p><h2>Mitten in Wiesdorf zu finden.</h2>
         <p className="lead">In Leverkusen vertritt die Stark &amp; Hoffmann Immobilien GmbH den Evernest-Standort. Geschäftsführer sind Patrick Stark und Julian Hoffmann, beide mit langjähriger Branchenerfahrung.</p>
