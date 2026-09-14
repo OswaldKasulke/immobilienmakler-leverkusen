@@ -1,7 +1,7 @@
 {
  "slug": "kaufnebenkosten",
  "rang": 10,
- "stand": "2026-09-13",
+ "stand": "2026-09-14",
  "titel": "Kaufnebenkosten in Leverkusen: Womit Käufer zusätzlich rechnen müssen",
  "metaTitel": "Kaufnebenkosten in Leverkusen – Grunderwerbsteuer & Co. | Stark & Hoffmann",
  "beschreibung": "Grunderwerbsteuer, Notar, Grundbuch und Makler: So setzen sich die Kaufnebenkosten beim Immobilienkauf in Leverkusen zusammen – mit Beispiel für 350.000 Euro.",
@@ -17,7 +17,7 @@
   {
    "ul": [
     "Fälligkeit: einen Monat, nachdem der Steuerbescheid bekannt gegeben wurde (§ 15 GrEStG).",
-    "Grundbuch: Eingetragen wird der Käufer erst, wenn das Finanzamt nach der Zahlung die Unbedenklichkeitsbescheinigung erteilt hat.",
+    "Grundbuch: Eingetragen wird der Käufer erst mit der Unbedenklichkeitsbescheinigung des Finanzamts – die gibt es in der Regel nach der Zahlung (§ 22 GrEStG).",
     "Befreit: Käufe zwischen Ehegatten oder Lebenspartnern und zwischen Verwandten in gerader Linie (§ 3 GrEStG).",
     "Tipp: Mitverkauftes bewegliches Inventar gesondert im Vertrag aufführen – dafür fällt keine Grunderwerbsteuer an."
    ]
@@ -26,10 +26,10 @@
    "h2": "Notar und Grundbuch"
   },
   {
-   "p": "Der Notar ist beim Immobilienkauf Pflicht. Seine Gebühren richten sich nach dem GNotKG und damit nach dem Kaufpreis: rund 1 Prozent für die Beurkundung, etwa 0,2 bis 0,3 Prozent für Vormerkung und weitere Schritte, insgesamt typischerweise 1,0 bis 1,5 Prozent."
+   "p": "Der Notar ist beim Immobilienkauf Pflicht. Was er berechnet, steht im GNotKG: nach Tabelle B aus dem Kaufpreis eine 2,0-Gebühr für die Beurkundung und je eine 0,5-Gebühr für Vollzug und Betreuung, bei Finanzierung zusätzlich eine 1,0-Gebühr aus dem Betrag der Grundschuld. Einschließlich Umsatzsteuer landet man meist bei 0,6 bis 1 Prozent des Kaufpreises."
   },
   {
-   "p": "Hinzu kommt das Grundbuchamt. Es erhebt Gebühren für die Umschreibung auf den neuen Eigentümer und für die Eintragung einer Grundschuld, falls finanziert wird – zusammen etwa 0,5 Prozent. Die Grundschuld allein schlägt mit rund 0,2 Prozent ihres Betrags zu Buche."
+   "p": "Hinzu kommt das Grundbuchamt. Es erhebt eine 1,0-Gebühr für die Umschreibung auf den neuen Eigentümer, eine 0,5-Gebühr für die Vormerkung und, falls finanziert wird, eine 1,0-Gebühr für die Grundschuld – zusammen etwa 0,3 bis 0,5 Prozent. Die Grundschuld allein schlägt mit rund 0,2 Prozent ihres Betrags zu Buche."
   },
   {
    "h2": "Maklerprovision"
@@ -53,14 +53,14 @@
      "22.750"
     ],
     [
-     "Notar",
-     "rund 1,2 %",
-     "rund 4.200"
+     "Notar, mit 280.000 € Grundschuld und Umsatzsteuer",
+     "rund 0,9 %",
+     "rund 3.140"
     ],
     [
      "Grundbuchamt",
-     "rund 0,5 %",
-     "rund 1.750"
+     "rund 0,47 %",
+     "rund 1.640"
     ],
     [
      "Makler, Käuferanteil",
@@ -69,13 +69,13 @@
     ],
     [
      "Summe Nebenkosten",
-     "rund 11,8 %",
-     "rund 41.195"
+     "rund 11,4 %",
+     "rund 40.025"
     ],
     [
      "Kaufpreis plus Nebenkosten",
      "",
-     "rund 391.195"
+     "rund 390.025"
     ]
    ]
   },
@@ -83,7 +83,7 @@
    "h2": "Worauf Banken achten"
   },
   {
-   "p": "Kredite decken meist nur den Kaufpreis. Die Nebenkosten von rund 41.000 Euro zahlen Käufer daher in aller Regel selbst. Erwartet die Bank 20 bis 30 Prozent Eigenkapital inklusive Nebenkosten, bedeutet das bei rund 391.000 Euro Gesamtaufwand etwa 78.000 bis 117.000 Euro eigene Mittel."
+   "p": "Kredite decken meist nur den Kaufpreis. Die Nebenkosten von rund 40.000 Euro zahlen Käufer daher in aller Regel selbst. Erwartet die Bank 20 bis 30 Prozent Eigenkapital inklusive Nebenkosten, bedeutet das bei rund 390.000 Euro Gesamtaufwand etwa 78.000 bis 117.000 Euro eigene Mittel."
   },
   {
    "h2": "Möglichkeiten zum Sparen"
@@ -92,7 +92,7 @@
    "ol": [
     "Inventar gesondert ausweisen – realistisch bewertet.",
     "Provisionsfreie Angebote bevorzugen.",
-    "KfW-Programme prüfen, um den Kreditbedarf zu senken.",
+    "Beim KfW-Wohneigentumsprogramm (124) nachfragen: Es finanziert beim Kauf auch Nebenkosten wie Notar und Grunderwerbsteuer.",
     "Beim Notar gibt es nichts zu verhandeln: Die Gebühren sind gesetzlich festgelegt."
    ]
   }
