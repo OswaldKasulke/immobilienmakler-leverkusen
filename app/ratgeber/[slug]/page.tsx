@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageShell } from "../../components";
+import { Verlinkt } from "../../Verlinkt";
 import { artikel, autoren, datumLang, findeArtikel, type Artikel, type Block } from "../artikel";
 import { breadcrumbSchema, businessSchema, defaultImage, faqSchema, graphSchema, siteUrl } from "../../seo";
 
@@ -20,10 +21,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 function Baustein({ b }: { b: Block }) {
   if (b.h2) return <h2>{b.h2}</h2>;
-  if (b.p) return <p>{b.p}</p>;
-  if (b.ul) return <ul className="rg-liste">{b.ul.map((x) => <li key={x}>{x}</li>)}</ul>;
-  if (b.ol) return <ol className="rg-liste">{b.ol.map((x) => <li key={x}>{x}</li>)}</ol>;
-  if (b.table) return <div className="rg-tabelle"><table><thead><tr>{b.table[0].map((z) => <th key={z}>{z}</th>)}</tr></thead><tbody>{b.table.slice(1).map((reihe, i) => <tr key={i}>{reihe.map((z, j) => <td key={j}>{z}</td>)}</tr>)}</tbody></table></div>;
+  if (b.p) return <p><Verlinkt text={b.p} /></p>;
+  if (b.ul) return <ul className="rg-liste">{b.ul.map((x, i) => <li key={i}><Verlinkt text={x} /></li>)}</ul>;
+  if (b.ol) return <ol className="rg-liste">{b.ol.map((x, i) => <li key={i}><Verlinkt text={x} /></li>)}</ol>;
+  if (b.table) return <div className="rg-tabelle"><table><thead><tr>{b.table[0].map((z) => <th key={z}>{z}</th>)}</tr></thead><tbody>{b.table.slice(1).map((reihe, i) => <tr key={i}>{reihe.map((z, j) => <td key={j}><Verlinkt text={z} /></td>)}</tr>)}</tbody></table></div>;
   return null;
 }
 
@@ -51,7 +52,7 @@ export default async function RatgeberArtikel({ params }: { params: Promise<{ sl
     <main className="page-content section rg-artikel">
       <p className="rg-autoren">Geschrieben von {autoren.map((p) => p.name).join(" und ")}, Geschäftsführer der Stark &amp; Hoffmann Immobilien GmbH · Stand {datumLang(a.stand)}</p>
       {a.bloecke.map((b, i) => <Baustein b={b} key={i} />)}
-      {fragen.length > 0 && <><h2>Häufige Fragen</h2><div className="faq-grid rg-faq">{fragen.map((f) => <details className="faq-item" key={f.question}><summary>{f.question}<span aria-hidden="true">+</span></summary><div><p>{f.answer}</p></div></details>)}</div></>}
+      {fragen.length > 0 && <><h2>Häufige Fragen</h2><div className="faq-grid rg-faq">{fragen.map((f) => <details className="faq-item" key={f.question}><summary>{f.question}<span aria-hidden="true">+</span></summary><div><p><Verlinkt text={f.answer} /></p></div></details>)}</div></>}
       {weitere.length > 0 && <div className="rg-weiter"><h2>Passend dazu</h2><ul className="rg-liste">{weitere.map((w) => <li key={w.slug}><Link href={`/ratgeber/${w.slug}/`}>{w.titel}</Link></li>)}</ul></div>}
       <p className="rg-hinweis">Allgemeine Information, keine Rechts-, Steuer- oder Finanzberatung im Einzelfall.</p>
       <Link className="button dark" href="/immobilienbewertung/">Persönliche Bewertung anfragen</Link>

@@ -1,3 +1,4 @@
+import { ohneLinks } from "./linktext";
 export const siteUrl = "https://leverkusen-makler.de";
 export const businessId = `${siteUrl}/#immobilienmakler`;
 export const defaultImage = `${siteUrl}/team/team-leverkusen.jpg`;
@@ -43,7 +44,7 @@ export const faqSchema = (items: Array<[string, string] | { question: string; an
   "@type": "FAQPage",
   mainEntity: items.map((item) => {
     const [question, answer] = Array.isArray(item) ? item : [item.question, item.answer];
-    return { "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } };
+    return { "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: ohneLinks(answer) } };
   }),
 });
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "../components";
 import { artikel } from "./artikel";
+import { Verlinkt } from "../Verlinkt";
 import { faq } from "../haeufige-fragen";
 import { breadcrumbSchema, businessSchema, defaultImage, faqSchema, graphSchema, siteUrl } from "../seo";
 
@@ -37,7 +38,7 @@ export default function RatgeberUebersicht() {
     </section>
     <section className="faq-section section" id="faq">
       <div className="section-head"><div><p className="eyebrow">Häufige Fragen</p><h2>Kurz beantwortet: Verkaufen in Leverkusen.</h2></div><p>Von der Bewertung über Unterlagen und Steuern bis zum diskreten Verkauf.</p></div>
-      <div className="faq-grid">{faq.map(([question, answer]) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><div><p>{answer}</p></div></details>)}</div>
+      <div className="faq-grid">{faq.map(([question, answer]) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><div><p><Verlinkt text={answer} /></p></div></details>)}</div>
       <div className="faq-cta"><Link className="button dark" href="/immobilienbewertung/">Wert jetzt einschätzen</Link><a href="tel:+4922049147881">Noch Fragen? +49 2204 914 7881</a></div>
     </section>
   </PageShell>;
