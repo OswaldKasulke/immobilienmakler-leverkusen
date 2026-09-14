@@ -2,10 +2,10 @@
  "slug": "erbpacht",
  "titel": "Erbpacht in Leverkusen: Kosten, Restlaufzeit und Verkauf",
  "metaTitel": "Erbpacht in Leverkusen – das Erbbaurecht einfach erklärt | Stark & Hoffmann",
- "beschreibung": "Wer in Leverkusen ein Haus auf Erbpacht kauft oder verkauft, sollte Erbbauzins, Restlaufzeit und Heimfall kennen. Die wichtigsten Regeln des Erbbaurechts im Überblick.",
+ "beschreibung": "Wer in Leverkusen ein Haus auf Erbpacht kauft oder verkauft, sollte Erbbauzins, Restlaufzeit und Heimfall kennen. Die Regeln des Erbbaurechts im Überblick.",
  "lead": "Beim Erbbaurecht gehört Ihnen das Haus, aber nicht der Boden darunter. Das senkt den Kaufpreis – bringt aber laufende Kosten und eine Frist mit sich, die man vor dem Notartermin verstehen sollte.",
  "kurz": "Eigenes Haus auf fremdem Boden: Erbbauzins, Restlaufzeit, Heimfall und Finanzierung erklärt.",
- "stand": "2026-09-13",
+ "stand": "2026-09-14",
  "bloecke": [
   {
    "h2": "Das Prinzip in drei Sätzen"
@@ -21,57 +21,28 @@
    "h2": "Der niedrige Preis hat einen Grund"
   },
   {
-   "p": "Immobilien auf Erbpacht stehen in den Portalen häufig 20 bis 40 Prozent unter vergleichbaren Objekten mit eigenem Grundstück. Der Käufer bezahlt eben nur das Gebäude und übernimmt dazu den Erbbauzins und die verbleibende Vertragsdauer. Mit jedem Jahr, das der Vertrag weniger läuft, wächst der Abschlag."
+   "p": "Immobilien auf Erbpacht stehen in den Portalen häufig spürbar unter vergleichbaren Objekten mit eigenem Grundstück. Der Käufer bezahlt eben nur das Gebäude und übernimmt dazu den Erbbauzins und die verbleibende Vertragsdauer. Mit jedem Jahr, das der Vertrag weniger läuft, wächst der Abschlag."
   },
   {
-   "h2": "Restlaufzeit und Wert: eine Orientierung"
+   "h2": "Restlaufzeit und Wert: was belegt ist"
   },
   {
-   "table": [
-    [
-     "Verbleibende Laufzeit",
-     "Abschlag gegenüber Volleigentum",
-     "Bankfinanzierung"
-    ],
-    [
-     "über 70 Jahre",
-     "etwa 5–10 %",
-     "in der Regel gut möglich"
-    ],
-    [
-     "50 bis 70 Jahre",
-     "etwa 10–20 %",
-     "meist machbar"
-    ],
-    [
-     "30 bis 50 Jahre",
-     "etwa 20–35 %",
-     "schwierig"
-    ],
-    [
-     "weniger als 30 Jahre",
-     "35–50 % oder mehr",
-     "kaum zu bekommen"
-    ]
-   ]
-  },
-  {
-   "p": "Als Faustformel gilt: Unter 50 Jahren Restlaufzeit kostet jedes fehlende Jahr grob 1 bis 2 Prozent Wert. Das sind Richtwerte – den konkreten Abschlag bestimmen Vertrag, Lage und Gebäude."
+   "p": "Eine verlässliche Faustformel je Restlaufzeitjahr gibt es nicht. Der Gutachterausschuss der Stadt Leverkusen wertet Erbbaurechte bislang nicht aus (Grundstücksmarktbericht 2026, Kap. 7). Einen Anhaltspunkt gibt das benachbarte Köln: Ein- und Zweifamilienhäuser im Erbbaurecht waren dort bei Verkäufen der Jahre 2023 bis 2025 im Mittel 24 bis 32 Prozent weniger wert als vergleichbare Häuser mit eigenem Grundstück, bei mittleren Restlaufzeiten von 42 bis 49 Jahren (Grundstücksmarktbericht Köln 2026, Kap. 7.2). Den Abschlag im Einzelfall bestimmen Vertrag, Restlaufzeit, Lage und Gebäude."
   },
   {
    "h2": "Erbbauzins: Höhe und Anpassung"
   },
   {
-   "p": "Typisch sind 3 bis 5 Prozent des Grundstückswerts pro Jahr. Rechenbeispiel: 250.000 Euro Bodenwert und 4 Prozent ergeben 10.000 Euro jährlich – eine Belastung, die bleibt, solange das Erbbaurecht besteht."
+   "p": "Eine gesetzliche Höhe gibt es nicht; der Erbbauzins wird im Vertrag vereinbart. Wie unterschiedlich Verträge ausfallen, zeigt der Grundstücksmarktbericht des Nachbarn Bergisch Gladbach: Alte Verträge aus den 1950er- bis 1980er-Jahren kamen dort im Mittel auf deutlich unter 1 Prozent des Bodenwerts, Verträge ab 1996 auf 1,52 Prozent. Rechenbeispiel: 250.000 Euro Bodenwert und 1,5 Prozent ergeben 3.750 Euro jährlich – eine Belastung, die bleibt, solange das Erbbaurecht besteht."
   },
   {
-   "p": "Fast immer enthält der Vertrag eine Wertsicherungsklausel, die den Erbbauzins mit dem Verbraucherpreisindex steigen lässt. Dient das Gebäude Wohnzwecken, schützt § 9a ErbbauRG vor überzogenen Forderungen: Mehr als die allgemeine wirtschaftliche Entwicklung seit Vertragsschluss darf in der Regel nicht verlangt werden, und zwischen zwei Erhöhungen müssen mindestens drei Jahre liegen."
+   "p": "Enthält der Vertrag eine Wertsicherungsklausel, kann der Erbbauzins mit dem Verbraucherpreisindex steigen. Dient das Gebäude Wohnzwecken, schützt § 9a ErbbauRG vor überzogenen Forderungen: Mehr als die allgemeine wirtschaftliche Entwicklung seit Vertragsschluss darf in der Regel nicht verlangt werden, und zwischen zwei Erhöhungen müssen mindestens drei Jahre liegen."
   },
   {
    "h2": "Wenn der Vertrag endet"
   },
   {
-   "p": "Die meisten Erbbaurechte laufen 60 bis 99 Jahre. Am Ende steht entweder eine Verlängerung – oft zu schlechteren Bedingungen für den Erbbauberechtigten – oder das Erlöschen. Dann fällt das Gebäude an den Grundstückseigentümer, der dafür nach § 27 ErbbauRG grundsätzlich eine Entschädigung zahlen muss. Der Vertrag kann Höhe und Zahlungsweise festlegen oder die Entschädigung ganz ausschließen. Eine Untergrenze von zwei Dritteln des gemeinen Werts gilt nur für Erbbaurechte, die dem Wohnbedürfnis minderbemittelter Bevölkerungskreise dienen."
+   "p": "Wie lange ein Erbbaurecht läuft, bestimmt der Vertrag. Am Ende steht entweder eine Verlängerung oder das Erlöschen. Dann fällt das Gebäude an den Grundstückseigentümer, der dafür nach § 27 ErbbauRG grundsätzlich eine Entschädigung zahlen muss. Der Vertrag kann Höhe und Zahlungsweise festlegen oder die Entschädigung ganz ausschließen. Eine Untergrenze von zwei Dritteln des gemeinen Werts gilt nur für Erbbaurechte, die dem Wohnbedürfnis minderbemittelter Bevölkerungskreise dienen."
   },
   {
    "p": "Der Eigentümer kann die Entschädigung auch abwenden, indem er das Erbbaurecht für die voraussichtliche Standdauer des Gebäudes verlängert. Lehnt der Erbbauberechtigte das ab, entfällt sein Anspruch (§ 27 Abs. 3 ErbbauRG)."
@@ -88,8 +59,8 @@
   {
    "ul": [
     "Der Eigentümerwechsel läuft über Notar und Grundbuch, wie bei jeder Immobilie.",
-    "Oft muss der Grundstückseigentümer zustimmen oder hat sich ein Vorkaufsrecht gesichert – maßgeblich ist der Erbbaurechtsvertrag.",
-    "Banken finanzieren meist nur, wenn das Erbbaurecht die Kreditlaufzeit um 20 bis 30 Jahre überdauert.",
+    "Ob der Grundstückseigentümer einem Verkauf zustimmen muss oder ein Vorkaufsrecht hat, steht im Erbbaurechtsvertrag (§ 5 ErbbauRG).",
+    "Finanziert die Bank über Pfandbriefe, muss das Darlehen planmäßig spätestens zehn Jahre vor Ende des Erbbaurechts getilgt sein (§ 13 Abs. 2 PfandBG).",
     "Den eigenen späteren Verkauf mitdenken: Nach 20 Jahren im Haus sind aus 60 Jahren Restlaufzeit 40 geworden."
    ]
   },
