@@ -1,0 +1,65 @@
+{
+ "slug": "immobilienverkauf",
+ "rang": 20,
+ "stand": "2026-09-14",
+ "titel": "Immobilie verkaufen in Leverkusen: Vom Marktwert bis zur Schlüsselübergabe",
+ "metaTitel": "Immobilie verkaufen in Leverkusen – der Ablauf | Stark & Hoffmann",
+ "beschreibung": "Wie Eigentümer in Leverkusen verkaufen: welche Bewertungsverfahren zählen, welche Unterlagen nötig sind und wie Vermarktung, Notar und Übergabe ablaufen.",
+ "lead": "Die meisten Eigentümer verkaufen nur ein- oder zweimal im Leben. Dieser Überblick zeigt, welche Etappen auf Sie zukommen – und warum der erste davon über den Erfolg entscheidet.",
+ "kurz": "Welche Bewertungsverfahren zählen und wie Vermarktung, Notar und Übergabe ablaufen.",
+ "bloecke": [
+  {
+   "h2": "Etappe 1: Was ist die Immobilie wert?"
+  },
+  {
+   "p": "Ein zu hoher Angebotspreis vertreibt Interessenten, ein zu niedriger kostet Sie Geld. Der richtige Wert entsteht deshalb aus mehreren Quellen:"
+  },
+  {
+   "ul": [
+    "Vergleichswertverfahren: das in der Praxis häufigste Verfahren. Es stützt sich auf tatsächlich erzielte Kaufpreise ähnlicher Objekte in vergleichbarer Lage, etwa aus den Kaufpreissammlungen der Gutachterausschüsse und aktuellen Marktdaten. Besonders gut funktioniert es bei Wohnungen und Reihenhäusern.",
+    "Ertragswertverfahren: maßgeblich bei vermieteten Objekten wie Mehrfamilien- oder Geschäftshäusern. Aus der jährlichen Nettomiete und einem marktüblichen Liegenschaftszinssatz ergibt sich der Wert – so rechnen auch Kapitalanleger.",
+    "Sachwertverfahren: Bodenwert plus Zeitwert des Gebäudes, also Herstellungskosten abzüglich Alterswertminderung. Es kommt eher bei selbst genutzten Häusern ohne Vergleichsobjekte oder bei besonderen Gebäuden zum Einsatz und spielt beim Verkauf eine geringere Rolle.",
+    "Amtliche Marktdaten: Bodenrichtwerte und Grundstücksmarktberichte der Gutachterausschüsse beruhen auf beurkundeten Verkäufen und sind die Grundlage für Gutachten und Bankbewertungen.",
+    "Beleihungswert: Die Bank des Käufers bewertet vorsichtiger als der Markt, oft 10 bis 20 Prozent darunter. Davon hängt ab, wie viel sie finanziert."
+   ]
+  },
+  {
+   "p": "Kein Verfahren liefert allein das ganze Bild. Erst die Kombination, gewichtet nach Objektart und Datenlage, führt zu einem Preis, der am Markt hält. Amtliche Kennzahlen für die Stadt finden Sie auf unserer Seite zum Immobilienmarkt Leverkusen."
+  },
+  {
+   "h2": "Etappe 2: Unterlagen zusammenstellen"
+  },
+  {
+   "p": "Grundbuchauszug, Energieausweis und Baupläne gehören immer dazu; bei einer Eigentumswohnung kommen die Teilungserklärung und die Protokolle der Eigentümerversammlungen hinzu."
+  },
+  {
+   "h2": "Etappe 3: Vermarktung"
+  },
+  {
+   "p": "Die Immobilie wird über Immobilienportale, Anzeigen oder einen Makler angeboten. Professionelle Fotos und eine klare Beschreibung machen den Unterschied."
+  },
+  {
+   "h2": "Etappe 4: Besichtigungen und Verhandlung"
+  },
+  {
+   "p": "Kaufinteressenten wollen die Immobilie vor Ort sehen. Danach geht es um den Preis und weitere Bedingungen des Kaufs."
+  },
+  {
+   "h2": "Etappe 5: Notar"
+  },
+  {
+   "p": "Der Notar setzt den Kaufvertrag auf und hält alle Absprachen fest. Mit der Beurkundung ist der Vertrag rechtswirksam."
+  },
+  {
+   "h2": "Etappe 6: Übergabe"
+  },
+  {
+   "p": "Ist der Kaufpreis gezahlt, wechselt die Immobilie den Besitzer, und der Käufer wird im Grundbuch eingetragen. Zur Übergabe gehören die Dokumente und ein Protokoll über den Zustand."
+  }
+ ],
+ "verwandt": [
+  "leistungen-makler",
+  "maklerkosten-beim-immobilienkauf",
+  "kaufnebenkosten"
+ ]
+}

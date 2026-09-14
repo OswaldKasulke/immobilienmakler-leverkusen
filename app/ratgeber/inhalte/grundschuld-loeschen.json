@@ -1,0 +1,113 @@
+{
+ "slug": "grundschuld-loeschen",
+ "rang": 15,
+ "stand": "2026-09-14",
+ "titel": "Grundschuld löschen lassen in Leverkusen: Schritte und Gebühren",
+ "metaTitel": "Grundschuld löschen lassen – Schritte und Gebühren | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Löschungsbewilligung, notarielle Beglaubigung, Grundbuchamt: So wird eine Grundschuld gelöscht, mit Gebührentabelle, Zeitbedarf und dem Ablauf beim Verkauf.",
+ "lead": "Die letzte Rate ist überwiesen, doch im Grundbuch steht die Grundschuld weiter. Welche Schritte zur Löschung führen und warum man damit nicht immer eilen muss.",
+ "kurz": "Schritte, Gebührentabelle und Zeitbedarf – und wann man die Grundschuld besser behält.",
+ "bloecke": [
+  {
+   "h2": "Ausgangslage"
+  },
+  {
+   "p": "Banken lassen zur Absicherung eines Baukredits eine Grundschuld in Abteilung III des Grundbuchs eintragen. Mit der Tilgung ändert sich daran nichts: Die Eintragung bleibt bestehen, bis sie ausdrücklich gelöscht wird."
+  },
+  {
+   "h2": "Nicht immer sofort löschen"
+  },
+  {
+   "p": "Eine abbezahlte Grundschuld darf im Grundbuch bleiben. Das kann sogar Geld sparen: Wird später erneut finanziert, lässt sie sich wieder als Sicherheit einsetzen, und die Kosten einer neuen Bestellung entfallen. Anders beim Verkauf – dort erwarten Käufer ein lastenfreies Grundbuch, und die Grundschuld wird in der Regel gelöscht."
+  },
+  {
+   "h2": "Die Schritte"
+  },
+  {
+   "ul": [
+    "Kredit vollständig zurückzahlen.",
+    "Löschungsbewilligung von der Bank verlangen – darauf besteht nach der Tilgung ein Anspruch.",
+    "Beim Notar die Zustimmung zur Löschung unterschreiben und beglaubigen lassen. Das Grundbuchamt löscht ein Grundpfandrecht nur mit Zustimmung des Eigentümers (§ 27 GBO) und nur auf Grundlage öffentlich beglaubigter Erklärungen (§ 29 GBO).",
+    "Der Notar reicht Bewilligung und Antrag beim Grundbuchamt ein.",
+    "Nach der Löschung einen neuen Grundbuchauszug anfordern und prüfen."
+   ]
+  },
+  {
+   "h2": "Gebühren"
+  },
+  {
+   "p": "Für die Löschung erhebt das Grundbuchamt eine 0,5-Gebühr nach Tabelle B des GNotKG, berechnet aus dem eingetragenen Grundschuldbetrag. Die Notarkosten für die Beglaubigung und das Einreichen kommen hinzu und liegen meist im niedrigen dreistelligen Bereich."
+  },
+  {
+   "table": [
+    [
+     "Grundschuldbetrag",
+     "volle Gebühr (Tabelle B GNotKG)",
+     "Löschung beim Grundbuchamt (0,5)"
+    ],
+    [
+     "100.000 €",
+     "273,00 €",
+     "136,50 €"
+    ],
+    [
+     "200.000 €",
+     "435,00 €",
+     "217,50 €"
+    ],
+    [
+     "300.000 €",
+     "635,00 €",
+     "317,50 €"
+    ],
+    [
+     "400.000 €",
+     "785,00 €",
+     "392,50 €"
+    ],
+    [
+     "500.000 €",
+     "935,00 €",
+     "467,50 €"
+    ]
+   ]
+  },
+  {
+   "p": "Ein Beispiel: Für eine Grundschuld über 200.000 Euro verlangt das Grundbuchamt 217,50 Euro; zusammen mit dem Notar sind einige Hundert Euro einzuplanen."
+  },
+  {
+   "h2": "Zeitplan"
+  },
+  {
+   "p": "Bis die Bank die Löschungsbewilligung schickt, vergehen nach der Tilgung meist 2 bis 6 Wochen. Die Beglaubigung beim Notar dauert etwa 1 bis 2 Wochen, die Bearbeitung beim Grundbuchamt je nach Auslastung 4 bis 12 Wochen. Insgesamt sind 2 bis 4 Monate realistisch."
+  },
+  {
+   "h2": "Verkauf mit eingetragener Grundschuld"
+  },
+  {
+   "p": "Beim Verkauf koordiniert der beurkundende Notar die Ablösung. Üblich ist die direkte Zahlung: Der Notar meldet dem Käufer die Fälligkeit und die Beträge, der Käufer bezahlt die Bank des Verkäufers und überweist den restlichen Kaufpreis an den Verkäufer, anschließend wird die Grundschuld gelöscht. Über ein Notaranderkonto läuft das nur, wenn ein berechtigtes Sicherungsinteresse dafür besteht (§ 57 BeurkG)."
+  },
+  {
+   "p": "Klären Sie vorab mit Ihrer Bank die Restschuld und eine eventuelle Vorfälligkeitsentschädigung – so gibt es beim Verkauf keine Überraschungen."
+  }
+ ],
+ "faq": [
+  [
+   "Besteht eine Pflicht zur Löschung nach der Tilgung?",
+   "Nein. Die Grundschuld darf eingetragen bleiben – bis zu einer neuen Finanzierung oder bis zum Verkauf."
+  ],
+  [
+   "Brauche ich für die Löschung einen Notar?",
+   "Ja, in der Praxis schon, denn die Zustimmung des Eigentümers muss öffentlich beglaubigt werden."
+  ],
+  [
+   "Hat eine stehen gebliebene Grundschuld Nachteile?",
+   "Nach vollständiger Tilgung zunächst keine, sofern sie laut Sicherungsabrede keine anderen Forderungen absichert. Beim Verkauf wird sie jedoch fast immer gelöscht."
+  ]
+ ],
+ "verwandt": [
+  "grundschuld",
+  "notarkosten-beim-immobilienkauf",
+  "kaufnebenkosten"
+ ]
+}

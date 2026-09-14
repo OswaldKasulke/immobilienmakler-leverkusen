@@ -1,0 +1,73 @@
+{
+ "slug": "heizungsgesetz-aenderung",
+ "rang": 16,
+ "stand": "2026-09-14",
+ "titel": "Neues Heizungsgesetz: Was Hausbesitzer in Leverkusen jetzt wissen müssen",
+ "metaTitel": "Neues Heizungsgesetz (GModG) – was sich ändert | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Gebäudemodernisierungsgesetz statt GEG: keine 65-Prozent-Pflicht, Gas und Öl wieder erlaubt, Bio-Treppe ab 2029, Bestandsschutz für alte Kessel.",
+ "lead": "Wärmepumpe, Gasheizung oder etwas ganz anderes? Das neue Gebäudemodernisierungsgesetz gibt Eigentümern die Wahl zurück. Fünf Fragen und Antworten zur neuen Rechtslage.",
+ "kurz": "Fünf Fragen zur neuen Rechtslage – von der 65-Prozent-Regel bis zur Bio-Treppe.",
+ "bloecke": [
+  {
+   "h2": "Seit wann gilt das neue Recht?"
+  },
+  {
+   "p": "Das Gebäudemodernisierungsgesetz wurde am 10. Juli 2026 von Bundestag und Bundesrat verabschiedet und am 28. Juli 2026 im Bundesgesetzblatt (Nr. 226) verkündet. Die ersten Vorschriften sind am 29. Juli 2026 in Kraft getreten, andere folgen zeitversetzt. Es löst das Gebäudeenergiegesetz in der Fassung von 2024 ab."
+  },
+  {
+   "h2": "Muss meine neue Heizung noch 65 Prozent erneuerbare Energie nutzen?"
+  },
+  {
+   "p": "Nein. Die pauschale 65-Prozent-Vorgabe für neue Heizungen ist entfallen. Eigentümer können wieder technologieoffen entscheiden – auch für eine neue Gas- oder Ölheizung."
+  },
+  {
+   "h2": "Welche Pflichten haben neue Gas- und Ölheizungen?"
+  },
+  {
+   "p": "Für sie gilt die sogenannte Bio-Treppe: Ab 2029 muss ein wachsender Teil des Brennstoffs klimaneutral oder biogen sein – mindestens 10 Prozent ab 2029, 15 Prozent ab 2030, 30 Prozent ab 2035 und 60 Prozent ab 2040. Wer heute eine solche Heizung einbaut, sollte diese Stufen in die langfristigen Betriebskosten einrechnen."
+  },
+  {
+   "h2": "Darf meine alte Heizung weiterlaufen?"
+  },
+  {
+   "p": "Ja. Mit den gestrichenen Paragrafen 71 sowie 71b bis 72 des bisherigen GEG sind auch das Betriebsverbot für alte Heizkessel und die Austauschpflicht nach 30 Jahren weggefallen. Eine funktionierende Heizung genießt Bestandsschutz."
+  },
+  {
+   "h2": "Gibt es weiter Förderung?"
+  },
+  {
+   "p": "Ja. Die Bundesregierung setzt die Bundesförderung für effiziente Gebäude (BEG) fort; die neuen Förderbedingungen gelten seit dem 21. Juli 2026."
+  },
+  {
+   "h2": "Was bedeutet das beim Kauf oder Verkauf?"
+  },
+  {
+   "table": [
+    [
+     "Rolle",
+     "Folge der Reform"
+    ],
+    [
+     "Eigentümer",
+     "kein Zwang zur Wärmepumpe beim Heizungstausch, mehr Spielraum bei der Planung"
+    ],
+    [
+     "Verkäufer",
+     "ältere Gas- oder Ölheizungen erzeugen weniger Sanierungsdruck – ein Vorteil in der Verhandlung"
+    ],
+    [
+     "Käufer",
+     "Alter und Zustand der Heizung bleiben ein Kostenfaktor; bei neuen fossilen Anlagen kommen steigende Pflichtanteile klimaneutraler Brennstoffe hinzu"
+    ]
+   ]
+  },
+  {
+   "p": "Unverändert ist: Wer verkauft oder vermietet, braucht einen Energieausweis."
+  }
+ ],
+ "verwandt": [
+  "daemmung-bei-immobilien",
+  "smarthome",
+  "immobilienverkauf"
+ ]
+}

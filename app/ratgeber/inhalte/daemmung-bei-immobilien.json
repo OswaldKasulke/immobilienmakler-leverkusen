@@ -1,0 +1,88 @@
+{
+ "slug": "daemmung-bei-immobilien",
+ "rang": 2,
+ "stand": "2026-09-14",
+ "titel": "Dämmung bei Immobilien in Leverkusen: Arten, Materialien, Förderung",
+ "metaTitel": "Dämmung bei Immobilien – Arten, Materialien, Förderung | Stark & Hoffmann",
+ "beschreibung": "Dach, Fassade, Kellerdecke oder Fenster: welche Dämmung wo sinnvoll ist, welche Dämmstoffe es gibt, was sie bringt und welche Förderprogramme helfen.",
+ "lead": "Wärme geht über Dach, Wände, Keller und Fenster verloren. Welche Dämmung an welcher Stelle sinnvoll ist und womit sich die Kosten senken lassen.",
+ "kurz": "Welche Dämmung wo sinnvoll ist, welche Materialien es gibt und was sie bringt.",
+ "bloecke": [
+  {
+   "h2": "Wo gedämmt wird"
+  },
+  {
+   "table": [
+    [
+     "Bauteil",
+     "Übliche Lösungen",
+     "Hinweis"
+    ],
+    [
+     "Dach und oberste Geschossdecke",
+     "Zwischensparren-, Untersparren- oder Aufsparrendämmung",
+     "besonders wirksam, weil warme Luft nach oben steigt"
+    ],
+    [
+     "Außenwand",
+     "Wärmedämmverbundsystem auf der Fassade oder Kerndämmung bei zweischaligem Mauerwerk",
+     "verringert Wärmeverluste und schützt vor Witterung"
+    ],
+    [
+     "Innenseite der Wand",
+     "Innendämmung",
+     "häufig bei Baudenkmalen, wenn die Fassade erhalten bleiben muss"
+    ],
+    [
+     "Keller und Boden",
+     "Dämmung der Kellerdecke oder Bodenplatte",
+     "sinnvoll bei unbeheiztem Keller"
+    ],
+    [
+     "Fenster und Türen",
+     "Mehrfachverglasung und dichte Rahmen",
+     "verringert Wärmeverluste deutlich"
+    ]
+   ]
+  },
+  {
+   "h2": "Die gängigen Dämmstoffe"
+  },
+  {
+   "ul": [
+    "Mineralwolle aus Glas- oder Steinwolle: weit verbreitet, gut dämmend, nicht brennbar und schalldämmend.",
+    "Polystyrol (EPS und XPS): meist als Hartschaumplatten, preiswert und wasserabweisend.",
+    "Naturdämmstoffe wie Holzfaser, Zellulose, Hanf oder Schafwolle: umweltfreundlicher, aber teurer.",
+    "Vakuumdämmung: sehr dünne Platten mit sehr hoher Dämmwirkung, dafür kostspielig."
+   ]
+  },
+  {
+   "h2": "Was eine gute Dämmung bringt"
+  },
+  {
+   "ul": [
+    "Weniger Heizbedarf und niedrigere Energiekosten – wie viel, hängt vom Ausgangszustand des Gebäudes ab.",
+    "Weniger CO₂-Ausstoß durch geringeren Verbrauch.",
+    "Einen besseren Stand beim Verkauf, weil energetisch sanierte Immobilien gefragt sind.",
+    "Mehr Wohnkomfort durch gleichmäßigere Temperaturen und weniger Außenlärm."
+   ]
+  },
+  {
+   "h2": "Recht und Förderung"
+  },
+  {
+   "p": "Anforderungen an den Wärmeschutz legt das Gebäudeenergierecht fest, das seit Juli 2026 Gebäudemodernisierungsgesetz heißt. Für Dämmmaßnahmen gibt es Förderprogramme von KfW und BAFA; welche Konditionen gelten, sollte vor Beginn der Arbeiten geklärt werden."
+  },
+  {
+   "h2": "Rechnet sich das?"
+  },
+  {
+   "p": "Je nach Umfang amortisieren sich Dämmmaßnahmen innerhalb von etwa 10 bis 20 Jahren. Kleinere Einzelmaßnahmen wie die Dämmung der Kellerdecke kosten weniger und rechnen sich meist schneller."
+  }
+ ],
+ "verwandt": [
+  "heizungsgesetz-aenderung",
+  "smarthome",
+  "denkmal-afa"
+ ]
+}

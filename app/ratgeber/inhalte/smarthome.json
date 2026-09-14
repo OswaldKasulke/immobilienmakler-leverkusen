@@ -1,0 +1,78 @@
+{
+ "slug": "smarthome",
+ "rang": 19,
+ "stand": "2026-09-14",
+ "titel": "Smarthome in Leverkusen: Vernetzte Heizung, Licht und Sicherheit",
+ "metaTitel": "Smarthome und smarte Thermostate im Überblick | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Smarthome für Eigentümer: Heizungssteuerung per App, Beleuchtung, Sicherheitstechnik und Energiemessung – mit ehrlicher Einschätzung zu Einsparungen und Verkauf.",
+ "lead": "Smarte Technik verspricht Komfort und niedrigere Heizkosten. Ob das aufgeht, hängt weniger von der Technik ab als vom bisherigen Heizverhalten.",
+ "kurz": "Heizung, Licht, Sicherheit und Energie – mit ehrlicher Einschätzung zu Einsparung und Wert.",
+ "bloecke": [
+  {
+   "h2": "Die vier Bausteine"
+  },
+  {
+   "table": [
+    [
+     "Bereich",
+     "Typische Funktionen"
+    ],
+    [
+     "Heizung und Klima",
+     "raumweise Profile, Zeitpläne, Abwesenheitserkennung"
+    ],
+    [
+     "Beleuchtung",
+     "Dimmen, Lichtfarbe, Szenen"
+    ],
+    [
+     "Sicherheit",
+     "Kameras mit App, smarte Schlösser, vernetzte Rauch- und Alarmmelder"
+    ],
+    [
+     "Energie",
+     "Verbrauchsmessung, Steckdosen mit Abschaltung"
+    ]
+   ]
+  },
+  {
+   "p": "Die Steuerung läuft über eine Plattform – verbreitet sind Google Home, Amazon Alexa und Apple HomeKit. Weil ein Umstieg später mühsam ist, sollte man vor dem Kauf prüfen, ob alle gewünschten Geräte zur Plattform passen."
+  },
+  {
+   "h2": "Heizen mit smarten Thermostaten"
+  },
+  {
+   "p": "Vernetzte Thermostatköpfe ersetzen die herkömmlichen Regler am Heizkörper. Jeder Raum bekommt eigene Zeiten und Temperaturen, nachts und bei Abwesenheit wird abgesenkt. Mit Geofencing erkennt das System über das Smartphone, ob jemand zu Hause ist. Manche Modelle lernen aus Nutzung und Wetterdaten und steuern die Heizung selbstständig; andere teilen das Haus in Zonen, damit ungenutzte Räume nur auf Grundtemperatur laufen. Nicht zu unterschätzen ist die Verbrauchsanzeige: Wer sieht, was er verbraucht, heizt oft bewusster."
+  },
+  {
+   "p": "Zu den verbreiteten Systemen zählen Tado, Nest, Honeywell Evohome und Netatmo. Sie lassen sich in der Regel mit den großen Sprachassistenten koppeln."
+  },
+  {
+   "h2": "Realistische Erwartungen"
+  },
+  {
+   "p": "Eine pauschale Ersparnis gibt es nicht. Bei Haushalten, die bisher ohne Zeitsteuerung heizen, macht sich die Technik bemerkbar. Wer schon sorgfältig regelt, spart wenig. Die Werbeversprechen der Hersteller gehen meist von günstigen Ausgangslagen aus. Oft wirkt eine Dämmung der Gebäudehülle stärker – mehr dazu in unserem Beitrag zur Dämmung."
+  },
+  {
+   "h2": "Beeinflusst Smarthome den Kaufpreis?"
+  },
+  {
+   "p": "Kaum messbar. Käufer – besonders jüngere – schätzen moderne Technik, doch den Preis bestimmen Lage, Zustand und Energieeffizienz. Smarte Ausstattung kann aber helfen, dass sich Interessenten schneller entscheiden."
+  },
+  {
+   "h2": "Drei Punkte für den Verkauf"
+  },
+  {
+   "ul": [
+    "Alle Konten, Zugangsdaten und Administratorrechte an den Käufer übertragen.",
+    "Im Exposé und im Kaufvertrag festhalten, welche Technik fest eingebaut ist und im Haus bleibt.",
+    "Auf die Zukunft des Herstellers achten: Wird ein System eingestellt, droht der Rückbau."
+   ]
+  }
+ ],
+ "verwandt": [
+  "heizungsgesetz-aenderung",
+  "daemmung-bei-immobilien",
+  "immobilienverkauf"
+ ]
+}
