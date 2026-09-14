@@ -1,0 +1,110 @@
+{
+ "slug": "zwangsversteigerung",
+ "rang": 18,
+ "stand": "2026-09-14",
+ "titel": "Zwangsversteigerung Leverkusen: Was Bieter und Eigentümer wissen müssen",
+ "metaTitel": "Zwangsversteigerung in Leverkusen – Regeln und Risiken | Stark & Hoffmann",
+ "beschreibung": "Zwangsversteigerungen am Amtsgericht Leverkusen: wo Termine und Gutachten stehen, wie die 50- und 70-Prozent-Grenzen wirken und welche Risiken Bieter tragen.",
+ "lead": "Versteigerungen am Amtsgericht locken mit niedrigen Geboten. Wer die Wertgrenzen, die Sicherheitsleistung und die fehlende Gewährleistung kennt, bietet mit klarem Kopf.",
+ "kurz": "Termine und Gutachten, die Wertgrenzen, Sicherheitsleistung und Risiken im Überblick.",
+ "bloecke": [
+  {
+   "h2": "Zuständig: das Amtsgericht Leverkusen"
+  },
+  {
+   "p": "Zwangsversteigerungen sind Vollstreckungsverfahren vor dem Amtsgericht, in dessen Bezirk die Immobilie liegt – für Leverkusen also vor dem Amtsgericht Leverkusen. Wie alle Amtsgerichte in Nordrhein-Westfalen veröffentlicht es die amtlichen Bekanntmachungen der Termine nur noch im bundesweiten Justizportal. Dort lassen sich in den meisten Fällen Gutachten, Exposés und Fotos einsehen und Karten und Luftbilder abrufen."
+  },
+  {
+   "h2": "Von der Anordnung zum Zuschlag"
+  },
+  {
+   "table": [
+    [
+     "Schritt",
+     "Was geschieht"
+    ],
+    [
+     "Antrag und Anordnung",
+     "Ein Gläubiger, meist die finanzierende Bank, beantragt das Verfahren; das Gericht ordnet es an und vermerkt es im Grundbuch."
+    ],
+    [
+     "Verkehrswert",
+     "Ein Sachverständiger erstellt ein Gutachten, das Gericht setzt den Verkehrswert fest."
+    ],
+    [
+     "Bekanntmachung",
+     "Der Termin erscheint im Justizportal."
+    ],
+    [
+     "Termin",
+     "Das Gericht nennt das geringste Gebot; die Bietzeit dauert mindestens 30 Minuten."
+    ],
+    [
+     "Zuschlag",
+     "Der Meistbietende wird Eigentümer, ohne Auflassung und Grundbucheintragung als Voraussetzung."
+    ]
+   ]
+  },
+  {
+   "h2": "Die 5/10- und die 7/10-Grenze"
+  },
+  {
+   "p": "Unterhalb bestimmter Gebote wird im ersten Termin nicht automatisch zugeschlagen:"
+  },
+  {
+   "table": [
+    [
+     "Höhe des Meistgebots",
+     "Was im ersten Termin passiert"
+    ],
+    [
+     "weniger als die Hälfte des Verkehrswerts",
+     "kein Zuschlag – das Gericht muss ihn versagen (§ 85a ZVG)"
+    ],
+    [
+     "mindestens die Hälfte, aber unter sieben Zehnteln",
+     "Zuschlag, es sei denn, ein Berechtigter beantragt die Versagung (§ 74a ZVG)"
+    ],
+    [
+     "sieben Zehntel oder mehr",
+     "Zuschlag"
+    ]
+   ]
+  },
+  {
+   "p": "Ist der Zuschlag im ersten Termin an einer der Grenzen gescheitert, entfallen beide im Folgetermin; dann sind auch sehr niedrige Zuschläge möglich. Anders, wenn niemand bietet: Das Verfahren wird einstweilen eingestellt, und in einem späteren Termin gelten die Grenzen wieder, weil kein Zuschlag versagt wurde (§ 77 ZVG). Nach einem zweiten Termin ohne Gebot wird das Verfahren aufgehoben – auf Antrag des Gläubigers kann eine Zwangsverwaltung folgen."
+  },
+  {
+   "h2": "Sicherheit leisten"
+  },
+  {
+   "p": "Auf Verlangen eines Beteiligten muss ein Bieter Sicherheit in Höhe von 10 Prozent des Verkehrswerts leisten. Bargeld wird nicht angenommen. In Betracht kommen ein Bundesbankscheck, ein Verrechnungsscheck eines Kreditinstituts, eine unbefristete Bankbürgschaft oder eine Überweisung, die vor dem Termin auf dem Gerichtskonto eingegangen sein muss."
+  },
+  {
+   "h2": "Was nach dem Zuschlag auf Sie zukommt"
+  },
+  {
+   "ol": [
+    "Keine Mängelhaftung: Eine Gewährleistung findet nicht statt (§ 56 Satz 3 ZVG).",
+    "Übergang von Gefahr, Nutzungen und Lasten mit dem Zuschlag (§ 56 ZVG) – auch ohne dass Sie das Objekt je betreten haben.",
+    "Mieter bleiben: Der Ersteher übernimmt bestehende Mietverträge; das Sonderkündigungsrecht nach § 57a ZVG muss zum ersten zulässigen Termin ausgeübt werden, sonst ist es verloren.",
+    "Vorrangige Rechte wie Nießbrauch, Wohn- oder Wegerechte bleiben bestehen und müssen zusätzlich übernommen werden.",
+    "Kosten: Grunderwerbsteuer, Gebühr für den Zuschlag und häufig Räumungskosten kommen zum Gebot hinzu."
+   ]
+  },
+  {
+   "p": "Gegenüber dem früheren Eigentümer wirkt der Zuschlagsbeschluss als Räumungstitel, gegenüber Mietern nicht."
+  },
+  {
+   "h2": "Hinweis für betroffene Eigentümer"
+  },
+  {
+   "p": "Bis zum Zuschlag lässt sich eine Versteigerung oft noch abwenden. Ein freihändiger Verkauf, abgestimmt mit den Gläubigern, erzielt in der Regel einen besseren Preis. Je früher Sie handeln, desto mehr Möglichkeiten bleiben. Von der Zwangsversteigerung zu unterscheiden ist die Teilungsversteigerung, mit der zum Beispiel Erbengemeinschaften aufgelöst werden."
+  }
+ ],
+ "verwandt": [
+  "kaufnebenkosten",
+  "niessbrauch-wohnrecht",
+  "grundschuld-loeschen"
+ ]
+}

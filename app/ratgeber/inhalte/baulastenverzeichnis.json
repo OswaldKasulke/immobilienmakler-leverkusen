@@ -1,0 +1,119 @@
+{
+ "slug": "baulastenverzeichnis",
+ "rang": 17,
+ "stand": "2026-09-14",
+ "titel": "Baulastenverzeichnis Leverkusen: So bekommen Sie eine Baulastenauskunft",
+ "metaTitel": "Baulastenauskunft in Leverkusen – Antrag und Gebühren | Stark & Hoffmann",
+ "beschreibung": "Baulasten verstehen und in Leverkusen abfragen: typische Baulasten, Unterschied zum Grundbuch, Antrag bei der Bauaufsicht der Stadt und die Gebühren je Flurstück.",
+ "lead": "Ob ein Anbau erlaubt ist oder ein Stellplatz fremden Autos dient, steht manchmal nicht im Grundbuch, sondern im Baulastenverzeichnis. Wie Sie es in Leverkusen einsehen.",
+ "kurz": "Typische Baulasten, der Unterschied zum Grundbuch und der Antrag bei der Stadt.",
+ "bloecke": [
+  {
+   "h2": "Baulast in wenigen Worten"
+  },
+  {
+   "p": "Eine Baulast ist eine öffentlich-rechtliche Verpflichtung, die ein Eigentümer freiwillig gegenüber der Bauaufsicht übernimmt. Sie haftet am Grundstück: Mit der Eintragung ins Baulastenverzeichnis bindet sie auch alle künftigen Eigentümer."
+  },
+  {
+   "h2": "Warum das Grundbuch nicht reicht"
+  },
+  {
+   "p": "Baulasten stehen in einem eigenen Register, das die Bauaufsicht führt – nicht im Grundbuch des Amtsgerichts. Wer nur den Grundbuchauszug liest, erfährt von ihnen nichts. Manche Rechte, etwa ein Wegerecht, können in beiden Registern stehen oder nur in einem; das eine ersetzt das andere nicht."
+  },
+  {
+   "table": [
+    [
+     "",
+     "Grundbuch",
+     "Baulastenverzeichnis"
+    ],
+    [
+     "Rechtsnatur",
+     "privatrechtlich",
+     "öffentlich-rechtlich"
+    ],
+    [
+     "geführt von",
+     "Grundbuchamt beim Amtsgericht",
+     "Bauaufsichtsbehörde"
+    ],
+    [
+     "enthält",
+     "Eigentum, Grundschulden, Wege- und Wohnrechte",
+     "Verpflichtungen gegenüber der Baubehörde"
+    ],
+    [
+     "wirkt gegenüber",
+     "Dritten",
+     "der Behörde"
+    ]
+   ]
+  },
+  {
+   "h2": "Welche Baulasten es gibt"
+  },
+  {
+   "table": [
+    [
+     "Baulast",
+     "Wirkung"
+    ],
+    [
+     "Abstandsflächenbaulast",
+     "Abstandsflächen eines Nachbarbaus liegen auf dem belasteten Grundstück – dort kann dann weniger gebaut werden"
+    ],
+    [
+     "Stellplatzbaulast",
+     "notwendige Stellplätze eines anderen Grundstücks müssen dauerhaft freigehalten werden"
+    ],
+    [
+     "Zufahrtsbaulast",
+     "sichert die Erschließung eines Hinterliegergrundstücks"
+    ],
+    [
+     "Vereinigungsbaulast",
+     "mehrere Grundstücke werden baurechtlich wie eines behandelt"
+    ]
+   ]
+  },
+  {
+   "p": "Beseitigen lässt sich eine Baulast nicht aus eigener Kraft. Sie endet erst mit dem schriftlichen Verzicht der Behörde, der voraussetzt, dass kein öffentliches Interesse mehr an ihr besteht."
+  },
+  {
+   "h2": "Auskunft bei der Stadt Leverkusen"
+  },
+  {
+   "p": "Zuständig ist die Bauaufsicht der Stadt Leverkusen (Abteilung 630), Hauptstraße 101, 51373 Leverkusen. Für eine schriftliche Auskunft stellen Sie einen Antrag – das Formular gibt es bei der Stadt zum Herunterladen; eine Online-Beantragung ist nicht vorgesehen."
+  },
+  {
+   "ul": [
+    "Angaben: Adresse des Grundstücks sowie Gemarkung, Flur und Flurstück",
+    "Nachweis: Darlegung des berechtigten Interesses, zum Beispiel wegen eines geplanten Grunderwerbs oder einer Bebauung",
+    "Gebühr ohne eingetragene Baulast: 30 € je Flurstück",
+    "Gebühr mit eingetragener Baulast: ab 50 € je Flurstück",
+    "Rechtsgrundlagen: Bauordnung NRW, Gebührengesetz NRW und Allgemeine Verwaltungsgebührenordnung NRW"
+   ]
+  },
+  {
+   "h2": "Tipps zur Auskunft"
+  },
+  {
+   "ul": [
+    "Alle Flurstücke abfragen, die zur Immobilie gehören – auch Garage oder Zufahrt.",
+    "Auf das Datum achten: Die Auskunft gibt den Stand am Tag der Ausstellung wieder.",
+    "Nachfragen, ob auch Baulasten zugunsten des Grundstücks aufgeführt sind."
+   ]
+  },
+  {
+   "h2": "Warum Käufer und Verkäufer das interessiert"
+  },
+  {
+   "p": "Eine Baulast kann den Wert eines Grundstücks deutlich drücken, weil sie Bebauung und Nutzung einschränkt. Häufig fällt sie erst auf, wenn nach dem Kauf eine Bauvoranfrage scheitert. Bekannte Baulasten müssen Verkäufer offenlegen, sonst drohen Schadensersatzforderungen. Liegt eine aktuelle Auskunft ohne Eintrag vor, beseitigt das eine typische Unsicherheit und hilft beim Verkauf."
+  }
+ ],
+ "verwandt": [
+  "flurkarte",
+  "grundschuld",
+  "immobilienverkauf"
+ ]
+}

@@ -15,6 +15,9 @@ import heizungsgesetzAenderung from "./inhalte/heizungsgesetz-aenderung.json";
 import smarthome from "./inhalte/smarthome.json";
 import daemmungBeiImmobilien from "./inhalte/daemmung-bei-immobilien.json";
 import immobilienverkauf from "./inhalte/immobilienverkauf.json";
+import flurkarte from "./inhalte/flurkarte.json";
+import baulastenverzeichnis from "./inhalte/baulastenverzeichnis.json";
+import zwangsversteigerung from "./inhalte/zwangsversteigerung.json";
 
 // Jeder Ratgeber liegt als eigene JSON-Datei in ./inhalte – die Sitemap liest
 // das Änderungsdatum je Datei, damit nicht alle Artikel dasselbe lastmod tragen.
@@ -41,7 +44,7 @@ export type Artikel = {
   rang?: number;
 };
 
-const alle: Artikel[] = [erbpacht, erbbauzins, niessbrauchWohnrecht, maklerkostenBeimImmobilienkauf, eigenbedarfsklage, denkmalAfa, abschreibungBeiImmobilien, kaufnebenkosten, notarkostenBeimImmobilienkauf, grundschuld, leistungenMakler, grundschuldLoeschen, wirtschaftsplan, heizungsgesetzAenderung, smarthome, daemmungBeiImmobilien, immobilienverkauf];
+const alle: Artikel[] = [erbpacht, erbbauzins, niessbrauchWohnrecht, maklerkostenBeimImmobilienkauf, eigenbedarfsklage, denkmalAfa, abschreibungBeiImmobilien, kaufnebenkosten, notarkostenBeimImmobilienkauf, grundschuld, leistungenMakler, grundschuldLoeschen, wirtschaftsplan, heizungsgesetzAenderung, smarthome, daemmungBeiImmobilien, immobilienverkauf, flurkarte, baulastenverzeichnis, zwangsversteigerung];
 
 // Reihenfolge nach Rang (Platzierung der Vorlage), ohne Rang ans Ende.
 export const artikel: Artikel[] = [...alle].sort((a, b) => (a.rang ?? 99) - (b.rang ?? 99));

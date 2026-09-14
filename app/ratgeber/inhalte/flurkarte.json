@@ -1,0 +1,67 @@
+{
+ "slug": "flurkarte",
+ "rang": 8,
+ "stand": "2026-09-14",
+ "titel": "Flurkarte in Leverkusen: So bekommen Sie den Auszug aus dem Kataster",
+ "metaTitel": "Flurkarte Leverkusen – Auszug beantragen | Stark & Hoffmann Leverkusen",
+ "beschreibung": "Flurkarte in Leverkusen: was die Liegenschaftskarte zeigt, wer sie beantragen darf, wie der Antrag bei der Stadt läuft und wofür Verkäufer sie brauchen.",
+ "lead": "In Leverkusen führt die Stadt selbst das Liegenschaftskataster. Einen Auszug bekommt, wer ein berechtigtes Interesse hat – mit einem formlosen Antrag.",
+ "kurz": "Was die Liegenschaftskarte zeigt, wer sie beantragen darf und wie der Antrag funktioniert.",
+ "bloecke": [
+  {
+   "h2": "Flurkarte, Liegenschaftskarte, Kataster"
+  },
+  {
+   "p": "Das Liegenschaftskataster besteht aus zwei Teilen: Im Liegenschaftsbuch wird jedes Flurstück mit seinen Merkmalen beschrieben, etwa Lage, Größe und tatsächlicher Nutzung. Die Liegenschaftskarte – umgangssprachlich Flurkarte – stellt die Flurstücke grafisch dar, mit Grenzen, Flurstücksnummern, Gebäuden und angrenzenden Straßen."
+  },
+  {
+   "h2": "Wofür man sie braucht"
+  },
+  {
+   "ul": [
+    "bei Kauf und Verkauf, um Lage und Zuschnitt des Grundstücks zu belegen",
+    "für Bauanträge, zu deren Unterlagen sie häufig gehört",
+    "bei Fragen zum Grenzverlauf, um die Grundstücksstruktur nachvollziehen zu können"
+   ]
+  },
+  {
+   "h2": "Zuständige Stelle in Leverkusen"
+  },
+  {
+   "p": "Auszüge erteilt die Stadt Leverkusen, Abteilung Geoinformationen (620), Hauptstraße 101, 51373 Leverkusen."
+  },
+  {
+   "h2": "Wer den Auszug beantragen darf"
+  },
+  {
+   "p": "Nach Angabe der Stadt können nur berechtigte Interessenten Auszüge aus dem Liegenschaftskataster beantragen. Das berechtigte Interesse – etwa als Eigentümer oder als Kaufinteressent – legen Sie im Antrag dar."
+  },
+  {
+   "h2": "So stellen Sie den Antrag"
+  },
+  {
+   "ul": [
+    "Ein formloser Antrag genügt, auch per Fax oder E-Mail.",
+    "Alternativ steht bei der Stadt ein Bestellformular für Karten und Pläne zum Herunterladen bereit.",
+    "Geben Sie die Adresse und möglichst Gemarkung, Flur und Flurstück an – diese Angaben stehen im Grundbuchauszug."
+   ]
+  },
+  {
+   "h2": "Gebühren"
+  },
+  {
+   "p": "Die Kosten richten sich nach der Vermessungs- und Wertermittlungskostenordnung Nordrhein-Westfalen (VermWertKostO NRW). Bestellen Sie am besten direkt bei der Stadt; private Portale bieten dieselben amtlichen Unterlagen häufig zu höheren Preisen an."
+  },
+  {
+   "h2": "Beim Verkauf"
+  },
+  {
+   "p": "Die Flurkarte gehört zu den Unterlagen, nach denen Käufer, Banken und Notare fragen. Stimmt die tatsächliche Bebauung nicht mit dem Kataster überein – etwa bei einem nicht eingemessenen Anbau –, lässt sich das vor der Vermarktung klären statt unter Zeitdruck vor der Beurkundung."
+  }
+ ],
+ "verwandt": [
+  "baulastenverzeichnis",
+  "immobilienverkauf",
+  "wirtschaftsplan"
+ ]
+}
