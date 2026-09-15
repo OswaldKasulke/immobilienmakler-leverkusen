@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 14.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 15.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -41,18 +41,18 @@ export const properties: Property[] = [
     "district": null,
     "price": "2.690.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/530MlLmPhRCm1Ioq0O1D2u/d72a83a3f3e760ef0cd0c8183408f9c5/bbe5ef76-d01f-4ec5-9790-c9b0b9ab4130?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Vier moderne Wohngebäude mit begrünten Dächern und Solarpanels, umgeben von Gärten und Parkplätzen.",
-    "url": "https://www.evernest.com/de/listing/8sd9jXCKT7XRrXnSd6KgK/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/6coI5W5BTlzDKPXqcp3F5O/5f06ffbeefc66ff9b1985756a00e9c52/e2fdb7ff-50f5-48e6-b3ec-0b5970188cc6?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Luftaufnahme von vier modernen Wohngebäuden mit Solarpaneelen und begrünten Dächern.",
+    "url": "https://www.evernest.com/de/listing/66jKNfG2RqlPqEtIa52tBU/"
   },
   {
     "place": "Langenfeld (Rheinland)-Reusrath",
     "district": null,
     "price": "2.690.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/45EvPFINs9lpk1SwYejrsm/3c884e5390f05010b4f29553150bc4f3/ff7051cc-318f-44a1-bad7-bd24aedf028e?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Luftaufnahme von drei modernen Wohngebäuden mit Solaranlagen auf den Dächern und Grünflächen.",
-    "url": "https://www.evernest.com/de/listing/66jKNfG2RqlPqEtIa52tBU/"
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/530MlLmPhRCm1Ioq0O1D2u/d72a83a3f3e760ef0cd0c8183408f9c5/bbe5ef76-d01f-4ec5-9790-c9b0b9ab4130?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Vier moderne Wohngebäude mit begrünten Dächern und Solarpanels, umgeben von Gärten und Parkplätzen.",
+    "url": "https://www.evernest.com/de/listing/8sd9jXCKT7XRrXnSd6KgK/"
   },
   {
     "place": "Leverkusen-Opladen",
