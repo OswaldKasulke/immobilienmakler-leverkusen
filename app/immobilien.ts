@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 15.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 16.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -176,8 +176,8 @@ export const properties: Property[] = [
     "district": null,
     "price": "875.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/56yJ2L4XSKMPwm7abkSHhO/f2fb5546df56ba09719424f20c7880b8/64e66707-0915-41a1-9810-f6ceba72cefa?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Luftaufnahme eines Einfamilienhauses mit Garten, Wohnmobil und geparkten Autos an einer Ecke.",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/lgLAfzcNzytn60vu0LjJf/76b42c7ff54c35037de12604baac636f/48197efa-2caf-41ad-a721-f59d4dfd5c88?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Einfamilienhaus mit Garten, Einfahrt und geparktem Auto an einer Straßenecke.",
     "url": "https://www.evernest.com/de/listing/ZUXtatV9l9NnxJLqKo0DZ/"
   },
   {
@@ -253,6 +253,15 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/6dfBgQE4AleYMtMGn0YqO7/"
   },
   {
+    "place": "Bergisch Gladbach-Paffrath",
+    "district": null,
+    "price": "475.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/Y0qkbNgFxlWWQnztABfsV/59daf34e268e2d4bc291321203ff6512/0b106c85-3114-457d-8fac-a2af33b5e48b?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrere Reihenhäuser mit Vorgarten und gepflastertem Parkplatz, Bäume und Büsche davor.",
+    "url": "https://www.evernest.com/de/listing/3xKoNSos65UllHupz5IEjk/"
+  },
+  {
     "place": "Köln-Dellbrück",
     "district": null,
     "price": "10.950.000 €",
@@ -278,14 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/1oRXEFMrCcavwOA61b6yVV/a1fbb87765ddf6d6eee1a459e839b138/8a2b2824-8125-46e4-b66d-a3e842c51d31?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Helle Wohnhausfassade mit Fenstern, Eingangstür und Vorgarten an einer Straße.",
     "url": "https://www.evernest.com/de/listing/2yfFtL9eTPZRGGrBwJVNDm/"
-  },
-  {
-    "place": "Bergisch Gladbach-Stadtmitte",
-    "district": null,
-    "price": "499.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/4gM6cLKRVlYTE9EX3ezE55/6b4f7a1e3ced7cd39b6daef8fd4842c3/3be0723c-809c-4f06-80c9-eff4c7335cb6?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Flur mit gemustertem Fliesenboden und Holztreppe zu einer oberen Etage.",
-    "url": "https://www.evernest.com/de/listing/6J9NwE5IVYBi2pGjUGDUEx/"
   }
 ];
