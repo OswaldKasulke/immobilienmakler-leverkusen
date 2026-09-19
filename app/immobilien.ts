@@ -12,12 +12,21 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 18.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 19.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
 // .github/workflows/update-listings.yml.
 export const properties: Property[] = [
+  {
+    "place": "Leverkusen-Opladen",
+    "district": "opladen",
+    "price": "379.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1UaVuuEXW4i00tOXqFSFtX/cf2705f43929a67140565e6fba5a376f/e7377ba0-8e28-40fb-8888-e265a677f5d2?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Zweistöckiges Haus mit weißer Fassade, Garten, zwei Fahrrädern und Metallzaun im Vordergrund.",
+    "url": "https://www.evernest.com/de/listing/5gvFXjsnLzENcv7SKiTBYl/"
+  },
   {
     "place": "Leverkusen-Bergisch Neukirchen",
     "district": "bergisch-neukirchen",
@@ -57,11 +66,11 @@ export const properties: Property[] = [
   {
     "place": "Leverkusen-Opladen",
     "district": "opladen",
-    "price": "Preis auf Anfrage",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/10nYXQF75ADx3zL2AjdzEb/29ef0e6360012a98af16b1e2329861d3/8635494c-77d2-49ca-a7cd-6ed08732dc25?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Weiße Wohnhausfassade mit geschlossenen Rollläden an einer Straßenecke, daneben eine Tankstelle.",
-    "url": "https://www.evernest.com/de/listing/1l4qOPITwtxDUvVo2TngnR/"
+    "price": "519.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5k3EdGXLwzZrdZMJ7CKUjT/90d71a0a92a37b6214406a053e1ca978/eb611764-05df-462f-ab82-59a914e861a5?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Heller Wohn- und Essbereich mit rundem Holztisch, beigen Stühlen und schwarzer Einbauküche.",
+    "url": "https://www.evernest.com/de/listing/1bL20wHL4foRCmqc2EGBCK/"
   },
   {
     "place": "Leverkusen-Lützenkirchen",
@@ -278,14 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/6n26I0IypjcLF5KX8uEN1j/729c68609fee633c4222b665ab289d53/95370e9d-060a-4205-b3ba-9b4fdc15503f?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Großes Wohnhaus mit Garten, Nebengebäude und geschwungener Einfahrt, umgeben von Bäumen.",
     "url": "https://www.evernest.com/de/listing/25ImNIe7lzam5QOs5EQ9xP/"
-  },
-  {
-    "place": "Bergisch Gladbach-Hebborn",
-    "district": null,
-    "price": "475.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1oRXEFMrCcavwOA61b6yVV/a1fbb87765ddf6d6eee1a459e839b138/8a2b2824-8125-46e4-b66d-a3e842c51d31?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helle Wohnhausfassade mit Fenstern, Eingangstür und Vorgarten an einer Straße.",
-    "url": "https://www.evernest.com/de/listing/2yfFtL9eTPZRGGrBwJVNDm/"
   }
 ];
