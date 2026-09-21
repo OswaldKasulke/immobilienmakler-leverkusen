@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 20.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 21.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -190,15 +190,6 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/ZUXtatV9l9NnxJLqKo0DZ/"
   },
   {
-    "place": "Odenthal-Erberich",
-    "district": null,
-    "price": "475.000 €",
-    "status": "Reserviert",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/76CeSFsWDiiAKSJb9tvCSe/8e58988f93315789dff5f7877458d5f5/2d598894-db1b-4133-ac08-58679835c64b?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes Wohnhaus mit gepflastertem Weg, Treppe und gepflegtem grünen Rasen im Vordergrund.",
-    "url": "https://www.evernest.com/de/listing/1ZKQZJSBzBfGNYG63GJxSq/"
-  },
-  {
     "place": "Monheim am Rhein-Monheim",
     "district": null,
     "price": "395.000 €",
@@ -287,5 +278,14 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/6n26I0IypjcLF5KX8uEN1j/729c68609fee633c4222b665ab289d53/95370e9d-060a-4205-b3ba-9b4fdc15503f?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Großes Wohnhaus mit Garten, Nebengebäude und geschwungener Einfahrt, umgeben von Bäumen.",
     "url": "https://www.evernest.com/de/listing/25ImNIe7lzam5QOs5EQ9xP/"
+  },
+  {
+    "place": "Bergisch Gladbach-Hebborn",
+    "district": null,
+    "price": "475.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/1oRXEFMrCcavwOA61b6yVV/a1fbb87765ddf6d6eee1a459e839b138/8a2b2824-8125-46e4-b66d-a3e842c51d31?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Helle Wohnhausfassade mit Fenstern, Eingangstür und Vorgarten an einer Straße.",
+    "url": "https://www.evernest.com/de/listing/2yfFtL9eTPZRGGrBwJVNDm/"
   }
 ];
