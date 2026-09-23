@@ -4,6 +4,15 @@ import ContactForm from "./ContactForm";
 import { businessSchema, graphSchema, siteUrl } from "./seo";
 import { artikel } from "./ratgeber/artikel";
 import type { Metadata } from "next";
+import SoldReferences from "./SoldReferences";
+import { soldByDistrict } from "./verkauft";
+
+const soldAll = Object.values(soldByDistrict).flat().reduce<{street:string;typ:string;count:number}[]>((list, item) => {
+  const hit = list.find((entry) => entry.street === item.street);
+  if (!hit) list.push({ ...item });
+  else { hit.count += item.count; if (hit.typ !== item.typ) hit.typ = "Immobilie"; }
+  return list;
+}, []).sort((a, b) => a.street.localeCompare(b.street, "de"));
 import { preload } from "react-dom";
 
 export const metadata: Metadata = { alternates: { canonical: `${siteUrl}/` } };
@@ -126,6 +135,7 @@ export default function Home() {
       <ImmobilienGalerie />
     </section>
 
+    <SoldReferences place="Leverkusen" items={soldAll} />
     <section className="reviews reviews--google section" id="bewertungen">
       <div className="reviews-title">
         <a className="google-rating-link" href={googleReviewsUrl} target="_blank" rel="noreferrer" aria-label="Verifizierte Kundenstimmen auf Google ansehen">
