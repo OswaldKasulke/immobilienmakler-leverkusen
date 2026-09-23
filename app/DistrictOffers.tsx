@@ -1,4 +1,5 @@
 import { properties } from "./immobilien";
+import ImmobilienGalerie from "./ImmobilienGalerie";
 
 const TARGET_CARDS = 3;
 
@@ -42,18 +43,7 @@ export default function DistrictOffers({ slug, district }: { slug: string; distr
         </div>
         <p>{note}</p>
       </div>
-      <div className="property-grid">
-        {offers.map((property, index) => (
-          <a className="property-card" href={property.url} target="_blank" rel="noreferrer" key={property.url}>
-            <div className="property-photo">
-              <img data-src={property.image} alt={property.alt} loading={index < 2 ? "eager" : "lazy"} className="external-media" />
-              {property.status && <span>{property.status}</span>}
-            </div>
-            <p className="property-place">{property.place}</p>
-            <h3>{property.price}</h3>
-          </a>
-        ))}
-      </div>
+      <ImmobilienGalerie items={offers} moreLink={false} />
       <p className="listing-more"><a className="button dark" href="https://evernest.com/de/search/?lat=51.083462&lng=7.017159&zoom=11" target="_blank" rel="noreferrer">Alle Immobilien im Umkreis ansehen</a></p>
     </section>
   );
