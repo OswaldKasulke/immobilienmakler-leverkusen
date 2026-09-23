@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 22.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 23.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -181,6 +181,15 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/2a0HNTmKuXRf1lohi07T7p/"
   },
   {
+    "place": "Köln-Merkenich",
+    "district": null,
+    "price": "310.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/7mfCWa2JfTKCWZ2HZ6JLin/1b09dbbb141605f86ffa70e153c95c69/a96c8bc3-dba1-4f04-92b0-4e5a31b303ff?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Helles Wohnzimmer mit Holzdecke, großen Fenstern, Sitzmöbeln und Zimmerpflanzen.",
+    "url": "https://www.evernest.com/de/listing/6IVSeMOBlxX3jpIIw9GyoZ/"
+  },
+  {
     "place": "Odenthal-Glöbusch",
     "district": null,
     "price": "875.000 €",
@@ -278,14 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/5FHRNFtVEbxCC0p3AfvbZQ/4c09031ce4be3475f3324b1a2c0b5a39/03de2f20-59e6-47b8-a82c-43dcbb654d9a?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes, dreistöckiges Wohngebäude mit braunen und weißen Fassaden, großer Grünfläche und Zaun im Vordergrund.",
     "url": "https://www.evernest.com/de/listing/5ENiQl64Q9aofYcukySXKD/"
-  },
-  {
-    "place": "Haan",
-    "district": null,
-    "price": "2.490.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6n26I0IypjcLF5KX8uEN1j/729c68609fee633c4222b665ab289d53/95370e9d-060a-4205-b3ba-9b4fdc15503f?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Großes Wohnhaus mit Garten, Nebengebäude und geschwungener Einfahrt, umgeben von Bäumen.",
-    "url": "https://www.evernest.com/de/listing/25ImNIe7lzam5QOs5EQ9xP/"
   }
 ];
