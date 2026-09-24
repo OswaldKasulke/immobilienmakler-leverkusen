@@ -97,7 +97,7 @@ export default function Home() {
       <div className="hero-content">
         <p className="eyebrow light">Evernest-Lizenzpartner in Leverkusen</p>
         <h1>Immobilienmakler Leverkusen.<br/>Verkaufen mit klarem Plan.</h1>
-        <p className="hero-copy">Stark &amp; Hoffmann bewertet und verkauft Häuser, Wohnungen und Grundstücke in allen 13 Stadtteilen von Leverkusen – kurz LEV – und im Umland.</p>
+        <p className="hero-copy">Als Immobilienmakler in Leverkusen – kurz LEV – bewertet und verkauft Stark &amp; Hoffmann Häuser, Wohnungen und Grundstücke nach einem klaren Plan: in allen 13 Stadtteilen und im Umland.</p>
         <div className="hero-actions"><a className="button gold" href="/immobilienbewertung/">Immobilie bewerten lassen</a><a className="text-link light" href="tel:+4922049147881">+49 2204 914 7881 <span>↗</span></a></div>
         <div className="trust-row"><span>Showroom in Wiesdorf</span><span>Alle 13 Stadtteile</span><span>Digitale Vermarktung</span></div>
       </div>
