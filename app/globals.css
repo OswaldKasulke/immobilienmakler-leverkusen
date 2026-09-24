@@ -408,3 +408,13 @@ header.site-header.menu-offen nav a:last-child{border-bottom:0}}
 .sold-grid aside strong{display:block;font:400 56px Georgia,serif;line-height:1}
 .sold-grid aside span{display:block;margin-top:10px;color:var(--muted);font-size:13px;line-height:1.5}
 @media(max-width:760px){.sold-grid{grid-template-columns:1fr;gap:30px}.sold-grid ul{columns:1}}
+/* Stadtteil-Kacheln auf den Stadtteilseiten: alle 13, deutlich kleiner als auf der Startseite (24.09.2026) */
+.district-mini-section{background:var(--cream);padding-top:55px;padding-bottom:55px}
+.district-mini-section h2{margin:6px 0 22px}
+.district-mini-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.district-mini{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:8px 12px;border:1px solid #c8ccc5;border-left:3px solid #000;background:#fff;color:#000;font:400 15px/1.2 made_mirage,Georgia,serif;transition:background .2s ease,color .2s ease}
+.district-mini b{font:400 11px Arial,sans-serif;color:inherit}
+a.district-mini:hover{background:#000;color:#fff;border-color:#000}
+.district-mini.is-current{background:#000;color:#fff;border-color:#000}
+@media(max-width:1000px){.district-mini-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.district-mini-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.district-mini{font-size:14px}}
