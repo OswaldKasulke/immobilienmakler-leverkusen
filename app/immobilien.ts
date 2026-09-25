@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 24.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 25.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -107,6 +107,15 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/6QiKJRtTvtuq6QU6fnReKD/4d9b99671d0d46684fad102417767954/2654e90e-9cca-49ae-9e4e-e45875babb36?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Backstein-Reihenhaus mit drei Fahrrädern und zwei geparkten Autos in einer Einfahrt.",
     "url": "https://www.evernest.com/de/listing/6jMkBNnDz5G8uJKinDSG2K/"
+  },
+  {
+    "place": "Langenfeld (Rheinland)-Reusrath",
+    "district": null,
+    "price": "390.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/2ejJtkDdFsVdAim8w4oY19/8ac2bae1e87ed07d7fd5f3667dacbb5e/e3879615-cd2a-45db-bcff-40129f1f9d8f?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Grundstück mit Umgebung",
+    "url": "https://www.evernest.com/de/listing/1K19IEGA6NkCYKBeGuJRZw/"
   },
   {
     "place": "Leverkusen-Bürrig",
@@ -278,14 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/Y0qkbNgFxlWWQnztABfsV/59daf34e268e2d4bc291321203ff6512/0b106c85-3114-457d-8fac-a2af33b5e48b?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Mehrere Reihenhäuser mit Vorgarten und gepflastertem Parkplatz, Bäume und Büsche davor.",
     "url": "https://www.evernest.com/de/listing/3xKoNSos65UllHupz5IEjk/"
-  },
-  {
-    "place": "Köln-Dellbrück",
-    "district": null,
-    "price": "10.950.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5FHRNFtVEbxCC0p3AfvbZQ/4c09031ce4be3475f3324b1a2c0b5a39/03de2f20-59e6-47b8-a82c-43dcbb654d9a?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes, dreistöckiges Wohngebäude mit braunen und weißen Fassaden, großer Grünfläche und Zaun im Vordergrund.",
-    "url": "https://www.evernest.com/de/listing/5ENiQl64Q9aofYcukySXKD/"
   }
 ];
