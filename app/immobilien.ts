@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 25.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 26.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -125,15 +125,6 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/2iGS2HEc02arzmXr7Okdt9/ac46b86b8eb3ca7b4ba2c0835db513c5/d5bd6a65-cdb5-4ded-aa94-5e0c2028cddf?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes Einfamilienhaus mit grauem Dach, Garage und gepflasterter Einfahrt an einer ruhigen Straße.",
     "url": "https://www.evernest.com/de/listing/48xEKKaW66sK4e7i4JWNSk/"
-  },
-  {
-    "place": "Leverkusen-Rheindorf",
-    "district": "rheindorf",
-    "price": "129.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/7pyzXKZOoC7rpuAgDVgkqO/f6754cb520ec13454f019d624dbcdcdf/fd784139-f9c7-4cc6-883d-4680c284369a?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Helles Wohnzimmer mit grauem Sofa, Teppich, Couchtisch, Fenster und Pflanzen, Holzboden und Zugang zum Balkon.",
-    "url": "https://www.evernest.com/de/listing/5YbikgCBBvrIRfmgEA9poH/"
   },
   {
     "place": "Leverkusen-Rheindorf",
@@ -287,5 +278,14 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/Y0qkbNgFxlWWQnztABfsV/59daf34e268e2d4bc291321203ff6512/0b106c85-3114-457d-8fac-a2af33b5e48b?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Mehrere Reihenhäuser mit Vorgarten und gepflastertem Parkplatz, Bäume und Büsche davor.",
     "url": "https://www.evernest.com/de/listing/3xKoNSos65UllHupz5IEjk/"
+  },
+  {
+    "place": "Köln-Dellbrück",
+    "district": null,
+    "price": "10.950.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5FHRNFtVEbxCC0p3AfvbZQ/4c09031ce4be3475f3324b1a2c0b5a39/03de2f20-59e6-47b8-a82c-43dcbb654d9a?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes, dreistöckiges Wohngebäude mit braunen und weißen Fassaden, großer Grünfläche und Zaun im Vordergrund.",
+    "url": "https://www.evernest.com/de/listing/5ENiQl64Q9aofYcukySXKD/"
   }
 ];
