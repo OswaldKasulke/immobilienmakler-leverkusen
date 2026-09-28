@@ -16,6 +16,8 @@ const soldAll = Object.values(soldByDistrict).flat().reduce<{street:string;typ:s
 import { preload } from "react-dom";
 import SiteFooter from "@/app/SiteFooter";
 import HauptNav from "@/app/HauptNav";
+import ReviewCarousel from "@/app/ReviewCarousel";
+import googleReviews from "@/app/google-reviews.json";
 
 export const metadata: Metadata = { alternates: { canonical: `${siteUrl}/` } };
 
@@ -54,11 +56,6 @@ const legacyProperties = [
 ];
 
 // Quelle: Google-Unternehmensprofil Leverkusen, abgerufen am 09.09.2026.
-const reviews = [
-  ["Emily", "Jede Frage wurde sofort beantwortet."],
-  ["Felix Müller", "Vom ersten Kontakt bis zur Besichtigung hat alles perfekt gepasst."],
-  ["Khanom Hazara", "Durch seine ruhige und ehrliche Art konnte er sofort Vertrauen aufbauen."],
-];
 const googleReviewsUrl = "https://maps.app.goo.gl/P5s533i9g5FVRWmK7";
 
 const locations = [
@@ -142,10 +139,10 @@ export default function Home() {
       <div className="reviews-title">
         <a className="google-rating-link" href={googleReviewsUrl} target="_blank" rel="noreferrer" aria-label="Verifizierte Kundenstimmen auf Google ansehen">
           <div className="google-rating-stars">★★★★★</div>
-          <div className="google-rating-text">5,0 von 5,0 auf GOOGLE</div>
+          <div className="google-rating-text">{googleReviews.rating} von 5,0 auf GOOGLE · {googleReviews.count} Rezensionen</div>
         </a>
       </div>
-      <div className="review-grid">{reviews.map(([name,quote])=><blockquote key={name}><div>★★★★★</div><p>„{quote}“</p><cite>{name}</cite></blockquote>)}</div>
+      <ReviewCarousel reviews={googleReviews.reviews} />
     </section>
 
     <section className="cities section" id="staedte">
