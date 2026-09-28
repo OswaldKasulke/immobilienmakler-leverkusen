@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { breadcrumbSchema, businessSchema, graphSchema, siteUrl } from "../seo";
+import SiteFooter from "@/app/SiteFooter";
+import HauptNav from "@/app/HauptNav";
 
 const url = `${siteUrl}/downloads/`;
 export const metadata: Metadata = {
@@ -28,7 +30,7 @@ export default function DownloadsPage() {
   const schema = graphSchema(businessSchema, breadcrumbSchema([{ name: "Startseite", url: `${siteUrl}/` }, { name: "Downloads", url }]));
   return <main className="downloads-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-    <header className="site-header"><a className="brand" href="/" aria-label="Startseite"><span className="brand-mark">S<span>&amp;</span>H</span><span><strong>Stark &amp; Hoffmann</strong><small>Immobilien · Leverkusen</small></span></a><nav aria-label="Hauptnavigation"><a href="/#profil">Profil</a><a href="/team/">Team</a><a href="/#markt">Markt</a><a href="/#fahrplan">Verkaufsfahrplan</a><a href="/#staedte">Region</a><a href="/downloads/">Downloads</a></nav><a className="header-cta" href="/immobilienbewertung/">Kostenlose Bewertung</a></header>
+    <header className="site-header"><a className="brand" href="/" aria-label="Startseite"><span className="brand-mark">S<span>&amp;</span>H</span><span><strong>Stark &amp; Hoffmann</strong><small>Immobilien · Leverkusen</small></span></a><HauptNav/><a className="header-cta" href="/immobilienbewertung/">Kostenlose Bewertung</a></header>
     <section className="downloads-hero"><div><p className="eyebrow light">Kostenlose Downloads</p><h1>Gut vorbereitet verkaufen.</h1><p>Praktische Checklisten für Eigentümer in Leverkusen – kompakt, druckbar und ohne Anmeldung verfügbar.</p></div></section>
     <section className="downloads-content section">
       <div className="section-head"><div><p className="eyebrow">Checklisten</p><h2>Praktische Hilfen für Ihren Immobilienverkauf.</h2></div><p>Die Verkaufs- und Notarchecklisten sind auf Leverkusen abgestimmt.</p></div>
@@ -38,6 +40,6 @@ export default function DownloadsPage() {
       <p className="boris-note">Alle Grundstücksmarktberichte Nordrhein-Westfalens und Bodenrichtwerte finden Sie zusätzlich zentral bei <a href="https://www.boris.nrw.de/" target="_blank" rel="noreferrer">BORIS.NRW ↗</a>.</p>
       <div className="downloads-cta"><div><p className="eyebrow">Nächster Schritt</p><h2>Was ist Ihre Immobilie wert?</h2><p>Nutzen Sie unsere kostenlose Ersteinschätzung für Leverkusen und die Nachbarstädte.</p></div><a className="button gold" href="/immobilienbewertung/">Immobilie bewerten lassen</a></div>
     </section>
-    <footer><div className="footer-brand"><span className="brand-mark">S<span>&amp;</span>H</span><div><strong>Stark &amp; Hoffmann Immobilien</strong><small>Evernest Lizenzpartner Leverkusen</small></div></div><div><h4>Kontakt</h4><p>Wiesdorfer Platz 19<br/>51373 Leverkusen</p><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></div><div><h4>Unternehmen</h4><a href="/">Leverkusen</a><a href="/downloads/">Downloads</a><a href="/impressum/">Impressum</a><a href="/agb/">AGB</a><a href="/datenschutz/">Datenschutz</a></div><div><h4>Rechtliches</h4><p>Stark &amp; Hoffmann Immobilien GmbH<br/>Amtsgericht Köln, HRB 116396</p></div></footer>
+    <SiteFooter/>
   </main>;
 }

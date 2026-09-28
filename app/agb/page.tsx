@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { breadcrumbSchema, businessSchema, graphSchema, siteUrl } from "../seo";
+import SiteFooter from "@/app/SiteFooter";
 
 const url = `${siteUrl}/agb/`;
 export const metadata: Metadata = {
@@ -37,6 +38,6 @@ export default function AgbPage() {
         <p>Es gilt deutsches Recht. Gegenüber Verbrauchern gilt diese Rechtswahl nur, soweit dadurch zwingende Schutzvorschriften des Staates ihres gewöhnlichen Aufenthalts nicht entzogen werden. Für Kaufleute und juristische Personen des öffentlichen Rechts ist, soweit gesetzlich zulässig, Bergisch Gladbach als Sitz der Gesellschaft Gerichtsstand. Sollte eine Bestimmung unwirksam sein oder werden, bleiben die übrigen Bestimmungen davon unberührt.</p>
       </article>
     </section>
-    <footer><div className="footer-brand"><span className="brand-mark">S<span>&amp;</span>H</span><div><strong>Stark &amp; Hoffmann Immobilien</strong><small>Evernest Lizenzpartner Leverkusen</small></div></div><div><h4>Kontakt</h4><p>Wiesdorfer Platz 19<br/>51373 Leverkusen</p><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></div><div><h4>Unternehmen</h4><a href="/">Leverkusen</a><a href="/downloads/">Downloads</a><a href="/impressum/">Impressum</a><a href="/agb/">AGB</a><a href="/datenschutz/">Datenschutz</a></div><div><h4>Rechtliches</h4><p>Stark &amp; Hoffmann Immobilien GmbH<br/>Amtsgericht Köln, HRB 116396</p></div></footer>
+    <SiteFooter/>
   </main>;
 }

@@ -7,6 +7,8 @@ import SoldReferences from "../../SoldReferences";
 import { soldByDistrict } from "../../verkauft";
 import { districtImages } from "../../district-images";
 import { breadcrumbSchema, businessSchema, defaultImage, faqSchema, graphSchema, siteUrl } from "../../seo";
+import SiteFooter from "@/app/SiteFooter";
+import HauptNav from "@/app/HauptNav";
 
 export function generateStaticParams(){ return districts.map(({slug})=>({slug})); }
 
@@ -42,7 +44,7 @@ export default async function DistrictPage({params}:{params:Promise<{slug:string
   ]);
   return <main className="district-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}} />
-    <header className="site-header"><a className="brand" href="/"><span className="brand-mark">S<span>&</span>H</span><span><strong>Stark & Hoffmann</strong><small>Immobilien · Leverkusen</small></span></a><nav aria-label="Seitennavigation"><a href="/#profil">Profil</a><a href="/#fahrplan">Verkaufsfahrplan</a><a href="/#immobilien">Immobilien</a><a href="/#staedte">Stadtteile</a></nav><a className="header-cta" href="/immobilienbewertung/">Kostenlose Bewertung</a></header>
+    <header className="site-header"><a className="brand" href="/"><span className="brand-mark">S<span>&</span>H</span><span><strong>Stark & Hoffmann</strong><small>Immobilien · Leverkusen</small></span></a><HauptNav/><a className="header-cta" href="/immobilienbewertung/">Kostenlose Bewertung</a></header>
     <section className="district-hero" style={image?{backgroundImage:`linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.1)),url(${image.src})`,backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:"no-repeat"}:undefined}><div><p className="eyebrow light">Immobilienmakler {district.name} · Leverkusen</p><h1>Immobilienmakler {district.name}</h1><p>Immobilien verkaufen und bewerten – mit persönlicher Beratung durch den Standort Leverkusen.</p><a className="button gold" href="/immobilienbewertung/">Immobilienbewertung {district.name}</a></div>{image&&<a className="district-photo-credit" href={image.source} target="_blank" rel="noreferrer">Quelle: Wikipedia ↗</a>}</section>
     <section className="district-intro section"><div><p className="eyebrow">Stadtteilprofil</p><h2>{district.name} im Porträt</h2><p className="lead">{district.profile}</p><p>Für eine Immobilienbewertung werden neben der konkreten Lage auch Grundstück, Baujahr, Zustand, Nutzung und Energieeffizienz betrachtet.</p></div><aside><span>Amtliche Zuordnung</span><strong>Bezirk {district.code}</strong><span>Stadtteil</span><strong>{district.name}</strong></aside></section>
     <DistrictOffers slug={district.slug} district={district.name} />
@@ -57,6 +59,6 @@ export default async function DistrictPage({params}:{params:Promise<{slug:string
     <section className="faq-section section"><div className="section-head"><div><p className="eyebrow">Kurz beantwortet</p><h2>Haus, Wohnung oder Grundstück in {district.name} verkaufen.</h2></div><p>Antworten für Eigentümer in Leverkusen-{district.name}.</p></div><div className="faq-grid">{districtFaq.map(item=><details className="faq-item" key={item.question}><summary>{item.question}<span>+</span></summary><div><p>{item.answer}</p></div></details>)}</div></section>
     <section className="section district-mini-section"><p className="eyebrow">Leverkusen</p><h2>Alle 13 Stadtteile.</h2><div className="district-mini-grid">{[...districts].sort((a,b)=>a.name.localeCompare(b.name,"de")).map(item=>item.slug===slug?<span className="district-mini is-current" aria-current="page" key={item.slug}>{item.name}</span>:<a className="district-mini" href={`/stadtteile/${item.slug}/`} key={item.slug}>{item.name}<b aria-hidden="true">↗</b></a>)}</div></section>
     <section className="district-contact section" id="kontakt"><div><p className="eyebrow light">Kostenlose Erstberatung</p><h2>Immobilienbewertung in {district.name}</h2><p>Unverbindliche Anfrage an Ihre Immobilienmakler {district.name}.</p></div><div><a className="button gold" href="/immobilienbewertung/#bewertung">Bewertung anfragen</a><a href="tel:+4922049147881">+49 2204 914 7881</a></div></section>
-    <footer><div className="footer-brand"><span className="brand-mark">S<span>&</span>H</span><div><strong>Stark & Hoffmann Immobilien</strong><small>Evernest Lizenzpartner Leverkusen</small></div></div><div><h4>Kontakt</h4><p>Wiesdorfer Platz 19<br/>51373 Leverkusen</p><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></div><div><h4>Quellen</h4><a href="https://www.boris.nrw.de/">BORIS-NRW</a><a href="https://gars.nrw/leverkusen/produkte-lev/bodenrichtwerte-lev">Gutachterausschuss</a></div><div><h4>Rechtliches</h4><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a></div></footer>
+    <SiteFooter/>
   </main>;
 }
