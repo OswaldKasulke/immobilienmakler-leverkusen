@@ -12,6 +12,7 @@ const quellen:Record<string,string[]>={
   "":["app/page.tsx","app/immobilien.ts","app/components.tsx"],
   "immobilienbewertung":["app/immobilienbewertung/page.tsx","app/gemeinsame-bewertung.ts","app/strassen.ts"],
   "team":["app/team/page.tsx"],
+  "suchprofil":["app/suchprofil/page.tsx","app/SuchprofilForm.tsx"],
   "downloads":["app/downloads/page.tsx"],
   "ratgeber":["app/ratgeber/page.tsx","app/haeufige-fragen.ts"],
   "agb":["app/agb/page.tsx"],
@@ -22,7 +23,7 @@ const ausInhalt=["immobilienmarkt-leverkusen","gutachterausschuss-leverkusen","b
   "wohnung-verkaufen-leverkusen","grundstueck-verkaufen-leverkusen","impressum"];
 
 export default function sitemap():MetadataRoute.Sitemap{
-  const fixed=["","immobilienbewertung",...ausInhalt.slice(0,8),"team","downloads","ratgeber","impressum","agb","datenschutz"];
+  const fixed=["","immobilienbewertung",...ausInhalt.slice(0,8),"team","suchprofil","downloads","ratgeber","impressum","agb","datenschutz"];
   return [
     ...fixed.map(p=>({
       url:`${base}/${p}${p?"/":""}`,
