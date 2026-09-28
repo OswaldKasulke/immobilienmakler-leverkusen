@@ -8,7 +8,7 @@ import MobileMenu from "./MobileMenu";
 export const metadata: Metadata = {
   metadataBase: new URL("https://leverkusen-makler.de/"),
   title: "Immobilienmakler Leverkusen | Stark & Hoffmann",
-  description: "Stark & Hoffmann verkauft und bewertet Häuser, Wohnungen und Grundstücke in allen 13 Leverkusener Stadtteilen – mit Showroom am Wiesdorfer Platz.",
+  description: "Immobilienmakler Leverkusen: Stark & Hoffmann verkauft und bewertet Häuser, Wohnungen und Grundstücke in allen 13 Leverkusener Stadtteilen – mit Showroom am Wiesdorfer Platz.",
   openGraph: {
     title: "Immobilienmakler Leverkusen | Stark & Hoffmann",
     description: "Immobilienbewertung und Verkauf in Leverkusen und allen 13 Stadtteilen.",

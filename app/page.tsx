@@ -95,7 +95,7 @@ export default function Home() {
 
     <section className="hero" id="top" style={{backgroundImage:`linear-gradient(90deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.5) 52%,rgba(0,0,0,.08) 82%),url(${heroImage})`}}>
       <div className="hero-content">
-        <p className="eyebrow light">Evernest-Lizenzpartner in Leverkusen</p>
+        <p className="eyebrow light">Immobilienmakler Leverkusen · Evernest Lizenzpartner</p>
         <h1>Immobilienmakler Leverkusen.<br/>Verkaufen mit klarem Plan.</h1>
         <p className="hero-copy">Als Immobilienmakler in Leverkusen – kurz LEV – bewertet und verkauft Stark &amp; Hoffmann Häuser, Wohnungen und Grundstücke nach einem klaren Plan: in allen 13 Stadtteilen und im Umland.</p>
         <div className="hero-actions"><a className="button gold" href="/immobilienbewertung/">Immobilie bewerten lassen</a><a className="text-link light" href="tel:+4922049147881">+49 2204 914 7881 <span>↗</span></a></div>
@@ -104,7 +104,7 @@ export default function Home() {
     </section>
 
     <section className="profile section" id="profil">
-      <div className="profile-image"><div className="profile-gallery"><img src="/location/4.jpg" alt="Beratungsbereich im Evernest Immobilienbüro" loading="lazy"/><img src="/location/1.jpg" alt="Evernest Schriftzug im Immobilienbüro" loading="lazy"/><img src="/location/showroom.jpg" alt="Schild am Evernest Showroom in Leverkusen" loading="lazy"/></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
+      <div className="profile-image"><div className="profile-gallery"><img src="/location/4.jpg" alt="Beratungsbereich im Evernest Immobilienbüro" loading="lazy"/><img src="/location/1.jpg" alt="Evernest Schriftzug im Immobilienbüro" loading="lazy"/><img src="/location/showroom.jpg" alt="Stark & Hoffmann, Immobilienmakler Leverkusen – Showroom am Wiesdorfer Platz" loading="lazy"/></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
       <div className="profile-copy">
         <p className="eyebrow">Unser Profil</p><h2>Mitten in Wiesdorf zu finden.</h2>
         <p className="lead">In Leverkusen vertritt die Stark &amp; Hoffmann Immobilien GmbH den Evernest-Standort. Geschäftsführer sind Patrick Stark und Julian Hoffmann, beide mit langjähriger Branchenerfahrung.</p>
@@ -165,7 +165,7 @@ export default function Home() {
     </section>
 
     <section className="contact section" id="kontakt">
-      <div className="contact-info"><p className="eyebrow light">Kontakt</p><h2>Erzählen Sie uns von Ihrer Immobilie.</h2><p>Rufen Sie an, schreiben Sie uns über das Formular oder kommen Sie im Showroom am Wiesdorfer Platz vorbei. Das erste Gespräch ist unverbindlich.</p><address><strong>Stark & Hoffmann Immobilien GmbH</strong><span>Wiesdorfer Platz 19<br/>51373 Leverkusen</span><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></address></div>
+      <div className="contact-info"><p className="eyebrow light">Kontakt</p><h2>Erzählen Sie uns von Ihrer Immobilie.</h2><p>Rufen Sie an, schreiben Sie uns über das Formular oder besuchen Sie Ihre Immobilienmakler Leverkusen im Showroom am Wiesdorfer Platz. Das erste Gespräch ist unverbindlich.</p><address><strong>Stark & Hoffmann Immobilien GmbH</strong><span>Wiesdorfer Platz 19<br/>51373 Leverkusen</span><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></address></div>
       <ContactForm/>
     </section>
 
