@@ -19,7 +19,7 @@ import HauptNav from "@/app/HauptNav";
 import ReviewCarousel from "@/app/ReviewCarousel";
 import googleReviews from "@/app/google-reviews.json";
 
-export const metadata: Metadata = { description: "Immobilienmakler Leverkusen: Stark & Hoffmann ist Ihr Makler für Häuser, Wohnungen und Grundstücke in allen 13 Leverkusener Stadtteilen – mit Showroom am Wiesdorfer Platz.", alternates: { canonical: `${siteUrl}/` } };
+export const metadata: Metadata = { description: "Immobilienmakler Leverkusen: Immobilie verkaufen mit Stark & Hoffmann, Ihrem Makler für Häuser, Wohnungen und Grundstücke in allen 13 Stadtteilen.", alternates: { canonical: `${siteUrl}/` } };
 
 const heroImage = "/location/2.jpg";
 const serviceLinks = [
@@ -96,7 +96,7 @@ export default function Home() {
       <div className="hero-content">
         <p className="eyebrow light">Immobilienmakler Leverkusen · Evernest Lizenzpartner</p>
         <h1>Immobilienmakler Leverkusen.<br/>Verkaufen mit klarem Plan.</h1>
-        <p className="hero-copy">Als Immobilienmakler Leverkusen – kurz LEV – bewertet und verkauft Stark &amp; Hoffmann Häuser, Wohnungen und Grundstücke nach einem klaren Plan: in allen 13 Stadtteilen und im Umland.</p>
+        <p className="hero-copy">Sie möchten Ihre Immobilie in Leverkusen verkaufen? Stark &amp; Hoffmann bewertet und verkauft Häuser, Wohnungen und Grundstücke nach einem klaren Plan – in allen 13 Stadtteilen und im Umland.</p>
         <div className="hero-actions"><a className="button gold" href="/immobilienbewertung/">Immobilie bewerten lassen</a><a className="text-link light" href="tel:+4922049147881">+49 2204 914 7881 <span>↗</span></a></div>
         <div className="trust-row"><span>Showroom in Wiesdorf</span><span>Alle 13 Stadtteile</span><span>Digitale Vermarktung</span></div>
       </div>
@@ -114,7 +114,7 @@ export default function Home() {
     </section>
 
     <section className="seo-services section" aria-labelledby="verkaufen-heading">
-      <div className="section-head"><div><p className="eyebrow">Immobilie verkaufen in Leverkusen</p><h2 id="verkaufen-heading">Was steht bei Ihnen zum Verkauf?</h2></div><p>Für jede Objektart gibt es eine eigene Seite: was wir vorab prüfen, welche Unterlagen gebraucht werden und wie der Verkauf abläuft.</p></div>
+      <div className="section-head"><div><p className="eyebrow">Haus, Wohnung oder Grundstück</p><h2 id="verkaufen-heading">Immobilie verkaufen in Leverkusen.</h2></div><p>Für jede Objektart gibt es eine eigene Seite: was wir vorab prüfen, welche Unterlagen gebraucht werden und wie der Verkauf abläuft.</p></div>
       <div className="seo-service-grid">{serviceLinks.map(([title,url,text])=><a href={url} key={url}><span>Objektart</span><h3>{title}</h3><p>{text}</p><b>Weiterlesen →</b></a>)}</div>
     </section>
 
@@ -125,7 +125,7 @@ export default function Home() {
     </section>
 
     <section className="process section dark-section" id="fahrplan">
-      <div className="section-head"><div><p className="eyebrow light">Verkaufsfahrplan</p><h2>So verkaufen wir Ihre Immobilie – in sechs Etappen.</h2></div><p>Sie wissen jederzeit, woran wir gerade arbeiten und was als Nächstes kommt. Die Abwicklung übernehmen wir von Anfang bis Ende.</p></div>
+      <div className="section-head"><div><p className="eyebrow light">Verkaufsfahrplan</p><h2>So verkaufen wir Ihre Immobilie in Leverkusen – in sechs Etappen.</h2></div><p>Sie wissen jederzeit, woran wir gerade arbeiten und was als Nächstes kommt. Die Abwicklung übernehmen wir von Anfang bis Ende.</p></div>
       <div className="steps">{steps.map(([number,title,text])=><article className="step" key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
     </section>
 
