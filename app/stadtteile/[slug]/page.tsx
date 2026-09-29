@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { portraets } from "../../portraets";
 import { notFound } from "next/navigation";
 import { districtBySlug, districts } from "../../stadtteile";
 import { streets } from "../../strassen";
@@ -42,11 +43,13 @@ export default async function DistrictPage({params}:{params:Promise<{slug:string
     breadcrumbSchema([{name:"Startseite",url:siteUrl},{name:"Stadtteile",url:`${siteUrl}/#stadtteile`},{name:district.name,url}]),
     faqSchema(districtFaq),
   ]);
+  const portraet = portraets[district.slug];
   return <main className="district-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}} />
     <header className="site-header"><a className="brand" href="/"><span className="brand-mark">S<span>&</span>H</span><span><strong>Stark & Hoffmann</strong><small>Immobilien · Leverkusen</small></span></a><HauptNav/><a className="header-cta" href="/immobilienbewertung/">Kostenlose Bewertung</a></header>
     <section className="district-hero" style={image?{backgroundImage:`linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.1)),url(${image.src})`,backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:"no-repeat"}:undefined}><div><p className="eyebrow light">Immobilienmakler {district.name} · Leverkusen</p><h1>Immobilienmakler {district.name}</h1><p>Immobilien verkaufen und bewerten – mit persönlicher Beratung durch den Standort Leverkusen. Als Ihr Makler in {district.name} begleiten wir Sie von der Bewertung bis zum Notartermin.</p><a className="button gold" href="/immobilienbewertung/">Immobilienbewertung {district.name}</a></div>{image&&<a className="district-photo-credit" href={image.source} target="_blank" rel="noreferrer">Quelle: Wikipedia ↗</a>}</section>
-    <section className="district-intro section"><div><p className="eyebrow">Stadtteilprofil</p><h2>{district.name} im Porträt</h2><p className="lead">{district.profile}</p><p>Für eine Immobilienbewertung werden neben der konkreten Lage auch Grundstück, Baujahr, Zustand, Nutzung und Energieeffizienz betrachtet.</p></div><aside><span>Amtliche Zuordnung</span><strong>Bezirk {district.code}</strong><span>Stadtteil</span><strong>{district.name}</strong></aside></section>
+    {portraet && <section className="portrait section"><div><p className="eyebrow">Stadtteilporträt</p><h2>{portraet.titel}</h2>{portraet.absaetze.map((absatz,i)=><p key={i}>{absatz}</p>)}</div></section>}
+    <section className="district-intro section"><div><p className="eyebrow">Stadtteilprofil</p><h2>{portraet ? `${district.name} auf einen Blick` : `${district.name} im Porträt`}</h2>{!portraet && <p className="lead">{district.profile}</p>}<p>Für eine Immobilienbewertung werden neben der konkreten Lage auch Grundstück, Baujahr, Zustand, Nutzung und Energieeffizienz betrachtet.</p></div><aside><span>Amtliche Zuordnung</span><strong>Bezirk {district.code}</strong><span>Stadtteil</span><strong>{district.name}</strong></aside></section>
     <DistrictOffers slug={district.slug} district={district.name} />
     <SoldReferences place={district.name} items={soldByDistrict[district.name]} />
     <section className="street-directory section" id="strassen"><p className="eyebrow">Straßenverzeichnis</p><h2>Alle Straßen in Leverkusen-{district.name}</h2><p>Sie besitzen eine Immobilie in einer dieser {districtStreets.length} Straßen? Ein Klick auf den Straßennamen öffnet die kostenlose Immobilienbewertung mit vorausgewählter Adresse.</p><details><summary>Straßenverzeichnis {district.name} anzeigen ({districtStreets.length} Straßen)</summary><div className="district-street-grid">{districtStreets.map((street)=><div className="district-street" key={street.name}><a href={`/immobilienbewertung/#street=${encodeURIComponent(street.name)}`}>{street.name}<span>Bewertung starten →</span></a><a className="map-link" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${street.name}, Leverkusen`)}`} target="_blank" rel="noreferrer" aria-label={`${street.name} auf Google Maps anzeigen`}>⌖</a></div>)}</div></details></section>
