@@ -6,7 +6,11 @@ name: Update Leverkusen Listings
 # (.github/workflows/update-listings.yml).
 on:
   schedule:
-    - cron: '30 5 * * *'   # taeglich 05:30 UTC, eine halbe Stunde vor dem Koelner Lauf
+    # GitHub startet geplante Laeufe oft Stunden zu spaet (29.09.2026: 05:30 UTC
+    # eingetragen, gelaufen 10-12 UTC). Zwei fruehe Termine, damit der Abgleich
+    # morgens steht.
+    - cron: '27 1 * * *'
+    - cron: '27 4 * * *'
   workflow_dispatch:
 
 permissions:
