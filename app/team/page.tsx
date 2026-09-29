@@ -4,7 +4,7 @@ import SiteFooter from "@/app/SiteFooter";
 import HauptNav from "@/app/HauptNav";
 
 const url = `${siteUrl}/team/`;
-export const metadata: Metadata = { title: "Team | Immobilienmakler Leverkusen", description: "Das Team von Stark & Hoffmann Immobilien in Leverkusen: persönliche Ansprechpartner für Immobilienbewertung, Verkauf und Vermietung.", alternates: { canonical: url }, openGraph: { title: "Unser Team | Stark & Hoffmann Immobilien Leverkusen", description: "Ihre persönlichen Ansprechpartner in Leverkusen.", url }, twitter: { card: "summary" } };
+export const metadata: Metadata = { title: "Unser Team | Stark & Hoffmann Leverkusen", description: "Das Team von Stark & Hoffmann Immobilien in Leverkusen: persönliche Ansprechpartner für Immobilienbewertung, Verkauf und Vermietung.", alternates: { canonical: url }, openGraph: { title: "Unser Team | Stark & Hoffmann Immobilien Leverkusen", description: "Ihre persönlichen Ansprechpartner in Leverkusen.", url }, twitter: { card: "summary" } };
 
 // Öffentliche Evernest-Standortseite, geprüft am 30.08.2026.
 const team: { name: string; role: string; areas: string; bio: string; image?: string; profile?: string }[] = [

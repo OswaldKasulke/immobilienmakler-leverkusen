@@ -19,7 +19,7 @@ import HauptNav from "@/app/HauptNav";
 import ReviewCarousel from "@/app/ReviewCarousel";
 import googleReviews from "@/app/google-reviews.json";
 
-export const metadata: Metadata = { alternates: { canonical: `${siteUrl}/` } };
+export const metadata: Metadata = { description: "Immobilienmakler Leverkusen: Stark & Hoffmann ist Ihr Makler für Häuser, Wohnungen und Grundstücke in allen 13 Leverkusener Stadtteilen – mit Showroom am Wiesdorfer Platz.", alternates: { canonical: `${siteUrl}/` } };
 
 const heroImage = "/location/2.jpg";
 const serviceLinks = [
@@ -105,8 +105,8 @@ export default function Home() {
     <section className="profile section" id="profil">
       <div className="profile-image"><div className="profile-gallery"><img src="/location/4.jpg" alt="Beratungsbereich im Evernest Immobilienbüro" loading="lazy"/><img src="/location/1.jpg" alt="Evernest Schriftzug im Immobilienbüro" loading="lazy"/><img src="/location/showroom.jpg" alt="Stark & Hoffmann, Immobilienmakler Leverkusen – Showroom am Wiesdorfer Platz" loading="lazy"/></div><div className="image-label"><strong>Stark & Hoffmann</strong><span>Evernest Lizenzpartner</span></div></div>
       <div className="profile-copy">
-        <p className="eyebrow">Unser Profil</p><h2>Mitten in Wiesdorf zu finden.</h2>
-        <p className="lead">In Leverkusen vertritt die Stark &amp; Hoffmann Immobilien GmbH den Evernest-Standort. Geschäftsführer sind Patrick Stark und Julian Hoffmann, beide mit langjähriger Branchenerfahrung.</p>
+        <p className="eyebrow">Unser Profil</p><h2>Ihr Makler in Leverkusen – mitten in Wiesdorf.</h2>
+        <p className="lead">Als Makler in Leverkusen vertritt die Stark &amp; Hoffmann Immobilien GmbH den Evernest-Standort. Geschäftsführer sind Patrick Stark und Julian Hoffmann, beide mit langjähriger Branchenerfahrung.</p>
         <p>Unser Showroom liegt am Wiesdorfer Platz 19 – kommen Sie vorbei, wenn Sie uns persönlich kennenlernen möchten. Wir kümmern uns um Häuser und Wohnungen in sämtlichen 13 Leverkusener Stadtteilen, von Hitdorf am Rhein bis Bergisch Neukirchen, und helfen beim Verkaufen genauso wie beim Kaufen und Vermieten. Welcher Preis realistisch ist, leiten wir aus tatsächlich erzielten Verkäufen, eigener Erfahrung und der aktuellen Marktentwicklung ab.</p>
         <div className="profile-points"><span>Marktwert aus echten Verkaufsdaten</span><span>Exposé, Fotos und Grundrisse</span><span>Interessenten sorgfältig ausgewählt</span><span>Bis zur Schlüsselübergabe an Ihrer Seite</span></div>
         <a className="button dark" href="/team/">Zum Team</a>
@@ -164,7 +164,7 @@ export default function Home() {
     </section>
 
     <section className="contact section" id="kontakt">
-      <div className="contact-info"><p className="eyebrow light">Kontakt</p><h2>Erzählen Sie uns von Ihrer Immobilie.</h2><p>Rufen Sie an, schreiben Sie uns über das Formular oder besuchen Sie Ihre Immobilienmakler Leverkusen im Showroom am Wiesdorfer Platz. Das erste Gespräch ist unverbindlich.</p><address><strong>Stark & Hoffmann Immobilien GmbH</strong><span>Wiesdorfer Platz 19<br/>51373 Leverkusen</span><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></address></div>
+      <div className="contact-info"><p className="eyebrow light">Kontakt</p><h2>Erzählen Sie uns von Ihrer Immobilie.</h2><p>Rufen Sie an, schreiben Sie uns über das Formular oder besuchen Sie Ihre Makler in Leverkusen im Showroom am Wiesdorfer Platz. Das erste Gespräch ist unverbindlich.</p><address><strong>Stark & Hoffmann Immobilien GmbH</strong><span>Wiesdorfer Platz 19<br/>51373 Leverkusen</span><a href="tel:+4922049147881">+49 2204 914 7881</a><a href="mailto:leverkusen@evernest.com">leverkusen@evernest.com</a></address></div>
       <ContactForm/>
     </section>
 
