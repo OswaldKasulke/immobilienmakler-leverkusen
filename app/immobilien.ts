@@ -235,15 +235,6 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/6MPV53BG7jCB7jNX5gKKH6/"
   },
   {
-    "place": "Bergisch Gladbach-Nußbaum",
-    "district": null,
-    "price": "1.399.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3htTTDunHlqMvj1OpSt3b7/47ed6d560cb78911a6c0d36b65591a69/a4ef604a-7cee-425d-a13a-6de57f4dc527?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes weißes Wohnhaus mit großen Fenstern und Garten im Vordergrund.",
-    "url": "https://www.evernest.com/de/listing/6Z7zXP636pyMpcqvah3tRt/"
-  },
-  {
     "place": "Köln-Seeberg",
     "district": null,
     "price": "350.000 €",
@@ -287,5 +278,14 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/Y0qkbNgFxlWWQnztABfsV/59daf34e268e2d4bc291321203ff6512/0b106c85-3114-457d-8fac-a2af33b5e48b?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Mehrere Reihenhäuser mit Vorgarten und gepflastertem Parkplatz, Bäume und Büsche davor.",
     "url": "https://www.evernest.com/de/listing/3xKoNSos65UllHupz5IEjk/"
+  },
+  {
+    "place": "Köln-Dellbrück",
+    "district": null,
+    "price": "10.950.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5FHRNFtVEbxCC0p3AfvbZQ/4c09031ce4be3475f3324b1a2c0b5a39/03de2f20-59e6-47b8-a82c-43dcbb654d9a?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes, dreistöckiges Wohngebäude mit braunen und weißen Fassaden, großer Grünfläche und Zaun im Vordergrund.",
+    "url": "https://www.evernest.com/de/listing/5ENiQl64Q9aofYcukySXKD/"
   }
 ];
