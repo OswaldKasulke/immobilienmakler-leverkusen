@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 29.09.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 30.09.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -199,6 +199,15 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/ZUXtatV9l9NnxJLqKo0DZ/"
   },
   {
+    "place": "Odenthal-Erberich",
+    "district": null,
+    "price": "Preis auf Anfrage",
+    "status": "Verkauft",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/76CeSFsWDiiAKSJb9tvCSe/8e58988f93315789dff5f7877458d5f5/2d598894-db1b-4133-ac08-58679835c64b?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Modernes Wohnhaus mit gepflastertem Weg, Treppe und gepflegtem grünen Rasen im Vordergrund.",
+    "url": "https://www.evernest.com/de/listing/1ZKQZJSBzBfGNYG63GJxSq/"
+  },
+  {
     "place": "Monheim am Rhein-Monheim",
     "district": null,
     "price": "395.000 €",
@@ -278,14 +287,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/Y0qkbNgFxlWWQnztABfsV/59daf34e268e2d4bc291321203ff6512/0b106c85-3114-457d-8fac-a2af33b5e48b?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Mehrere Reihenhäuser mit Vorgarten und gepflastertem Parkplatz, Bäume und Büsche davor.",
     "url": "https://www.evernest.com/de/listing/3xKoNSos65UllHupz5IEjk/"
-  },
-  {
-    "place": "Köln-Dellbrück",
-    "district": null,
-    "price": "10.950.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/5FHRNFtVEbxCC0p3AfvbZQ/4c09031ce4be3475f3324b1a2c0b5a39/03de2f20-59e6-47b8-a82c-43dcbb654d9a?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Modernes, dreistöckiges Wohngebäude mit braunen und weißen Fassaden, großer Grünfläche und Zaun im Vordergrund.",
-    "url": "https://www.evernest.com/de/listing/5ENiQl64Q9aofYcukySXKD/"
   }
 ];
