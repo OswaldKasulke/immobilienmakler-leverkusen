@@ -208,15 +208,6 @@ export const properties: Property[] = [
     "url": "https://www.evernest.com/de/listing/1ZKQZJSBzBfGNYG63GJxSq/"
   },
   {
-    "place": "Monheim am Rhein-Monheim",
-    "district": null,
-    "price": "395.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/3kL8kp34ri6WnKDT9vjWMX/dd62721231a1277256040ead4a187f80/f7c8f6e4-a4d1-4dc0-b156-8c305de73b54?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Heller, leerer Raum mit großen Fenstern, Holzdecke und Fliesenboden, Blick auf Garten.",
-    "url": "https://www.evernest.com/de/listing/7CcID6z8fnnu32XsZci5ym/"
-  },
-  {
     "place": "Bergisch Gladbach-Schildgen",
     "district": null,
     "price": "892.000 €",
@@ -287,5 +278,14 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/5FHRNFtVEbxCC0p3AfvbZQ/4c09031ce4be3475f3324b1a2c0b5a39/03de2f20-59e6-47b8-a82c-43dcbb654d9a?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes, dreistöckiges Wohngebäude mit braunen und weißen Fassaden, großer Grünfläche und Zaun im Vordergrund.",
     "url": "https://www.evernest.com/de/listing/5ENiQl64Q9aofYcukySXKD/"
+  },
+  {
+    "place": "Haan",
+    "district": null,
+    "price": "2.490.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/6n26I0IypjcLF5KX8uEN1j/729c68609fee633c4222b665ab289d53/95370e9d-060a-4205-b3ba-9b4fdc15503f?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Großes Wohnhaus mit Garten, Nebengebäude und geschwungener Einfahrt, umgeben von Bäumen.",
+    "url": "https://www.evernest.com/de/listing/25ImNIe7lzam5QOs5EQ9xP/"
   }
 ];
