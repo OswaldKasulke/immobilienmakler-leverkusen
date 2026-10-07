@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 06.10.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 07.10.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -156,8 +156,8 @@ export const properties: Property[] = [
   {
     "place": "Langenfeld (Rheinland)-Immigrath",
     "district": null,
-    "price": "249.000 €",
-    "status": "",
+    "price": "Preis auf Anfrage",
+    "status": "Verkauft",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/5F57cXhMyf78Mh6XOGKP7n/ee51b716ce0fd895de52e18c5b286ae9/c0a832c1-e314-4101-8c01-874dac5c8369?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Mehrfamilienhaus mit Balkonen und gepflegtem Garten im Hinterhof.",
     "url": "https://www.evernest.com/de/listing/6OweC9ulkqH21HpUETlYHO/"
