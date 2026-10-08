@@ -11,7 +11,7 @@ export const businessSchema = {
   url: `${siteUrl}/`,
   image: defaultImage,
   telephone: "+49 2204 914 7881",
-  email: "leverkusen@evernest.com",
+  email: "julian.hoffmann@evernest.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Wiesdorfer Platz 19",
