@@ -150,10 +150,11 @@ export default function Home() {
       <div className="city-grid">{[...districts].sort((a,b)=>a.name.localeCompare(b.name,"de")).map((district)=><a className="city" href={`/stadtteile/${district.slug}/`} key={district.slug}><span>Stadtteilprofil</span><strong>{district.name}</strong><b aria-hidden="true">↗</b></a>)}</div>
       <div className="section-head region-list-head"><div><p className="eyebrow">Amtliche Orientierung</p><h2>Marktdaten für Leverkusen.</h2></div><p>Fachseiten zu Richtwerten, Marktbericht und Gutachterausschuss mit amtlichen Quellen.</p></div>
       <div className="location-grid">{locations.map(([name,slug])=><a href={`/${slug}/`} key={slug}><span>Ortsprofil</span><strong>{name}</strong><b aria-hidden="true">↗</b></a>)}</div>
-      <div className="section-head region-list-head"><div><p className="eyebrow">Nachbarregionen</p><h2>Rund um Leverkusen.</h2></div><p>Für Bergisch Gladbach und das rechtsrheinische Köln führen Kolleginnen und Kollegen eigene Marktseiten mit Ortsprofilen, Preisen und amtlichen Quellen.</p></div>
-      <div className="location-grid location-grid--paar">
+      <div className="section-head region-list-head"><div><p className="eyebrow">Nachbarregionen</p><h2>Rund um Leverkusen.</h2></div><p>Für Bergisch Gladbach und Köln führen Kolleginnen und Kollegen eigene Marktseiten mit Ortsprofilen, Preisen und amtlichen Quellen.</p></div>
+      <div className="location-grid location-grid--drei">
         <a href="https://immobilienmakler-bergisch-gladbach.de/"><span>25 Stadtteile &amp; Ortsprofile</span><strong>Bergisch Gladbach</strong><b aria-hidden="true">↗</b></a>
         <a href="https://makler-schael-sick.de/"><span>18 Stadtteile rechts des Rheins</span><strong>Köln, rechtsrheinisch</strong><b aria-hidden="true">↗</b></a>
+        <a href="https://romanbecker.de/"><span>Stadtteilprofile für ganz Köln</span><strong>Köln</strong><b aria-hidden="true">↗</b></a>
       </div>
     </section>
 
