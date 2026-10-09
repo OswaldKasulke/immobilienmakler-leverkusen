@@ -102,7 +102,7 @@ export const properties: Property[] = [
   {
     "place": "Langenfeld (Rheinland)-Reusrath",
     "district": null,
-    "price": "694.000 €",
+    "price": "649.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/6QiKJRtTvtuq6QU6fnReKD/4d9b99671d0d46684fad102417767954/2654e90e-9cca-49ae-9e4e-e45875babb36?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Backstein-Reihenhaus mit drei Fahrrädern und zwei geparkten Autos in einer Einfahrt.",
