@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 09.10.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 10.10.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 30 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -192,7 +192,7 @@ export const properties: Property[] = [
   {
     "place": "Odenthal-Glöbusch",
     "district": null,
-    "price": "875.000 €",
+    "price": "795.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/lgLAfzcNzytn60vu0LjJf/76b42c7ff54c35037de12604baac636f/48197efa-2caf-41ad-a721-f59d4dfd5c88?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Einfamilienhaus mit Garten, Einfahrt und geparktem Auto an einer Straßenecke.",
