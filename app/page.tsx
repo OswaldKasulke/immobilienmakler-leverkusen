@@ -130,7 +130,7 @@ export default function Home() {
     </section>
 
     <section className="properties section" id="immobilien">
-      <div className="section-head"><div><p className="eyebrow">Unsere Immobilien</p><h2>Immobilienangebote in Leverkusen und Umgebung.</h2><p className="gallery-status">Auswahl öffentlich angebotener Leverkusener Immobilien</p></div></div>
+      <div className="section-head"><div><p className="eyebrow">Unsere Immobilien</p><h2>Immobilienangebote in Leverkusen und Umgebung.</h2><p className="gallery-status">Leverkusener Immobilien zuerst, danach die Umgebung</p></div></div>
       <ImmobilienGalerie />
     </section>
 

@@ -20,7 +20,11 @@ export default function ImmobilienGalerie({ items, moreLink = true }: { items?: 
     update();
     return () => observer.disconnect();
   }, []);
-  const leverkusenProperties = properties.filter((property) => property.place.startsWith("Leverkusen-"));
+  // Leverkusener Objekte zuerst, danach das Umland nach Entfernung – bis zu 50 Karten (Roman, 12.10.2026).
+  const leverkusenProperties = [
+    ...properties.filter((property) => property.place.startsWith("Leverkusen-")),
+    ...properties.filter((property) => !property.place.startsWith("Leverkusen-")),
+  ].slice(0, 50);
 
   const move = (direction: -1 | 1) => {
     const element = rail.current;

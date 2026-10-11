@@ -41,7 +41,7 @@ const BOUNDS = {
   sw: { lat: 50.85, lng: 6.60 },
   se: { lat: 50.85, lng: 7.45 },
 };
-const MAX_LISTINGS = 30;
+const MAX_LISTINGS = 50;
 // Unter dieser Zahl stimmt etwas mit der API nicht — dann lieber abbrechen und
 // den letzten guten Stand stehen lassen, als die Galerie leer zu raeumen.
 const MIN_PLAUSIBEL = 20;
