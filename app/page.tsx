@@ -114,7 +114,7 @@ export default function Home() {
     </section>
 
     <section className="seo-services section" aria-labelledby="verkaufen-heading">
-      <div className="section-head"><div><p className="eyebrow">Haus, Wohnung oder Grundstück</p><h2 id="verkaufen-heading">Immobilie verkaufen in Leverkusen.</h2></div><p>Für jede Objektart gibt es eine eigene Seite: was wir vorab prüfen, welche Unterlagen gebraucht werden und wie der Verkauf abläuft.</p></div>
+      <div className="section-head"><div><p className="eyebrow">Haus, Wohnung oder Grundstück</p><h2 id="verkaufen-heading">Immobilie verkaufen in Leverkusen.</h2></div></div>
       <div className="seo-service-grid">{serviceLinks.map(([title,url,text])=><a href={url} key={url}><span>Objektart</span><h3>{title}</h3><p>{text}</p><b>Weiterlesen →</b></a>)}</div>
     </section>
 
