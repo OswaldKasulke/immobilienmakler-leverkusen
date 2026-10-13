@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 12.10.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 13.10.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 50 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -125,6 +125,15 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/2iGS2HEc02arzmXr7Okdt9/ac46b86b8eb3ca7b4ba2c0835db513c5/d5bd6a65-cdb5-4ded-aa94-5e0c2028cddf?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes Einfamilienhaus mit grauem Dach, Garage und gepflasterter Einfahrt an einer ruhigen Straße.",
     "url": "https://www.evernest.com/de/listing/48xEKKaW66sK4e7i4JWNSk/"
+  },
+  {
+    "place": "Leverkusen-Schlebusch",
+    "district": "schlebusch",
+    "price": "109.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/PEUNHAvaOnR058r6JAih9/75c66350ef56de7704f9a870d178538f/6bb2ba75-9211-48e8-b47f-cd5b4ee2423a?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Vierstöckiges Wohnhaus mit Balkonen und gepflegtem grünen Garten, umgeben von Bäumen.",
+    "url": "https://www.evernest.com/de/listing/24uZAvsQJlLkiMk4PojkSi/"
   },
   {
     "place": "Leverkusen-Rheindorf",
@@ -458,14 +467,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/2bVIN5M6BFa8EjJSMCnBHg/078feffcd5e80bc45ad82f0492c14ce5/9fc48d05-a11d-4fc3-b5ff-4899eb678ef3?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Helles Wohnzimmer mit Esstisch, Sofa, Fernseher und großen Fenstern mit Blick auf einen Balkon.",
     "url": "https://www.evernest.com/de/listing/61bwsmvtH7JnkWiAUa2c6c/"
-  },
-  {
-    "place": "Bergisch Gladbach-Sand",
-    "district": null,
-    "price": "590.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1v52YoPKpxyvxZfwFlqRW5/fa83a0b92050588e68a80d4de600e587/aaec30a1-be14-4bd5-964b-e55a5a28e5dd?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Freistehendes Wohnhaus mit rotem Dach, gepflasterter Einfahrt und kleinem Garten, in ruhigem Wohngebiet.",
-    "url": "https://www.evernest.com/de/listing/99zrZppy45kmE2s6BLtjd/"
   }
 ];
