@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 14.10.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 15.10.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 50 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -152,6 +152,15 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/28onQJwok0nsUxMHu4tpcF/17e0b3a515abd36ad62a58961ad03551/40a6fc68-386e-42b7-b294-daa19571bf0c?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes Wohngebäude mit grauem Dach, gelben Fassadenakzenten und bepflanztem Vorgarten.",
     "url": "https://www.evernest.com/de/listing/5ZmxUCrrNhAYRY7tHXEnTE/"
+  },
+  {
+    "place": "Leverkusen-Schlebusch",
+    "district": "schlebusch",
+    "price": "89.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/7vpxU7gUWH6VYEwCe4Vzsx/1dd7271bd27e7dae380019c6880af684/734c8891-53f4-454b-a13e-a9c9fbc486be?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Luftaufnahme eines mehrstöckigen Wohnhauses mit umliegenden Bäumen und Nachbarhäusern.",
+    "url": "https://www.evernest.com/de/listing/5iEtU9sDZjBZE64Wi1IuA8/"
   },
   {
     "place": "Langenfeld (Rheinland)-Immigrath",
@@ -419,8 +428,8 @@ export const properties: Property[] = [
     "district": null,
     "price": "265.000 €",
     "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/cQ7WknpXpdfyw5G5CnFDK/cea564644e7c230757b0d2f5224b0310/17db5b7e-8d91-4b9c-a5b5-192700cbdf7d?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Heller Flur mit Fliesenboden, Garderobe und Blick in ein Kinderzimmer mit Etagenbett.",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/4E4SgsySvXunyJNlpTiNtP/7b2b67ad8a5a26d1c0b906e115522330/74e8e4eb-12c9-4fe2-9029-f2f10c802bf2?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Mehrfamilienhaus mit drei Stockwerken und mehreren Fenstern, umgeben von Hecken und Gehweg.",
     "url": "https://www.evernest.com/de/listing/5COyoAXSrPLgd0769t920c/"
   },
   {
@@ -458,14 +467,5 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/2bVIN5M6BFa8EjJSMCnBHg/078feffcd5e80bc45ad82f0492c14ce5/9fc48d05-a11d-4fc3-b5ff-4899eb678ef3?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Helles Wohnzimmer mit Esstisch, Sofa, Fernseher und großen Fenstern mit Blick auf einen Balkon.",
     "url": "https://www.evernest.com/de/listing/61bwsmvtH7JnkWiAUa2c6c/"
-  },
-  {
-    "place": "Bergisch Gladbach-Sand",
-    "district": null,
-    "price": "590.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/1v52YoPKpxyvxZfwFlqRW5/fa83a0b92050588e68a80d4de600e587/aaec30a1-be14-4bd5-964b-e55a5a28e5dd?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Freistehendes Wohnhaus mit rotem Dach, gepflasterter Einfahrt und kleinem Garten, in ruhigem Wohngebiet.",
-    "url": "https://www.evernest.com/de/listing/99zrZppy45kmE2s6BLtjd/"
   }
 ];
