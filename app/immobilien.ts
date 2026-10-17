@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 16.10.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 17.10.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 50 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -35,15 +35,6 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/46L1Jf9LbHbYMeAY57w5yn/a866e603738342ef38cd3bdf54489f27/1f1fb29a-71f4-48ed-a6dd-786b30784bb0?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Luftaufnahme eines Hauses mit Wintergarten und Garten, umgeben von Bäumen und Wegen.",
     "url": "https://www.evernest.com/de/listing/45DYL5NfNYRI0Ly4tatuao/"
-  },
-  {
-    "place": "Leverkusen-Bergisch Neukirchen",
-    "district": "bergisch-neukirchen",
-    "price": "695.000 €",
-    "status": "",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/6xlUUSesEAG5sSMJKZXcym/b51066c2924848a0fdbcf83c1885ad17/85cdfee2-51fa-47e4-a196-c6a45d4d58e7?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Gemütlicher Balkon mit Sitzmöbeln, vielen Pflanzen und Blick ins Grüne.",
-    "url": "https://www.evernest.com/de/listing/62Py2QbZt9RsPi8twJDNL6/"
   },
   {
     "place": "Langenfeld (Rheinland)-Reusrath",
@@ -134,6 +125,15 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/PEUNHAvaOnR058r6JAih9/75c66350ef56de7704f9a870d178538f/6bb2ba75-9211-48e8-b47f-cd5b4ee2423a?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Vierstöckiges Wohnhaus mit Balkonen und gepflegtem grünen Garten, umgeben von Bäumen.",
     "url": "https://www.evernest.com/de/listing/24uZAvsQJlLkiMk4PojkSi/"
+  },
+  {
+    "place": "Leverkusen-Rheindorf",
+    "district": "rheindorf",
+    "price": "179.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/5jVzpFWni2em3b0yWTSAi/95658787709c5bb4eaf54b011c7eb385/ef504e9a-c779-4576-97c5-989b420474d2?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Visualisierung Küche",
+    "url": "https://www.evernest.com/de/listing/517unqTftzSFbar7hqh5c3/"
   },
   {
     "place": "Leverkusen-Schlebusch",
