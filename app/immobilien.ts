@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 18.10.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 19.10.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 50 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -399,7 +399,7 @@ export const properties: Property[] = [
   {
     "place": "Bergisch Gladbach-Stadtmitte",
     "district": null,
-    "price": "891.900 €",
+    "price": "849.000 €",
     "status": "",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/7iZanRwmj92aiQOzkFAFJC/eff292264b3bb58db7374fa417488759/4f38bfb9-4bfc-4714-ab54-691cf1d6cb58?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Modernes Haus mit großer Glasüberdachung, Terrasse, Gartenmöbeln und Rasenfläche im Vorgarten.",
