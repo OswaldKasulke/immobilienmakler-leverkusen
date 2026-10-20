@@ -12,7 +12,7 @@ export type Property = {
 
 // AUTOMATISCH ERZEUGT — nicht von Hand aendern.
 // Quelle: Evernest-Immobiliensuche, Kartenausschnitt Leverkusen
-// (lat 51.083462 / lng 7.017159), abgerufen am 19.10.2026.
+// (lat 51.083462 / lng 7.017159), abgerufen am 20.10.2026.
 // Reihenfolge: Entfernung zum Kartenmittelpunkt aufsteigend, 50 naechste Objekte.
 // Bildbeschreibungen stammen aus den Evernest-Objektdaten.
 // Aktualisierung: scripts/update-listings.mjs, taeglich ueber
@@ -71,15 +71,6 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/BXyiC8YSiqPotaE9zynfQ/bccb0940b12755bbe4233b15192cf7f9/522a6b50-03ff-4cfe-a563-67ce1bfab2fb?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Flur mit Jacken an der Garderobe, Spiegel und Blick ins Wohnzimmer mit Sofa.",
     "url": "https://www.evernest.com/de/listing/7M0GZZAlWjYZCSlbHjRnol/"
-  },
-  {
-    "place": "Leverkusen-Lützenkirchen",
-    "district": "luetzenkirchen",
-    "price": "Preis auf Anfrage",
-    "status": "Verkauft",
-    "image": "https://images.ctfassets.net/if6f7uzjzqut/2C5XRXW8S08eU58qnKaWGG/c7f3ee868fb4d54cdaafa1c01b8b65d1/3c757d3a-0fa8-49c6-a033-9fc186b86079?w=960&h=600&fit=fill&fm=webp&q=82",
-    "alt": "Vorderansicht eines Einfamilienhauses mit zwei Garagen und gepflegtem Garten.",
-    "url": "https://www.evernest.com/de/listing/6j1w6fnn81OisTop7JzHLd/"
   },
   {
     "place": "Leverkusen-Quettingen",
@@ -395,6 +386,15 @@ export const properties: Property[] = [
     "image": "https://images.ctfassets.net/if6f7uzjzqut/xshBvzhUPe2oJUYoARyeg/9d992a4697aef920a3172182d8f6924c/8c174356-5f12-4844-8b0a-9c1e6e5f5df0?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Großes Einfamilienhaus mit dunklem Dach, Vorgarten und gepflasterter Auffahrt an einem sonnigen Tag.",
     "url": "https://www.evernest.com/de/listing/1b2iW8md9sRyBgpa3zrWnU/"
+  },
+  {
+    "place": "Köln-Nippes",
+    "district": null,
+    "price": "389.000 €",
+    "status": "",
+    "image": "https://images.ctfassets.net/if6f7uzjzqut/6hEZpN8wegipVv3tVlPbkc/3703e6005e508385a20d2e5cec4f013d/e48d18bc-ae65-40bc-97b2-b4eb2272284c?w=960&h=600&fit=fill&fm=webp&q=82",
+    "alt": "Helles Wohnzimmer mit grauem Sofa, Esstisch, offener Küche und Bilderwand.",
+    "url": "https://www.evernest.com/de/listing/1o6MgqiNc5zPo5WKfQR3KN/"
   },
   {
     "place": "Bergisch Gladbach-Stadtmitte",
