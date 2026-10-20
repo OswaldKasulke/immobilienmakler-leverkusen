@@ -68,6 +68,7 @@ export default function Home() {
     </section>
 
     <section className="profile section" id="profil">
+      <div className="profile-image"><div className="profile-gallery"><img src="/team/team-leverkusen.jpg" alt="Team von Stark & Hoffmann Immobilien in Leverkusen"/><img src="/team/patrick.jpg" alt="Patrick Stark, Geschäftsführer" loading="lazy"/><img src="/team/julian.jpg" alt="Julian Hoffmann, Geschäftsführer" loading="lazy"/></div><div className="image-label"><strong>Stark &amp; Hoffmann</strong><span>Immobilien Leverkusen</span></div></div>
       <div className="profile-copy">
         <p className="eyebrow">Unser Profil</p><h2>Ihr Makler in Leverkusen – mitten in Wiesdorf.</h2>
         <p className="lead">Stark &amp; Hoffmann Immobilien GmbH begleitet Eigentümer in Leverkusen bei Bewertung, Verkauf und Vermietung. Geschäftsführer sind Patrick Stark und Julian Hoffmann.</p>
