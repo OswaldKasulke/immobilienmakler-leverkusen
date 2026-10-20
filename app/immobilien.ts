@@ -22,7 +22,7 @@ export const properties: Property[] = [
     "place": "Leverkusen-Opladen",
     "district": "opladen",
     "price": "379.000 €",
-    "status": "",
+    "status": "Reserviert",
     "image": "https://images.ctfassets.net/if6f7uzjzqut/1UaVuuEXW4i00tOXqFSFtX/cf2705f43929a67140565e6fba5a376f/e7377ba0-8e28-40fb-8888-e265a677f5d2?w=960&h=600&fit=fill&fm=webp&q=82",
     "alt": "Zweistöckiges Haus mit weißer Fassade, Garten, zwei Fahrrädern und Metallzaun im Vordergrund.",
     "url": "https://www.evernest.com/de/listing/5gvFXjsnLzENcv7SKiTBYl/"
