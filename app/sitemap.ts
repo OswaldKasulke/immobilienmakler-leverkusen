@@ -9,7 +9,7 @@ const base="https://leverkusen-makler.de";
 // Stadtteilseiten sollen davon nicht jeden Tag auf "heute" springen.
 const INHALT="app/[slug]/page.tsx"; const DATEN="app/data.ts";
 const quellen:Record<string,string[]>={
-  "":["app/page.tsx","app/immobilien.ts","app/components.tsx"],
+  "":["app/page.tsx","app/components.tsx"],
   "immobilienbewertung":["app/immobilienbewertung/page.tsx","app/gemeinsame-bewertung.ts","app/strassen.ts"],
   "team":["app/team/page.tsx"],
   "suchprofil":["app/suchprofil/page.tsx","app/SuchprofilForm.tsx"],
@@ -41,7 +41,7 @@ export default function sitemap():MetadataRoute.Sitemap{
     ...districts.map(d=>({
       url:`${base}/stadtteile/${d.slug}/`,
       lastModified:lastmod("app/stadtteile/[slug]/page.tsx",DATEN,"app/stadtteile.ts",
-        "app/district-images.ts","app/DistrictOffers.tsx"),
+        "app/district-images.ts"),
       changeFrequency:"monthly" as const,
       priority:.8,
     })),

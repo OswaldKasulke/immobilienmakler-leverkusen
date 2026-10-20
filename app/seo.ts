@@ -1,7 +1,7 @@
 import { ohneLinks } from "./linktext";
 export const siteUrl = "https://leverkusen-makler.de";
 export const businessId = `${siteUrl}/#immobilienmakler`;
-export const defaultImage = `${siteUrl}/team/team-leverkusen.jpg`;
+export const defaultImage = `${siteUrl}/icon-192.png`;
 
 export const businessSchema = {
   "@type": ["RealEstateAgent", "LocalBusiness"],
@@ -10,8 +10,8 @@ export const businessSchema = {
   alternateName: "Stark & Hoffmann Immobilien Leverkusen",
   url: `${siteUrl}/`,
   image: defaultImage,
+  email: "hallo@leverkusen-makler.de",
   telephone: "+49 2204 914 7881",
-  email: "julian.hoffmann@evernest.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Wiesdorfer Platz 19",
@@ -22,11 +22,6 @@ export const businessSchema = {
   areaServed: [
     { "@type": "City", name: "Leverkusen" },
     { "@type": "Place", name: "Leverkusen und Umland" },
-  ],
-  sameAs: [
-    "https://www.evernest.com/de/unsere-makler/leverkusen/",
-    "https://www.google.com/maps/search/?api=1&query=Evernest%20Leverkusen%2C%20Wiesdorfer%20Platz%2019%2C%2051373%20Leverkusen",
-    "https://www.instagram.com/evernest.leverkusen/",
   ],
 };
 

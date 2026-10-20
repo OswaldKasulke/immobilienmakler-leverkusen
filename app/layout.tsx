@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Immobilienmakler Leverkusen | Stark & Hoffmann",
     description: "Immobilienbewertung und Verkauf in Leverkusen und allen 13 Stadtteilen.",
-    images: [{ url: defaultImage, width: 1568, height: 1003, alt: "Immobilienmakler Leverkusen – Stark & Hoffmann Immobilien" }],
+    images: [{ url: defaultImage, width: 192, height: 192, alt: "Immobilienmakler Leverkusen – Stark & Hoffmann Immobilien" }],
   },
   twitter: {
     card: "summary_large_image",

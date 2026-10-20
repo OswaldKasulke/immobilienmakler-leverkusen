@@ -37,11 +37,8 @@ Wo die Stadt keine individuelle, belastbare Besonderheit nennt, beschränkt sich
 
 ## Team und Standort
 
-- Leverkusener Standort, Lizenznehmer, Adresse, Telefon und E-Mail: https://www.evernest.com/de/unsere-makler/leverkusen/
-- Namen, Rollen und Einsatzorte der neun am 30.08.2026 gelisteten Teammitglieder: https://www.evernest.com/de/seiten/immobilienmakler-in-leverkusen/
 - Zweite öffentliche Plausibilitätsprüfung der Unternehmensträger: Referenz-Repository und Impressum der autorisierten Bergisch-Gladbach-Seite.
 
-Der Nutzer hat am 30.08.2026 ausdrücklich bestätigt, dass das Website-Team selbst Evernest ist und die vorhandenen Teammedien für leverkusen-makler.de verwenden darf. Eingebunden sind ausschließlich die bereits im autorisierten Projektbestand vorhandenen Teamdateien; es werden keine fremden Texte übernommen.
 
 ## Bild- und Lizenzstatus
 

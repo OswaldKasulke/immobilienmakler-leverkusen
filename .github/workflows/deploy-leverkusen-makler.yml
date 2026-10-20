@@ -13,13 +13,6 @@ on:
       - tsconfig.json
       - .github/workflows/deploy-leverkusen-makler.yml
   workflow_dispatch:
-  workflow_run:
-    # Der Listings-Commit kommt vom GITHUB_TOKEN und loest deshalb keinen
-    # push-Workflow aus — ohne diesen Trigger bliebe die Aktualisierung im Repo
-    # liegen, ohne je live zu gehen.
-    workflows: ["Update Leverkusen Listings"]
-    types:
-      - completed
 
 permissions:
   contents: read
@@ -35,8 +28,6 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # Bei workflow_run nur deployen, wenn das Listings-Update erfolgreich war.
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -55,17 +46,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Objektfotos von images.ctfassets.net vor dem Build auf den eigenen Server
-      # holen: beim Seitenaufruf geht so keine IP an Dritte, und die Fotos
-      # brauchen keine Einwilligung (DSGVO-Prüfung 17.10.2026).
-      - name: Objektfotos lokal ablegen
-        run: python3 scripts/fremdinhalte-lokal.py app public https://leverkusen-makler.de
-
       - name: Build static website
         run: npm run build
 
-      - name: Keine Fotos mehr von images.ctfassets.net
-        run: python3 scripts/fremdinhalte-lokal.py --check out
+      - name: Markenfreiheit und lokale Dateien prüfen
+        run: python3 scripts/pruefe-auftritt.py out
 
 
       # Roman Becker hat auf dieser Seite nichts zu suchen - Texte, Skripte, Daten, PDFs.
