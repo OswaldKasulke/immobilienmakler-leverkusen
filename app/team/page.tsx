@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { breadcrumbSchema, businessSchema, graphSchema, siteUrl } from "../seo";
+import { breadcrumbSchema, businessSchema, graphSchema, siteUrl, defaultImage } from "../seo";
 import SiteFooter from "@/app/SiteFooter";
 import HauptNav from "@/app/HauptNav";
 
 const url = `${siteUrl}/team/`;
-export const metadata: Metadata = { title: "Unser Team | Stark & Hoffmann Leverkusen", description: "Das Team von Stark & Hoffmann Immobilien in Leverkusen: persönliche Ansprechpartner für Immobilienbewertung, Verkauf und Vermietung.", alternates: { canonical: url }, openGraph: { title: "Unser Team | Stark & Hoffmann Immobilien Leverkusen", description: "Ihre persönlichen Ansprechpartner in Leverkusen.", url }, twitter: { card: "summary" } };
+export const metadata: Metadata = { title: "Unser Team | Stark & Hoffmann Leverkusen", description: "Das Team von Stark & Hoffmann Immobilien in Leverkusen: persönliche Ansprechpartner für Immobilienbewertung, Verkauf und Vermietung.", alternates: { canonical: url }, openGraph: { title: "Unser Team | Stark & Hoffmann Immobilien Leverkusen", description: "Ihre persönlichen Ansprechpartner in Leverkusen.", url, images: [defaultImage] }, twitter: { card: "summary" } };
 
 const team: { name: string; role: string; areas: string; bio: string; image?: string; profile?: string }[] = [
   { name: "Patrick Stark", role: "Geschäftsführer", areas: "Bergisch Gladbach, Leverkusen, Köln-Dellbrück", bio: "Aufgewachsen in einer Handwerkerfamilie, bringt er fundiertes Wissen zu Baustruktur und Architektur mit. Er arbeitet transparent statt im Blindflug und behält im Blick, dass hinter einem Verkauf fast immer eine persönliche Lebenssituation steht.", image: "patrick.jpg", profile: "" },

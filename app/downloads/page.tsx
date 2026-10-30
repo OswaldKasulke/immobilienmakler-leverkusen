@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { breadcrumbSchema, businessSchema, graphSchema, siteUrl } from "../seo";
+import { breadcrumbSchema, businessSchema, graphSchema, siteUrl, defaultImage } from "../seo";
 import SiteFooter from "@/app/SiteFooter";
 import HauptNav from "@/app/HauptNav";
 
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Downloads für Immobilieneigentümer | Stark & Hoffmann Leverkusen",
   description: "Kostenlose PDF-Checklisten für Immobilienbewertung, Verkaufsunterlagen und den Immobilienverkauf in Leverkusen.",
   alternates: { canonical: url },
-  openGraph: { title: "Downloads für Immobilieneigentümer | Stark & Hoffmann Leverkusen", description: "Checklisten und amtliche Grundstücksmarktberichte für Leverkusen und die Nachbarstädte.", url },
+  openGraph: { title: "Downloads für Immobilieneigentümer | Stark & Hoffmann Leverkusen", description: "Checklisten und amtliche Grundstücksmarktberichte für Leverkusen und die Nachbarstädte.", url, images: [defaultImage] },
   twitter: { card: "summary" },
 };
 

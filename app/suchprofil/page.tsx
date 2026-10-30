@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { breadcrumbSchema, businessSchema, graphSchema, siteUrl } from "../seo";
+import { breadcrumbSchema, businessSchema, graphSchema, siteUrl, defaultImage } from "../seo";
 import SiteFooter from "@/app/SiteFooter";
 import HauptNav from "@/app/HauptNav";
 import SuchprofilForm from "@/app/SuchprofilForm";
 
 const url = `${siteUrl}/suchprofil/`;
-export const metadata: Metadata = { title: "Suchprofil anlegen | Immobilie kaufen in Leverkusen", description: "Hinterlegen Sie Ihr Suchprofil für eine Wohnung, ein Haus oder ein Grundstück in Leverkusen. Wir melden uns, sobald ein passendes Angebot da ist.", alternates: { canonical: url }, openGraph: { title: "Suchprofil anlegen | Stark & Hoffmann Immobilien Leverkusen", description: "Hinterlegen Sie, was Sie in Leverkusen suchen.", url }, twitter: { card: "summary" } };
+export const metadata: Metadata = { title: "Suchprofil anlegen | Immobilie kaufen in Leverkusen", description: "Hinterlegen Sie Ihr Suchprofil für eine Wohnung, ein Haus oder ein Grundstück in Leverkusen. Wir melden uns, sobald ein passendes Angebot da ist.", alternates: { canonical: url }, openGraph: { title: "Suchprofil anlegen | Stark & Hoffmann Immobilien Leverkusen", description: "Hinterlegen Sie, was Sie in Leverkusen suchen.", url, images: [defaultImage] }, twitter: { card: "summary" } };
 
 export default function SuchprofilPage() {
   const schema = graphSchema(businessSchema, breadcrumbSchema([{ name: "Startseite", url: `${siteUrl}/` }, { name: "Suchprofil", url }]));
