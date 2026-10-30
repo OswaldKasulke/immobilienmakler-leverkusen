@@ -6,6 +6,8 @@ import type { Metadata } from "next";
 
 import SiteFooter from "@/app/SiteFooter";
 import HauptNav from "@/app/HauptNav";
+import ReviewCarousel from "@/app/ReviewCarousel";
+import googleReviews from "@/app/google-reviews.json";
 
 export const metadata: Metadata = { description: "Immobilienmakler Leverkusen: Immobilie verkaufen mit Stark & Hoffmann, Ihrem Makler für Häuser, Wohnungen und Grundstücke in allen 13 Stadtteilen.", alternates: { canonical: `${siteUrl}/` } };
 
@@ -40,6 +42,14 @@ const marketFacts = [
   ["344", "Einfamilienhäuser", "Verkäufe im Marktjahr 2025 · +5 % zu 2024"],
   ["590", "Eigentumswohnungen", "Kauffälle im Marktjahr 2025 · +13 % zu 2024"],
 ];
+
+// Google-Rezensionen des Leverkusener Profils (Link fuehrt dorthin). Rezensionen,
+// die den Markennamen nennen, bleiben draußen: die Markenpruefung im Deploy
+// bricht sonst ab.
+const googleReviewsUrl = "https://maps.app.goo.gl/P5s533i9g5FVRWmK7";
+const reviews = googleReviews.reviews
+  .filter((r) => !/evernest/i.test(r.text + r.author))
+  .map(({ author, text, stars, source_url }) => ({ author, text, stars, source_url }));
 
 export default function Home() {
   const structuredData = graphSchema(
@@ -97,6 +107,16 @@ export default function Home() {
     <section className="properties section" id="immobilien">
       <div className="section-head"><div><p className="eyebrow">Ihre Immobiliensuche</p><h2>Finden Sie ein Zuhause, das zu Ihnen passt.</h2></div><p>Teilen Sie uns Ihre Wunschlage, die passende Objektart und Ihr Budget mit. Wir besprechen mit Ihnen die nächsten Schritte Ihrer Suche.</p></div>
       <a className="button dark" href="/suchprofil/">Suchwunsch mitteilen</a>
+    </section>
+
+    <section className="reviews reviews--google section" id="bewertungen">
+      <div className="reviews-title">
+        <a className="google-rating-link" href={googleReviewsUrl} target="_blank" rel="noreferrer" aria-label="Verifizierte Kundenstimmen auf Google ansehen">
+          <div className="google-rating-stars">★★★★★</div>
+          <div className="google-rating-text">{googleReviews.rating} von 5,0 auf GOOGLE · {googleReviews.count} Rezensionen</div>
+        </a>
+      </div>
+      <ReviewCarousel reviews={reviews} />
     </section>
 
     <section className="cities section" id="staedte">
