@@ -3,8 +3,17 @@
   "profile_url": "https://maps.app.goo.gl/P5s533i9g5FVRWmK7",
   "rating": "5,0",
   "count": 31,
-  "checked_at": "2026-11-02",
+  "checked_at": "2026-11-05",
   "reviews": [
+    {
+      "id": "places/ChIJ8yrZ90Yvv0cRrLvr9dmDvMA/reviews/Ci9DQUlRQUNvZENodHljRjlvT21RelJXUnVTMjlQWDI1bFVYWTRZV1ZJUkVGVGIxRRAB",
+      "author": "Elke McNulty",
+      "stars": 4,
+      "text": "Ich habe mich während des  gesamten Verkaufsprozesses sehr gut von Herrn Ginczek begleitet und beraten gefühlt. Besonders wichtig war mir, dass auf meine persönlichen Vorstellungen und Bedürfnisse eingegangen wird – und genau das war der Fall.\n\nIch habe die Zusammenarbeit als vertrauensvoll erlebt und kann den Makler aus meiner persönlichen Erfahrung uneingeschränkt weiterempfehlen.",
+      "source_url": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21RelJXUnVTMjlQWDI1bFVYWTRZV1ZJUkVGVGIxRRAB!2m1!1s0x47bf2f46f7d92af3:0xc0bc83d9f5ebbbac",
+      "verified_at": "2026-11-05",
+      "published": "2026-10-01"
+    },
     {
       "id": "places/ChIJ8yrZ90Yvv0cRrLvr9dmDvMA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s5bVVTMU5jV1JRZUc0NE9WOXBlbEpwV1V0VFltYxAB",
       "author": "Eleonora",
@@ -31,6 +40,24 @@
       "source_url": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25ORU4yaGFWbk5xYzB0NGVFcEhOM3BVWnpNMU5WRRAB!2m1!1s0x47bf2f46f7d92af3:0xc0bc83d9f5ebbbac",
       "verified_at": "2026-11-02",
       "published": "2026-09-27"
+    },
+    {
+      "id": "places/ChIJ8yrZ90Yvv0cRrLvr9dmDvMA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xkVGNtaHpObk5VUmtKeldteEJWRjlwVW5veFExRRAB",
+      "author": "P. Sauer",
+      "stars": 5,
+      "text": "Vom Erstkontakt bis zur Besichtigung und Nachbesprechung war alles top. Die Chemie hat wunderbar gepasst, die Erreichbarkeit war hervorragend und die Beratung war auch sehr gut. Fragen zur Immobilie konnten alle beantwortet werden und man hat alles in allem einfach ein sehr gutes Gefühl gehabt. Auch wenn es am Ende nicht zum Abschluss gekommen ist, da meine Frau und ich anderer Meinung gewesen sind, war die Zusammenarbeit mit Noah Ginczek sehr vorbildlich. Weiter so!",
+      "source_url": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xkVGNtaHpObk5VUmtKeldteEJWRjlwVW5veFExRRAB!2m1!1s0x47bf2f46f7d92af3:0xc0bc83d9f5ebbbac",
+      "verified_at": "2026-11-05",
+      "published": "2026-09-23"
+    },
+    {
+      "id": "places/ChIJ8yrZ90Yvv0cRrLvr9dmDvMA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pSTVIxazRMVTl4UVhWMmRraGtWVlJGVFdkNlZGRRAB",
+      "author": "Katrin Morr",
+      "stars": 5,
+      "text": "Mein Verlobter und ich waren sehr zufrieden mit der Betreuung durch Robin Köppe! Die Besichtigungen der Häuser waren sehr professionell und strukturiert. Auch für Rückfragen nahm sich Herr Köppe immer Zeit. Nachdem wir unser Traumhäuschen gefunden hatten, verlief der Kauf schnell und reibungslos.\n\nWir sind sehr dankbar für die Unterstützung!",
+      "source_url": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pSTVIxazRMVTl4UVhWMmRraGtWVlJGVFdkNlZGRRAB!2m1!1s0x47bf2f46f7d92af3:0xc0bc83d9f5ebbbac",
+      "verified_at": "2026-11-05",
+      "published": "2026-09-23"
     },
     {
       "id": "places/ChIJ8yrZ90Yvv0cRrLvr9dmDvMA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xkVVkyNW5aMkZYUlRrNU1raHFaVGhUY2xaVmIyYxAB",
